@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version - 3.3.3
+* You can change (defaults are already their)
+ 	- MAX_LOAN_TO_COST_RATIO = 0.90
+	- MAX_LOAN_TO_VALUE_RATIO = 0.70
+ 	- ANNUAL_INTEREST_RATE = 0.13
+ 	
+ 	iniside `config/initializers/constants.rb`
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ 	
+* Run server using 
+	- `./bin/dev`
+	- `rails s`
