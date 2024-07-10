@@ -1,0 +1,2919 @@
+Started GET "/lending_forms/new" for 127.0.0.1 at 2024-07-09 22:42:21 +0500
+  [1m[35m (2.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by LendingFormsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 6.0ms | Allocations: 2597)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 2719)
+Completed 500 Internal Server Error in 34ms (ActiveRecord: 0.0ms | Allocations: 10230)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `lending_forms_path' for an instance of #<Class:0x0000787d0a1e7ee0>):
+    11:   </div>
+    12: 
+    13:   <div class="tab-content" data-tabs-target="content">
+    14:     <%= form_with url: lending_forms_path, local: true do |form| %>
+    15:       <div>
+    16:         <%= form.label :address %>
+    17:         <%= form.text_field :address, class: "input" %>
+  
+app/views/lending_forms/new.html.erb:14
+Started GET "/lending_forms/new" for 127.0.0.1 at 2024-07-09 22:42:36 +0500
+Processing by LendingFormsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 24.5ms | Allocations: 11923)
+  Rendered layout layouts/application.html.erb (Duration: 831.8ms | Allocations: 159087)
+Completed 200 OK in 835ms (Views: 833.9ms | ActiveRecord: 0.0ms | Allocations: 160026)
+
+
+Started GET "/" for ::1 at 2024-07-09 22:42:50 +0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/tk-lpt-1001/.asdf/installs/ruby/3.3.3/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/tk-lpt-1001/.asdf/installs/ruby/3.3.3/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.3ms | Allocations: 264)
+Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 986)
+
+
+Started GET "/lending_forms/new" for ::1 at 2024-07-09 22:43:13 +0500
+Processing by LendingFormsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 10.3ms | Allocations: 9867)
+  Rendered layout layouts/application.html.erb (Duration: 19.6ms | Allocations: 15138)
+Completed 200 OK in 22ms (Views: 20.7ms | ActiveRecord: 0.0ms | Allocations: 15378)
+
+
+Started GET "/lending_forms/new" for ::1 at 2024-07-09 22:43:20 +0500
+Processing by LendingFormsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 26.4ms | Allocations: 10196)
+  Rendered layout layouts/application.html.erb (Duration: 48.4ms | Allocations: 15380)
+Completed 200 OK in 50ms (Views: 49.3ms | ActiveRecord: 0.0ms | Allocations: 15620)
+
+
+Started GET "/lending_forms/new" for 127.0.0.1 at 2024-07-09 22:44:53 +0500
+Processing by LendingFormsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 9.9ms | Allocations: 8207)
+  Rendered layout layouts/application.html.erb (Duration: 36.1ms | Allocations: 32810)
+Completed 200 OK in 42ms (Views: 40.2ms | ActiveRecord: 0.0ms | Allocations: 33710)
+
+
+Started GET "/lending_forms/new" for 127.0.0.1 at 2024-07-09 22:51:14 +0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by LendingFormsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 26.3ms | Allocations: 10546)
+  Rendered layout layouts/application.html.erb (Duration: 207.1ms | Allocations: 64645)
+Completed 200 OK in 219ms (Views: 211.5ms | ActiveRecord: 0.0ms | Allocations: 68750)
+
+
+Started GET "/lending_forms/new" for 127.0.0.1 at 2024-07-09 22:52:16 +0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by LendingFormsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 24.5ms | Allocations: 10528)
+  Rendered layout layouts/application.html.erb (Duration: 27.0ms | Allocations: 10881)
+Completed 200 OK in 52ms (Views: 36.0ms | ActiveRecord: 0.0ms | Allocations: 14987)
+
+
+Started GET "/lending_forms/new" for 127.0.0.1 at 2024-07-09 22:52:42 +0500
+Processing by LendingFormsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 5.6ms | Allocations: 8267)
+  Rendered layout layouts/application.html.erb (Duration: 197.5ms | Allocations: 57498)
+Completed 200 OK in 201ms (Views: 199.7ms | ActiveRecord: 0.0ms | Allocations: 58395)
+
+
+Started GET "/lending_forms/new" for 127.0.0.1 at 2024-07-09 22:54:40 +0500
+Processing by LendingFormsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 105)
+  Rendered layout layouts/application.html.erb (Duration: 22.0ms | Allocations: 20242)
+Completed 200 OK in 26ms (Views: 24.4ms | ActiveRecord: 0.0ms | Allocations: 21143)
+
+
+Started GET "/lending_forms/new" for 127.0.0.1 at 2024-07-09 22:55:12 +0500
+Processing by LendingFormsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 120)
+  Rendered layout layouts/application.html.erb (Duration: 36.3ms | Allocations: 20104)
+Completed 200 OK in 41ms (Views: 39.4ms | ActiveRecord: 0.0ms | Allocations: 21001)
+
+
+Started GET "/lending_forms/new" for 127.0.0.1 at 2024-07-09 22:55:42 +0500
+Processing by LendingFormsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 152)
+  Rendered layout layouts/application.html.erb (Duration: 45.9ms | Allocations: 20043)
+Completed 200 OK in 52ms (Views: 49.5ms | ActiveRecord: 0.0ms | Allocations: 20943)
+
+
+Started GET "/lending_forms/new" for ::1 at 2024-07-10 11:40:45 +0500
+Processing by LendingFormsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 530)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 770)
+
+
+Started GET "/lending_forms/new" for ::1 at 2024-07-10 13:02:19 +0500
+Processing by LendingFormsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 208)
+  Rendered layout layouts/application.html.erb (Duration: 27.1ms | Allocations: 20363)
+Completed 200 OK in 31ms (Views: 29.6ms | ActiveRecord: 0.0ms | Allocations: 21264)
+
+
+Started GET "/lending_forms/new" for ::1 at 2024-07-10 13:03:06 +0500
+Processing by LendingFormsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.5ms | Allocations: 210)
+  Rendered layout layouts/application.html.erb (Duration: 20.6ms | Allocations: 20375)
+Completed 200 OK in 24ms (Views: 22.7ms | ActiveRecord: 0.0ms | Allocations: 21276)
+
+
+Started GET "/lending_forms/new" for ::1 at 2024-07-10 13:03:11 +0500
+Processing by LendingFormsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 205)
+  Rendered layout layouts/application.html.erb (Duration: 23.0ms | Allocations: 20076)
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.0ms | Allocations: 20971)
+
+
+Started GET "/lending_forms/new?name=&email=&address=&city=&income=&credit_score=" for ::1 at 2024-07-10 13:03:21 +0500
+Processing by LendingFormsController#new as HTML
+  Parameters: {"name"=>"", "email"=>"", "address"=>"", "city"=>"", "income"=>"", "credit_score"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 528)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 769)
+
+
+Started GET "/lending_forms/new?name=&email=&address=&city=&income=&credit_score=" for ::1 at 2024-07-10 13:03:26 +0500
+Processing by LendingFormsController#new as HTML
+  Parameters: {"name"=>"", "email"=>"", "address"=>"", "city"=>"", "income"=>"", "credit_score"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 531)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 770)
+
+
+Started GET "/lending_forms/new?name=&email=&address=&city=&income=&credit_score=" for ::1 at 2024-07-10 13:03:28 +0500
+Processing by LendingFormsController#new as HTML
+  Parameters: {"name"=>"", "email"=>"", "address"=>"", "city"=>"", "income"=>"", "credit_score"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 519)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 758)
+
+
+Started GET "/lending_forms/new" for 127.0.0.1 at 2024-07-10 13:06:13 +0500
+Processing by LendingFormsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 479)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 718)
+
+
+Started GET "/lending_forms/new" for 127.0.0.1 at 2024-07-10 13:09:13 +0500
+Processing by LendingFormsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 210)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 20194)
+Completed 200 OK in 25ms (Views: 23.2ms | ActiveRecord: 0.0ms | Allocations: 21092)
+
+
+Started GET "/lending_forms/new" for 127.0.0.1 at 2024-07-10 13:09:52 +0500
+Processing by LendingFormsController#new as */*
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 0.9ms | Allocations: 397)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 721)
+
+
+Started GET "/lending_forms/new" for 127.0.0.1 at 2024-07-10 13:11:19 +0500
+Processing by LendingFormsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 209)
+  Rendered layout layouts/application.html.erb (Duration: 27.6ms | Allocations: 20344)
+Completed 200 OK in 31ms (Views: 29.8ms | ActiveRecord: 0.0ms | Allocations: 21242)
+
+
+Started GET "/lending_forms/new" for 127.0.0.1 at 2024-07-10 13:11:42 +0500
+Processing by LendingFormsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 209)
+  Rendered layout layouts/application.html.erb (Duration: 19.4ms | Allocations: 20138)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.0ms | Allocations: 21035)
+
+
+Started GET "/lending_forms/new" for 127.0.0.1 at 2024-07-10 13:12:45 +0500
+Processing by LendingFormsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 515)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 754)
+
+
+Started GET "/lending_forms/new" for 127.0.0.1 at 2024-07-10 13:14:44 +0500
+Processing by LendingFormsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 208)
+  Rendered layout layouts/application.html.erb (Duration: 22.5ms | Allocations: 20355)
+Completed 200 OK in 26ms (Views: 24.7ms | ActiveRecord: 0.0ms | Allocations: 21254)
+
+
+Started GET "/lending_forms/new" for 127.0.0.1 at 2024-07-10 13:15:26 +0500
+Processing by LendingFormsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 205)
+  Rendered layout layouts/application.html.erb (Duration: 42.9ms | Allocations: 20344)
+Completed 200 OK in 48ms (Views: 45.3ms | ActiveRecord: 0.0ms | Allocations: 21239)
+
+
+Started GET "/lending_forms/new" for 127.0.0.1 at 2024-07-10 13:15:32 +0500
+Processing by LendingFormsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.5ms | Allocations: 209)
+  Rendered layout layouts/application.html.erb (Duration: 19.5ms | Allocations: 20118)
+Completed 200 OK in 23ms (Views: 21.4ms | ActiveRecord: 0.0ms | Allocations: 21016)
+
+
+Started GET "/lending_forms/new" for 127.0.0.1 at 2024-07-10 13:19:14 +0500
+Processing by LendingFormsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 224)
+  Rendered layout layouts/application.html.erb (Duration: 22.2ms | Allocations: 20375)
+Completed 200 OK in 25ms (Views: 24.2ms | ActiveRecord: 0.0ms | Allocations: 21274)
+
+
+Started GET "/lending_forms/new" for 127.0.0.1 at 2024-07-10 13:19:15 +0500
+Processing by LendingFormsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 500)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 739)
+
+
+Started GET "/lending_forms/new" for 127.0.0.1 at 2024-07-10 13:19:16 +0500
+Processing by LendingFormsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 500)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 739)
+
+
+Started GET "/lending_forms/new" for 127.0.0.1 at 2024-07-10 13:19:17 +0500
+Processing by LendingFormsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 506)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 745)
+
+
+Started GET "/lending_forms/new?name=&email=&address=&city=&income=&credit_score=" for 127.0.0.1 at 2024-07-10 13:19:25 +0500
+Processing by LendingFormsController#new as HTML
+  Parameters: {"name"=>"", "email"=>"", "address"=>"", "city"=>"", "income"=>"", "credit_score"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 497)
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 736)
+
+
+Started GET "/lending_forms/new?name=&email=&address=&city=&income=&credit_score=" for 127.0.0.1 at 2024-07-10 13:19:29 +0500
+Processing by LendingFormsController#new as HTML
+  Parameters: {"name"=>"", "email"=>"", "address"=>"", "city"=>"", "income"=>"", "credit_score"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 494)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 733)
+
+
+Started GET "/lending_forms/new?name=&email=&address=&city=&income=&credit_score=" for ::1 at 2024-07-10 14:48:48 +0500
+Processing by LendingFormsController#new as HTML
+  Parameters: {"name"=>"", "email"=>"", "address"=>"", "city"=>"", "income"=>"", "credit_score"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 524)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 763)
+
+
+Started GET "/lending_forms/new?name=&email=&address=&city=&income=&credit_score=" for ::1 at 2024-07-10 15:01:34 +0500
+Processing by LendingFormsController#new as HTML
+  Parameters: {"name"=>"", "email"=>"", "address"=>"", "city"=>"", "income"=>"", "credit_score"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 252)
+  Rendered layout layouts/application.html.erb (Duration: 27.7ms | Allocations: 20410)
+Completed 200 OK in 31ms (Views: 29.9ms | ActiveRecord: 0.0ms | Allocations: 21309)
+
+
+Started GET "/lending_forms/new?name=&email=&address=&city=&income=&credit_score=" for 127.0.0.1 at 2024-07-10 15:10:04 +0500
+Processing by LendingFormsController#new as HTML
+  Parameters: {"name"=>"", "email"=>"", "address"=>"", "city"=>"", "income"=>"", "credit_score"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 302)
+  Rendered layout layouts/application.html.erb (Duration: 22.8ms | Allocations: 20446)
+Completed 200 OK in 27ms (Views: 25.0ms | ActiveRecord: 0.0ms | Allocations: 21345)
+
+
+Started GET "/lending_forms/new?name=&email=&address=&city=&income=&credit_score=" for ::1 at 2024-07-10 17:24:44 +0500
+Processing by LendingFormsController#new as HTML
+  Parameters: {"name"=>"", "email"=>"", "address"=>"", "city"=>"", "income"=>"", "credit_score"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 299)
+  Rendered layout layouts/application.html.erb (Duration: 24.9ms | Allocations: 20317)
+Completed 200 OK in 29ms (Views: 27.5ms | ActiveRecord: 0.0ms | Allocations: 21215)
+
+
+Started GET "/lending_forms/new?name=&email=&address=&city=&income=&credit_score=" for 127.0.0.1 at 2024-07-10 17:30:54 +0500
+Processing by LendingFormsController#new as HTML
+  Parameters: {"name"=>"", "email"=>"", "address"=>"", "city"=>"", "income"=>"", "credit_score"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 285)
+  Rendered layout layouts/application.html.erb (Duration: 19.5ms | Allocations: 20198)
+Completed 200 OK in 26ms (Views: 22.6ms | ActiveRecord: 0.0ms | Allocations: 21097)
+
+
+Started GET "/lending_forms/new?name=&email=&address=&city=&income=&credit_score=" for 127.0.0.1 at 2024-07-10 17:37:50 +0500
+Processing by LendingFormsController#new as HTML
+  Parameters: {"name"=>"", "email"=>"", "address"=>"", "city"=>"", "income"=>"", "credit_score"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 226)
+  Rendered layout layouts/application.html.erb (Duration: 21.8ms | Allocations: 20357)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.0ms | Allocations: 21256)
+
+
+Started GET "/lending_forms/new?name=&email=&address=&city=&income=&credit_score=" for 127.0.0.1 at 2024-07-10 17:39:06 +0500
+Processing by LendingFormsController#new as HTML
+  Parameters: {"name"=>"", "email"=>"", "address"=>"", "city"=>"", "income"=>"", "credit_score"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 283)
+  Rendered layout layouts/application.html.erb (Duration: 60.3ms | Allocations: 20414)
+Completed 200 OK in 64ms (Views: 63.0ms | ActiveRecord: 0.0ms | Allocations: 21313)
+
+
+Started GET "/lending_forms/new?name=&email=&address=&city=&income=&credit_score=" for 127.0.0.1 at 2024-07-10 17:44:27 +0500
+Processing by LendingFormsController#new as HTML
+  Parameters: {"name"=>"", "email"=>"", "address"=>"", "city"=>"", "income"=>"", "credit_score"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 216)
+  Rendered layout layouts/application.html.erb (Duration: 27.0ms | Allocations: 20305)
+Completed 200 OK in 30ms (Views: 28.9ms | ActiveRecord: 0.0ms | Allocations: 21204)
+
+
+Started GET "/lending_forms/new?name=&email=&address=&city=&income=&credit_score=" for 127.0.0.1 at 2024-07-10 17:45:48 +0500
+Processing by LendingFormsController#new as */*
+  Parameters: {"name"=>"", "email"=>"", "address"=>"", "city"=>"", "income"=>"", "credit_score"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 391)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 712)
+
+
+Started GET "/lending_forms/new?name=&email=&address=&city=&income=&credit_score=" for 127.0.0.1 at 2024-07-10 17:47:16 +0500
+Processing by LendingFormsController#new as HTML
+  Parameters: {"name"=>"", "email"=>"", "address"=>"", "city"=>"", "income"=>"", "credit_score"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 220)
+  Rendered layout layouts/application.html.erb (Duration: 23.4ms | Allocations: 20185)
+Completed 200 OK in 27ms (Views: 25.8ms | ActiveRecord: 0.0ms | Allocations: 21083)
+
+
+Started GET "/lending_forms/new?name=&email=&address=&city=&income=&credit_score=" for 127.0.0.1 at 2024-07-10 17:48:17 +0500
+Processing by LendingFormsController#new as HTML
+  Parameters: {"name"=>"", "email"=>"", "address"=>"", "city"=>"", "income"=>"", "credit_score"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 217)
+  Rendered layout layouts/application.html.erb (Duration: 24.2ms | Allocations: 20236)
+Completed 200 OK in 28ms (Views: 26.4ms | ActiveRecord: 0.0ms | Allocations: 21135)
+
+
+Started GET "/lending_forms/new?name=&email=&address=&city=&income=&credit_score=" for 127.0.0.1 at 2024-07-10 17:48:27 +0500
+Processing by LendingFormsController#new as HTML
+  Parameters: {"name"=>"", "email"=>"", "address"=>"", "city"=>"", "income"=>"", "credit_score"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 283)
+  Rendered layout layouts/application.html.erb (Duration: 21.1ms | Allocations: 20422)
+Completed 200 OK in 25ms (Views: 23.5ms | ActiveRecord: 0.0ms | Allocations: 21321)
+
+
+Started GET "/lending_forms/new?name=&email=&address=&city=&income=&credit_score=" for 127.0.0.1 at 2024-07-10 17:49:58 +0500
+Processing by LendingFormsController#new as HTML
+  Parameters: {"name"=>"", "email"=>"", "address"=>"", "city"=>"", "income"=>"", "credit_score"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 274)
+  Rendered layout layouts/application.html.erb (Duration: 23.1ms | Allocations: 20399)
+Completed 200 OK in 27ms (Views: 25.4ms | ActiveRecord: 0.0ms | Allocations: 21298)
+
+
+Started GET "/lending_forms/new?name=&email=&address=&city=&income=&credit_score=" for 127.0.0.1 at 2024-07-10 17:50:51 +0500
+Processing by LendingFormsController#new as HTML
+  Parameters: {"name"=>"", "email"=>"", "address"=>"", "city"=>"", "income"=>"", "credit_score"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 272)
+  Rendered layout layouts/application.html.erb (Duration: 29.4ms | Allocations: 20390)
+Completed 200 OK in 33ms (Views: 31.5ms | ActiveRecord: 0.0ms | Allocations: 21289)
+
+
+Started GET "/lending_forms/new?name=&email=&address=&city=&income=&credit_score=" for 127.0.0.1 at 2024-07-10 17:55:04 +0500
+Processing by LendingFormsController#new as HTML
+  Parameters: {"name"=>"", "email"=>"", "address"=>"", "city"=>"", "income"=>"", "credit_score"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 276)
+  Rendered layout layouts/application.html.erb (Duration: 25.1ms | Allocations: 20307)
+Completed 200 OK in 29ms (Views: 27.3ms | ActiveRecord: 0.0ms | Allocations: 21206)
+
+
+Started GET "/lending_forms/new?name=&email=&address=&city=&income=&credit_score=" for 127.0.0.1 at 2024-07-10 17:56:13 +0500
+Processing by LendingFormsController#new as HTML
+  Parameters: {"name"=>"", "email"=>"", "address"=>"", "city"=>"", "income"=>"", "credit_score"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.7ms | Allocations: 276)
+  Rendered layout layouts/application.html.erb (Duration: 30.4ms | Allocations: 20227)
+Completed 200 OK in 34ms (Views: 32.4ms | ActiveRecord: 0.0ms | Allocations: 21126)
+
+
+Started GET "/lending_forms/new?name=&email=&address=&city=&income=&credit_score=" for 127.0.0.1 at 2024-07-10 17:58:15 +0500
+Processing by LendingFormsController#new as HTML
+  Parameters: {"name"=>"", "email"=>"", "address"=>"", "city"=>"", "income"=>"", "credit_score"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 275)
+  Rendered layout layouts/application.html.erb (Duration: 20.8ms | Allocations: 20417)
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.0ms | Allocations: 21316)
+
+
+Started GET "/lending_forms/new?name=&email=&address=&city=&income=&credit_score=" for 127.0.0.1 at 2024-07-10 17:59:22 +0500
+Processing by LendingFormsController#new as HTML
+  Parameters: {"name"=>"", "email"=>"", "address"=>"", "city"=>"", "income"=>"", "credit_score"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 275)
+  Rendered layout layouts/application.html.erb (Duration: 20.6ms | Allocations: 20397)
+Completed 200 OK in 24ms (Views: 23.0ms | ActiveRecord: 0.0ms | Allocations: 21296)
+
+
+Started GET "/lending_forms/new?name=&email=&address=&city=&income=&credit_score=" for 127.0.0.1 at 2024-07-10 17:59:46 +0500
+Processing by LendingFormsController#new as HTML
+  Parameters: {"name"=>"", "email"=>"", "address"=>"", "city"=>"", "income"=>"", "credit_score"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 275)
+  Rendered layout layouts/application.html.erb (Duration: 21.6ms | Allocations: 20408)
+Completed 200 OK in 25ms (Views: 23.6ms | ActiveRecord: 0.0ms | Allocations: 21307)
+
+
+Started GET "/lending_forms/new?name=&email=&address=&city=&income=&credit_score=" for 127.0.0.1 at 2024-07-10 18:00:31 +0500
+Processing by LendingFormsController#new as HTML
+  Parameters: {"name"=>"", "email"=>"", "address"=>"", "city"=>"", "income"=>"", "credit_score"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 278)
+  Rendered layout layouts/application.html.erb (Duration: 53.1ms | Allocations: 20432)
+Completed 200 OK in 59ms (Views: 58.2ms | ActiveRecord: 0.0ms | Allocations: 21331)
+
+
+Started GET "/lending_forms/new?name=&email=&address=&city=&income=&credit_score=" for ::1 at 2024-07-10 18:01:14 +0500
+Processing by LendingFormsController#new as HTML
+  Parameters: {"name"=>"", "email"=>"", "address"=>"", "city"=>"", "income"=>"", "credit_score"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 524)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms | Allocations: 763)
+
+
+Started GET "/lending_forms/new?name=&email=&address=&city=&income=&credit_score=" for ::1 at 2024-07-10 18:01:26 +0500
+Processing by LendingFormsController#new as HTML
+  Parameters: {"name"=>"", "email"=>"", "address"=>"", "city"=>"", "income"=>"", "credit_score"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 519)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms | Allocations: 758)
+
+
+Started GET "/lending_forms/new?name=&email=&address=&city=&income=&credit_score=" for 127.0.0.1 at 2024-07-10 18:08:16 +0500
+Processing by LendingFormsController#new as HTML
+  Parameters: {"name"=>"", "email"=>"", "address"=>"", "city"=>"", "income"=>"", "credit_score"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 340)
+  Rendered layout layouts/application.html.erb (Duration: 23.7ms | Allocations: 20503)
+Completed 200 OK in 28ms (Views: 26.5ms | ActiveRecord: 0.0ms | Allocations: 21402)
+
+
+Started GET "/lending_forms/new?name=&email=&address=&city=&income=&credit_score=" for 127.0.0.1 at 2024-07-10 18:52:27 +0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by LendingFormsController#new as HTML
+  Parameters: {"name"=>"", "email"=>"", "address"=>"", "city"=>"", "income"=>"", "credit_score"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 424)
+  Rendered layout layouts/application.html.erb (Duration: 269.3ms | Allocations: 51158)
+Completed 200 OK in 285ms (Views: 278.9ms | ActiveRecord: 0.0ms | Allocations: 53625)
+
+
+Started POST "/lending_forms" for 127.0.0.1 at 2024-07-10 18:53:09 +0500
+Processing by LendingFormsController#submit as JSON
+  Parameters: {"address"=>"wewe", "loan_term"=>"3", "purchase_price"=>"3452", "repair_budget"=>"122", "repair_value"=>"234", "first_name"=>"Me", "last_name"=>"M", "phone_number"=>"132456789", "email"=>"nas@gmai.com"}
+[ActiveJob] Failed enqueuing SendTermsheetEmailJob to Async(default): ActiveJob::SerializationError (Unsupported argument type: Prawn::Document)
+[ActiveJob] ↳ app/controllers/lending_forms_controller.rb:12:in `submit'
+Completed 500 Internal Server Error in 166ms (ActiveRecord: 0.0ms | Allocations: 111604)
+
+
+  
+ActiveJob::SerializationError (Unsupported argument type: Prawn::Document):
+  
+app/controllers/lending_forms_controller.rb:12:in `submit'
+Started GET "/lending_forms/new?name=&email=&address=&city=&income=&credit_score=" for 127.0.0.1 at 2024-07-10 18:58:43 +0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by LendingFormsController#new as HTML
+  Parameters: {"name"=>"", "email"=>"", "address"=>"", "city"=>"", "income"=>"", "credit_score"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 424)
+  Rendered layout layouts/application.html.erb (Duration: 189.0ms | Allocations: 51147)
+Completed 200 OK in 208ms (Views: 199.8ms | ActiveRecord: 0.0ms | Allocations: 53616)
+
+
+Started POST "/lending_forms" for 127.0.0.1 at 2024-07-10 18:58:49 +0500
+Processing by LendingFormsController#submit as JSON
+  Parameters: {"address"=>"wewe", "loan_term"=>"3", "purchase_price"=>"3452", "repair_budget"=>"122", "repair_value"=>"234", "first_name"=>"Me", "last_name"=>"M", "phone_number"=>"132456789", "email"=>"nas@gmai.com"}
+[ActiveJob] Enqueued SendTermsheetEmailJob (Job ID: 784c230a-360d-409d-9d56-62c143cca163) to Async(default) with arguments: {:address=>"wewe", :loan_term=>"3", :purchase_price=>"3452", :repair_budget=>"122", :repair_value=>"234", :first_name=>"Me", :last_name=>"M", :phone_number=>"132456789", :email=>"nas@gmai.com", :loan_amount=>163.79999999999998, :interest_expense=>5.381379507291626, :estimated_profit=>64.81862049270839}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_639c4bcd-d6eb-4638-8395-dbb66ce73705.pdf"
+[ActiveJob] ↳ app/controllers/lending_forms_controller.rb:12:in `submit'
+Completed 200 OK in 115ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 107146)
+
+
+[ActiveJob] [SendTermsheetEmailJob] [784c230a-360d-409d-9d56-62c143cca163] Performing SendTermsheetEmailJob (Job ID: 784c230a-360d-409d-9d56-62c143cca163) from Async(default) enqueued at 2024-07-10T13:58:49.506230680Z with arguments: {:address=>"wewe", :loan_term=>"3", :purchase_price=>"3452", :repair_budget=>"122", :repair_value=>"234", :first_name=>"Me", :last_name=>"M", :phone_number=>"132456789", :email=>"nas@gmai.com", :loan_amount=>163.79999999999998, :interest_expense=>5.381379507291626, :estimated_profit=>64.81862049270839}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_639c4bcd-d6eb-4638-8395-dbb66ce73705.pdf"
+[ActiveJob] [SendTermsheetEmailJob] [784c230a-360d-409d-9d56-62c143cca163]   Rendering text template
+[ActiveJob] [SendTermsheetEmailJob] [784c230a-360d-409d-9d56-62c143cca163]   Rendered text template (Duration: 0.0ms | Allocations: 3)
+[ActiveJob] [SendTermsheetEmailJob] [784c230a-360d-409d-9d56-62c143cca163] LendingFormMailer#termsheet_email: processed outbound mail in 74.4ms
+[ActiveJob] [SendTermsheetEmailJob] [784c230a-360d-409d-9d56-62c143cca163] Delivered mail 668e9399b943f_31436a5b54859e2@noc-ThinkPad-E15-Gen-4.mail (92.9ms)
+[ActiveJob] [SendTermsheetEmailJob] [784c230a-360d-409d-9d56-62c143cca163] Date: Wed, 10 Jul 2024 18:58:49 +0500
+From: no-reply@longleaflending.com
+To: nas@gmai.com
+Message-ID: <668e9399b943f_31436a5b54859e2@noc-ThinkPad-E15-Gen-4.mail>
+Subject: Your Term Sheet from Longleaf Lending
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_668e9399b7067_31436a5b54858c9";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_668e9399b7067_31436a5b54858c9
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Dear Me M,
+
+Please find attached your term sheet.
+
+Best regards,
+Longleaf Lending
+----==_mimepart_668e9399b7067_31436a5b54858c9
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+ filename=termsheet.pdf
+
+JVBERi0xLjMKJf////8KMSAwIG9iago8PCAvQ3JlYXRvciA8ZmVmZjAwNTAw
+MDcyMDA2MTAwNzcwMDZlPgovUHJvZHVjZXIgPGZlZmYwMDUwMDA3MjAwNjEw
+MDc3MDA2ZT4KPj4KZW5kb2JqCjIgMCBvYmoKPDwgL1BhZ2VzIDMgMCBSCi9U
+eXBlIC9DYXRhbG9nCj4+CmVuZG9iagozIDAgb2JqCjw8IC9Db3VudCAxCi9L
+aWRzIFs1IDAgUl0KL1R5cGUgL1BhZ2VzCj4+CmVuZG9iago0IDAgb2JqCjw8
+IC9MZW5ndGggMTExMQo+PgpzdHJlYW0KcQoKQlQKMzYuMCA3MzQuNDYgVGQK
+L0YyLjAgMzAgVGYKWzw1ND4gNjAgPDY1NzI2ZDIwNTM2ODY1NjU3ND5dIFRK
+CkVUCgoKQlQKMzYuMCA2OTEuNjg0IFRkCi9GMS4wIDEyIFRmCls8NGM2ZjYx
+NmUyMDQ0NjU3NDYxNjk2YzczPl0gVEoKRVQKCgpCVAozNi4wIDY3Ny44MTIg
+VGQKL0YxLjAgMTIgVGYKWzw0MTY0NjQ3MjY1NzM3MzNhMjA3Nz4gMTAgPDY1
+PiAyMCA8Nzc+IDEwIDw2NT5dIFRKCkVUCgoKQlQKMzYuMCA2NjMuOTQgVGQK
+L0YxLjAgMTIgVGYKWzw0YzZmNjE2ZTIwNTQ+IDEyMCA8NjU3Mj4gLTI1IDw2
+ZDNhMjAzMzIwNmQ2ZjZlNzQ2ODczPl0gVEoKRVQKCgpCVAozNi4wIDY1MC4w
+NjggVGQKL0YxLjAgMTIgVGYKWzw1MDc1NzI2MzY4NjE3MzY1MjA1MDcyPiAt
+MTUgPDY5NjM2NTNhMjAyNDMzMzQzNTMyPl0gVEoKRVQKCgpCVAozNi4wIDYz
+Ni4xOTYgVGQKL0YxLjAgMTIgVGYKWzw1MjY1NzA2MTY5NzIyMDQyNzU2NDY3
+NjU3NDNhMjAyNDMxMzIzMj5dIFRKCkVUCgoKQlQKMzYuMCA2MjIuMzI0IFRk
+Ci9GMS4wIDEyIFRmCls8NTI2NTcwNjE2OTcyMjA1Nj4gNzAgPDYxNmM3NTY1
+M2EyMDI0MzIzMzM0Pl0gVEoKRVQKCgpCVAozNi4wIDYwOC40NTIgVGQKL0Yx
+LjAgMTIgVGYKWzw0YzZmNjE2ZTIwNDE2ZDZmNzU2ZTc0M2EyMDI0MzEzNjMz
+MmUzNzM5MzkzOTM5MzkzOTM5MzkzOTM5MzkzOTM4Pl0gVEoKRVQKCgpCVAoz
+Ni4wIDU5NC41OCBUZAovRjEuMCAxMiBUZgpbPDQ5NmU3NDY1NzI2NTczNzQy
+MDQ1Nzg3MDY1NmU3MzY1M2EyMDI0MzUyZTMzMzgzMTMzMzczOTM1MzAzNzMy
+MzkzMTM2MzIzNj5dIFRKCkVUCgoKQlQKMzYuMCA1ODAuNzA4IFRkCi9GMS4w
+IDEyIFRmCls8NDU3Mzc0Njk2ZDYxNzQ2NTY0MjA1MDcyNmY2NjY5NzQzYTIw
+MjQzNjM0MmUzODMxMzgzNjMyMzAzNDM5MzIzNzMwMzgzMzM5Pl0gVEoKRVQK
+CgpCVAozNi4wIDU0MS4wOTIgVGQKL0YyLjAgMjAgVGYKWzw1ND4gNjAgPDY1
+NzI2ZDczPl0gVEoKRVQKCgpCVAozNi4wIDUyMy4wMzYgVGQKL0YxLjAgMTIg
+VGYKWzw0YzZmNmU2NzZjNjU2MTY2MjA0YzY1NmU2NDY5NmU2NzI3NzMyMDc0
+NjU3Mj4gLTI1IDw2ZDczMjA2NzZmMjA2ODY1NzI2NT4gMTUgPDJlMmUyZT5d
+IFRKCkVUCgpRCgplbmRzdHJlYW0KZW5kb2JqCjUgMCBvYmoKPDwgL0FydEJv
+eCBbMCAwIDYxMiA3OTJdCi9CbGVlZEJveCBbMCAwIDYxMiA3OTJdCi9Db250
+ZW50cyA0IDAgUgovQ3JvcEJveCBbMCAwIDYxMiA3OTJdCi9NZWRpYUJveCBb
+MCAwIDYxMiA3OTJdCi9QYXJlbnQgMyAwIFIKL1Jlc291cmNlcyA8PCAvRm9u
+dCA8PCAvRjEuMCA3IDAgUgovRjIuMCA2IDAgUgo+PgovUHJvY1NldCBbL1BE
+RiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSV0KPj4KL1RyaW1Cb3gg
+WzAgMCA2MTIgNzkyXQovVHlwZSAvUGFnZQo+PgplbmRvYmoKNiAwIG9iago8
+PCAvQmFzZUZvbnQgL0hlbHZldGljYS1Cb2xkCi9FbmNvZGluZyAvV2luQW5z
+aUVuY29kaW5nCi9TdWJ0eXBlIC9UeXBlMQovVHlwZSAvRm9udAo+PgplbmRv
+YmoKNyAwIG9iago8PCAvQmFzZUZvbnQgL0hlbHZldGljYQovRW5jb2Rpbmcg
+L1dpbkFuc2lFbmNvZGluZwovU3VidHlwZSAvVHlwZTEKL1R5cGUgL0ZvbnQK
+Pj4KZW5kb2JqCnhyZWYKMCA4CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAw
+MDAxNSAwMDAwMCBuIAowMDAwMDAwMTA5IDAwMDAwIG4gCjAwMDAwMDAxNTgg
+MDAwMDAgbiAKMDAwMDAwMDIxNSAwMDAwMCBuIAowMDAwMDAxMzc4IDAwMDAw
+IG4gCjAwMDAwMDE2NTYgMDAwMDAgbiAKMDAwMDAwMTc1OCAwMDAwMCBuIAp0
+cmFpbGVyCjw8IC9JbmZvIDEgMCBSCi9Sb290IDIgMCBSCi9TaXplIDgKPj4K
+c3RhcnR4cmVmCjE4NTUKJSVFT0YK
+
+----==_mimepart_668e9399b7067_31436a5b54858c9--
+
+[ActiveJob] [SendTermsheetEmailJob] [784c230a-360d-409d-9d56-62c143cca163] Performed SendTermsheetEmailJob (Job ID: 784c230a-360d-409d-9d56-62c143cca163) from Async(default) in 325.46ms
+Started GET "/lending_forms/new?name=&email=&address=&city=&income=&credit_score=" for 127.0.0.1 at 2024-07-10 19:01:44 +0500
+Processing by LendingFormsController#new as HTML
+  Parameters: {"name"=>"", "email"=>"", "address"=>"", "city"=>"", "income"=>"", "credit_score"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 340)
+  Rendered layout layouts/application.html.erb (Duration: 49.1ms | Allocations: 20476)
+Completed 200 OK in 54ms (Views: 53.6ms | ActiveRecord: 0.0ms | Allocations: 21188)
+
+
+Started POST "/lending_forms" for 127.0.0.1 at 2024-07-10 19:01:50 +0500
+Processing by LendingFormsController#submit as JSON
+  Parameters: {"address"=>"wewe", "loan_term"=>"3", "purchase_price"=>"3452", "repair_budget"=>"122", "repair_value"=>"234", "first_name"=>"Me", "last_name"=>"M", "phone_number"=>"132456789", "email"=>"nas@gmai.com"}
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 5672)
+
+
+  
+NoMethodError (undefined method `table' for an instance of Prawn::Document):
+  
+app/services/pdf_generator.rb:18:in `block in generate_pdf'
+app/services/pdf_generator.rb:9:in `new'
+app/services/pdf_generator.rb:9:in `generate_pdf'
+app/controllers/lending_forms_controller.rb:11:in `submit'
+Started GET "/lending_forms/new?name=&email=&address=&city=&income=&credit_score=" for 127.0.0.1 at 2024-07-10 19:03:12 +0500
+Processing by LendingFormsController#new as HTML
+  Parameters: {"name"=>"", "email"=>"", "address"=>"", "city"=>"", "income"=>"", "credit_score"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 337)
+  Rendered layout layouts/application.html.erb (Duration: 22.9ms | Allocations: 20473)
+Completed 200 OK in 26ms (Views: 25.0ms | ActiveRecord: 0.0ms | Allocations: 21176)
+
+
+Started POST "/lending_forms" for 127.0.0.1 at 2024-07-10 19:03:42 +0500
+Processing by LendingFormsController#submit as JSON
+  Parameters: {"address"=>"qwerty", "loan_term"=>"5", "purchase_price"=>"23456", "repair_budget"=>"121", "repair_value"=>"2344", "first_name"=>"e45", "last_name"=>"re", "phone_number"=>"21345678", "email"=>"nas@gmai.com"}
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 5575)
+
+
+  
+NoMethodError (undefined method `table' for an instance of Prawn::Document):
+  
+app/services/pdf_generator.rb:29:in `block in generate_pdf'
+app/services/pdf_generator.rb:9:in `new'
+app/services/pdf_generator.rb:9:in `generate_pdf'
+app/controllers/lending_forms_controller.rb:11:in `submit'
+Started POST "/lending_forms" for 127.0.0.1 at 2024-07-10 19:07:31 +0500
+Processing by LendingFormsController#submit as JSON
+  Parameters: {"address"=>"qwerty", "loan_term"=>"5", "purchase_price"=>"23456", "repair_budget"=>"121", "repair_value"=>"2344", "first_name"=>"e45", "last_name"=>"re", "phone_number"=>"21345678", "email"=>"nas@gmai.com"}
+[ActiveJob] Enqueued SendTermsheetEmailJob (Job ID: 94d30112-164e-4914-a306-18f8e554f9da) to Async(default) with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.82330235017525, :estimated_profit=>612.3766976498248}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_00b59a99-e372-4ade-8b7e-15baf20f17c5.pdf"
+[ActiveJob] ↳ app/controllers/lending_forms_controller.rb:12:in `submit'
+Completed 200 OK in 34ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 35366)
+
+
+[ActiveJob] [SendTermsheetEmailJob] [94d30112-164e-4914-a306-18f8e554f9da] Performing SendTermsheetEmailJob (Job ID: 94d30112-164e-4914-a306-18f8e554f9da) from Async(default) enqueued at 2024-07-10T14:07:31.180146988Z with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.82330235017525, :estimated_profit=>612.3766976498248}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_00b59a99-e372-4ade-8b7e-15baf20f17c5.pdf"
+[ActiveJob] [SendTermsheetEmailJob] [94d30112-164e-4914-a306-18f8e554f9da]   Rendering text template
+[ActiveJob] [SendTermsheetEmailJob] [94d30112-164e-4914-a306-18f8e554f9da]   Rendered text template (Duration: 0.0ms | Allocations: 1)
+[ActiveJob] [SendTermsheetEmailJob] [94d30112-164e-4914-a306-18f8e554f9da] LendingFormMailer#termsheet_email: processed outbound mail in 8.9ms
+[ActiveJob] [SendTermsheetEmailJob] [94d30112-164e-4914-a306-18f8e554f9da] Delivered mail 668e95a345a19_31436a5b5486278@noc-ThinkPad-E15-Gen-4.mail (29.7ms)
+[ActiveJob] [SendTermsheetEmailJob] [94d30112-164e-4914-a306-18f8e554f9da] Date: Wed, 10 Jul 2024 19:07:31 +0500
+From: no-reply@longleaflending.com
+To: nas@gmai.com
+Message-ID: <668e95a345a19_31436a5b5486278@noc-ThinkPad-E15-Gen-4.mail>
+Subject: Your Term Sheet from Longleaf Lending
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_668e95a34408d_31436a5b548615e";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_668e95a34408d_31436a5b548615e
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Dear e45 re,
+
+Please find attached your term sheet.
+
+Best regards,
+Longleaf Lending
+----==_mimepart_668e95a34408d_31436a5b548615e
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+ filename=termsheet.pdf
+
+JVBERi0xLjMKJf////8KMSAwIG9iago8PCAvQ3JlYXRvciA8ZmVmZjAwNTAw
+MDcyMDA2MTAwNzcwMDZlPgovUHJvZHVjZXIgPGZlZmYwMDUwMDA3MjAwNjEw
+MDc3MDA2ZT4KPj4KZW5kb2JqCjIgMCBvYmoKPDwgL1BhZ2VzIDMgMCBSCi9U
+eXBlIC9DYXRhbG9nCj4+CmVuZG9iagozIDAgb2JqCjw8IC9Db3VudCAxCi9L
+aWRzIFs1IDAgUl0KL1R5cGUgL1BhZ2VzCj4+CmVuZG9iago0IDAgb2JqCjw8
+IC9MZW5ndGggMTA4OQo+PgpzdHJlYW0KcQoKQlQKMzYuMCA3MzQuNDYgVGQK
+L0YyLjAgMzAgVGYKWzw1ND4gNjAgPDY1NzI2ZDIwNTM2ODY1NjU3ND5dIFRK
+CkVUCgoKQlQKMzYuMCA2ODUuOTQgVGQKL0YyLjAgMjAgVGYKWzw0YzZmNjE2
+ZTIwNDQ2NTc0NjE2OTZjNzM+XSBUSgpFVAoKCkJUCjM2LjAgNjU3Ljg4NCBU
+ZAovRjEuMCAxMiBUZgpbPDQxNjQ2NDcyNjU3MzczM2EyMDcxNzc+IDEwIDw2
+NTcyPiAtNDAgPDc0Nzk+XSBUSgpFVAoKCkJUCjM2LjAgNjQ0LjAxMiBUZAov
+RjEuMCAxMiBUZgpbPDRjNmY2MTZlMjA1ND4gMTIwIDw2NTcyPiAtMjUgPDZk
+M2EyMDM1MjA2ZDZmNmU3NDY4NzM+XSBUSgpFVAoKCkJUCjM2LjAgNjMwLjE0
+IFRkCi9GMS4wIDEyIFRmCls8NTA3NTcyNjM2ODYxNzM2NTIwNTA3Mj4gLTE1
+IDw2OTYzNjUzYTIwMjQzMjMzMzQzNTM2Pl0gVEoKRVQKCgpCVAozNi4wIDYx
+Ni4yNjggVGQKL0YxLjAgMTIgVGYKWzw1MjY1NzA2MTY5NzIyMDQyNzU2NDY3
+NjU3NDNhMjAyNDMxMzIzMT5dIFRKCkVUCgoKQlQKMzYuMCA2MDIuMzk2IFRk
+Ci9GMS4wIDEyIFRmCls8NTI2NTcwNjE2OTcyMjA1Nj4gNzAgPDYxNmM3NTY1
+M2EyMDI0MzIzMzM0MzQ+XSBUSgpFVAoKCkJUCjM2LjAgNTg4LjUyNCBUZAov
+RjEuMCAxMiBUZgpbPDRjNmY2MTZlMjA0MTZkNmY3NTZlNzQzYTIwMjQzMTM2
+MzQzMDJlMzg+XSBUSgpFVAoKCkJUCjM2LjAgNTc0LjY1MiBUZAovRjEuMCAx
+MiBUZgpbPDQ5NmU3NDY1NzI2NTczNzQyMDQ1Nzg3MDY1NmU3MzY1M2EyMDI0
+MzkzMDJlMzgzMjMzMzMzMDMyMzMzNTMwMzEzNzM1MzIzNT5dIFRKCkVUCgoK
+QlQKMzYuMCA1NjAuNzggVGQKL0YxLjAgMTIgVGYKWzw0NTczNzQ2OTZkNjE3
+NDY1NjQyMDUwNzI2ZjY2Njk3NDNhMjAyNDM2MzEzMjJlMzMzNzM2MzYzOTM3
+MzYzNDM5MzgzMjM0Mzg+XSBUSgpFVAoKCkJUCjM2LjAgNTIxLjE2NCBUZAov
+RjIuMCAyMCBUZgpbPDU0PiA2MCA8NjU3MjZkNzM+XSBUSgpFVAoKCkJUCjM2
+LjAgNDkzLjEwOCBUZAovRjEuMCAxMiBUZgpbPDRjNmY2ZTY3NmM2NTYxNjYy
+MDRjNjU2ZTY0Njk2ZTY3Mjc3MzIwNzQ2NTcyPiAtMjUgPDZkNzMyMDY3NmYy
+MDY4NjU3MjY1PiAxNSA8MmUyZTJlPl0gVEoKRVQKClEKCmVuZHN0cmVhbQpl
+bmRvYmoKNSAwIG9iago8PCAvQXJ0Qm94IFswIDAgNjEyIDc5Ml0KL0JsZWVk
+Qm94IFswIDAgNjEyIDc5Ml0KL0NvbnRlbnRzIDQgMCBSCi9Dcm9wQm94IFsw
+IDAgNjEyIDc5Ml0KL01lZGlhQm94IFswIDAgNjEyIDc5Ml0KL1BhcmVudCAz
+IDAgUgovUmVzb3VyY2VzIDw8IC9Gb250IDw8IC9GMS4wIDcgMCBSCi9GMi4w
+IDYgMCBSCj4+Ci9Qcm9jU2V0IFsvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdl
+QyAvSW1hZ2VJXQo+PgovVHJpbUJveCBbMCAwIDYxMiA3OTJdCi9UeXBlIC9Q
+YWdlCj4+CmVuZG9iago2IDAgb2JqCjw8IC9CYXNlRm9udCAvSGVsdmV0aWNh
+LUJvbGQKL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcKL1N1YnR5cGUgL1R5
+cGUxCi9UeXBlIC9Gb250Cj4+CmVuZG9iago3IDAgb2JqCjw8IC9CYXNlRm9u
+dCAvSGVsdmV0aWNhCi9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nCi9TdWJ0
+eXBlIC9UeXBlMQovVHlwZSAvRm9udAo+PgplbmRvYmoKeHJlZgowIDgKMDAw
+MDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDE1IDAwMDAwIG4gCjAwMDAwMDAx
+MDkgMDAwMDAgbiAKMDAwMDAwMDE1OCAwMDAwMCBuIAowMDAwMDAwMjE1IDAw
+MDAwIG4gCjAwMDAwMDEzNTYgMDAwMDAgbiAKMDAwMDAwMTYzNCAwMDAwMCBu
+IAowMDAwMDAxNzM2IDAwMDAwIG4gCnRyYWlsZXIKPDwgL0luZm8gMSAwIFIK
+L1Jvb3QgMiAwIFIKL1NpemUgOAo+PgpzdGFydHhyZWYKMTgzMwolJUVPRgo=
+
+----==_mimepart_668e95a34408d_31436a5b548615e--
+
+[ActiveJob] [SendTermsheetEmailJob] [94d30112-164e-4914-a306-18f8e554f9da] Performed SendTermsheetEmailJob (Job ID: 94d30112-164e-4914-a306-18f8e554f9da) from Async(default) in 45.8ms
+Started POST "/lending_forms" for 127.0.0.1 at 2024-07-10 19:07:43 +0500
+Processing by LendingFormsController#submit as JSON
+  Parameters: {"address"=>"qwerty", "loan_term"=>"5", "purchase_price"=>"23456", "repair_budget"=>"121", "repair_value"=>"2344", "first_name"=>"e45", "last_name"=>"re", "phone_number"=>"21345678", "email"=>"nas@gmai.com"}
+[ActiveJob] Enqueued SendTermsheetEmailJob (Job ID: de617033-b7b2-4f08-8773-f13b35a0bf94) to Async(default) with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.82330235017525, :estimated_profit=>612.3766976498248}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_53627262-e3f7-474f-91aa-e2e0bc84e829.pdf"
+[ActiveJob] ↳ app/controllers/lending_forms_controller.rb:12:in `submit'
+Completed 200 OK in 44ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 35113)
+
+
+[ActiveJob] [SendTermsheetEmailJob] [de617033-b7b2-4f08-8773-f13b35a0bf94] Performing SendTermsheetEmailJob (Job ID: de617033-b7b2-4f08-8773-f13b35a0bf94) from Async(default) enqueued at 2024-07-10T14:07:43.384429336Z with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.82330235017525, :estimated_profit=>612.3766976498248}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_53627262-e3f7-474f-91aa-e2e0bc84e829.pdf"
+[ActiveJob] [SendTermsheetEmailJob] [de617033-b7b2-4f08-8773-f13b35a0bf94]   Rendering text template
+[ActiveJob] [SendTermsheetEmailJob] [de617033-b7b2-4f08-8773-f13b35a0bf94]   Rendered text template (Duration: 0.0ms | Allocations: 1)
+[ActiveJob] [SendTermsheetEmailJob] [de617033-b7b2-4f08-8773-f13b35a0bf94] LendingFormMailer#termsheet_email: processed outbound mail in 14.0ms
+[ActiveJob] [SendTermsheetEmailJob] [de617033-b7b2-4f08-8773-f13b35a0bf94] Delivered mail 668e95af6574a_31436a5b548652e@noc-ThinkPad-E15-Gen-4.mail (39.3ms)
+[ActiveJob] [SendTermsheetEmailJob] [de617033-b7b2-4f08-8773-f13b35a0bf94] Date: Wed, 10 Jul 2024 19:07:43 +0500
+From: no-reply@longleaflending.com
+To: nas@gmai.com
+Message-ID: <668e95af6574a_31436a5b548652e@noc-ThinkPad-E15-Gen-4.mail>
+Subject: Your Term Sheet from Longleaf Lending
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_668e95af62de4_31436a5b54864cb";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_668e95af62de4_31436a5b54864cb
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Dear e45 re,
+
+Please find attached your term sheet.
+
+Best regards,
+Longleaf Lending
+----==_mimepart_668e95af62de4_31436a5b54864cb
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+ filename=termsheet.pdf
+
+JVBERi0xLjMKJf////8KMSAwIG9iago8PCAvQ3JlYXRvciA8ZmVmZjAwNTAw
+MDcyMDA2MTAwNzcwMDZlPgovUHJvZHVjZXIgPGZlZmYwMDUwMDA3MjAwNjEw
+MDc3MDA2ZT4KPj4KZW5kb2JqCjIgMCBvYmoKPDwgL1BhZ2VzIDMgMCBSCi9U
+eXBlIC9DYXRhbG9nCj4+CmVuZG9iagozIDAgb2JqCjw8IC9Db3VudCAxCi9L
+aWRzIFs1IDAgUl0KL1R5cGUgL1BhZ2VzCj4+CmVuZG9iago0IDAgb2JqCjw8
+IC9MZW5ndGggMTA4OQo+PgpzdHJlYW0KcQoKQlQKMzYuMCA3MzQuNDYgVGQK
+L0YyLjAgMzAgVGYKWzw1ND4gNjAgPDY1NzI2ZDIwNTM2ODY1NjU3ND5dIFRK
+CkVUCgoKQlQKMzYuMCA2ODUuOTQgVGQKL0YyLjAgMjAgVGYKWzw0YzZmNjE2
+ZTIwNDQ2NTc0NjE2OTZjNzM+XSBUSgpFVAoKCkJUCjM2LjAgNjU3Ljg4NCBU
+ZAovRjEuMCAxMiBUZgpbPDQxNjQ2NDcyNjU3MzczM2EyMDcxNzc+IDEwIDw2
+NTcyPiAtNDAgPDc0Nzk+XSBUSgpFVAoKCkJUCjM2LjAgNjQ0LjAxMiBUZAov
+RjEuMCAxMiBUZgpbPDRjNmY2MTZlMjA1ND4gMTIwIDw2NTcyPiAtMjUgPDZk
+M2EyMDM1MjA2ZDZmNmU3NDY4NzM+XSBUSgpFVAoKCkJUCjM2LjAgNjMwLjE0
+IFRkCi9GMS4wIDEyIFRmCls8NTA3NTcyNjM2ODYxNzM2NTIwNTA3Mj4gLTE1
+IDw2OTYzNjUzYTIwMjQzMjMzMzQzNTM2Pl0gVEoKRVQKCgpCVAozNi4wIDYx
+Ni4yNjggVGQKL0YxLjAgMTIgVGYKWzw1MjY1NzA2MTY5NzIyMDQyNzU2NDY3
+NjU3NDNhMjAyNDMxMzIzMT5dIFRKCkVUCgoKQlQKMzYuMCA2MDIuMzk2IFRk
+Ci9GMS4wIDEyIFRmCls8NTI2NTcwNjE2OTcyMjA1Nj4gNzAgPDYxNmM3NTY1
+M2EyMDI0MzIzMzM0MzQ+XSBUSgpFVAoKCkJUCjM2LjAgNTg4LjUyNCBUZAov
+RjEuMCAxMiBUZgpbPDRjNmY2MTZlMjA0MTZkNmY3NTZlNzQzYTIwMjQzMTM2
+MzQzMDJlMzg+XSBUSgpFVAoKCkJUCjM2LjAgNTc0LjY1MiBUZAovRjEuMCAx
+MiBUZgpbPDQ5NmU3NDY1NzI2NTczNzQyMDQ1Nzg3MDY1NmU3MzY1M2EyMDI0
+MzkzMDJlMzgzMjMzMzMzMDMyMzMzNTMwMzEzNzM1MzIzNT5dIFRKCkVUCgoK
+QlQKMzYuMCA1NjAuNzggVGQKL0YxLjAgMTIgVGYKWzw0NTczNzQ2OTZkNjE3
+NDY1NjQyMDUwNzI2ZjY2Njk3NDNhMjAyNDM2MzEzMjJlMzMzNzM2MzYzOTM3
+MzYzNDM5MzgzMjM0Mzg+XSBUSgpFVAoKCkJUCjM2LjAgNTIxLjE2NCBUZAov
+RjIuMCAyMCBUZgpbPDU0PiA2MCA8NjU3MjZkNzM+XSBUSgpFVAoKCkJUCjM2
+LjAgNDkzLjEwOCBUZAovRjEuMCAxMiBUZgpbPDRjNmY2ZTY3NmM2NTYxNjYy
+MDRjNjU2ZTY0Njk2ZTY3Mjc3MzIwNzQ2NTcyPiAtMjUgPDZkNzMyMDY3NmYy
+MDY4NjU3MjY1PiAxNSA8MmUyZTJlPl0gVEoKRVQKClEKCmVuZHN0cmVhbQpl
+bmRvYmoKNSAwIG9iago8PCAvQXJ0Qm94IFswIDAgNjEyIDc5Ml0KL0JsZWVk
+Qm94IFswIDAgNjEyIDc5Ml0KL0NvbnRlbnRzIDQgMCBSCi9Dcm9wQm94IFsw
+IDAgNjEyIDc5Ml0KL01lZGlhQm94IFswIDAgNjEyIDc5Ml0KL1BhcmVudCAz
+IDAgUgovUmVzb3VyY2VzIDw8IC9Gb250IDw8IC9GMS4wIDcgMCBSCi9GMi4w
+IDYgMCBSCj4+Ci9Qcm9jU2V0IFsvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdl
+QyAvSW1hZ2VJXQo+PgovVHJpbUJveCBbMCAwIDYxMiA3OTJdCi9UeXBlIC9Q
+YWdlCj4+CmVuZG9iago2IDAgb2JqCjw8IC9CYXNlRm9udCAvSGVsdmV0aWNh
+LUJvbGQKL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcKL1N1YnR5cGUgL1R5
+cGUxCi9UeXBlIC9Gb250Cj4+CmVuZG9iago3IDAgb2JqCjw8IC9CYXNlRm9u
+dCAvSGVsdmV0aWNhCi9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nCi9TdWJ0
+eXBlIC9UeXBlMQovVHlwZSAvRm9udAo+PgplbmRvYmoKeHJlZgowIDgKMDAw
+MDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDE1IDAwMDAwIG4gCjAwMDAwMDAx
+MDkgMDAwMDAgbiAKMDAwMDAwMDE1OCAwMDAwMCBuIAowMDAwMDAwMjE1IDAw
+MDAwIG4gCjAwMDAwMDEzNTYgMDAwMDAgbiAKMDAwMDAwMTYzNCAwMDAwMCBu
+IAowMDAwMDAxNzM2IDAwMDAwIG4gCnRyYWlsZXIKPDwgL0luZm8gMSAwIFIK
+L1Jvb3QgMiAwIFIKL1NpemUgOAo+PgpzdGFydHhyZWYKMTgzMwolJUVPRgo=
+
+----==_mimepart_668e95af62de4_31436a5b54864cb--
+
+[ActiveJob] [SendTermsheetEmailJob] [de617033-b7b2-4f08-8773-f13b35a0bf94] Performed SendTermsheetEmailJob (Job ID: de617033-b7b2-4f08-8773-f13b35a0bf94) from Async(default) in 58.96ms
+Started POST "/lending_forms" for 127.0.0.1 at 2024-07-10 19:15:18 +0500
+Processing by LendingFormsController#submit as JSON
+  Parameters: {"address"=>"qwerty", "loan_term"=>"5", "purchase_price"=>"23456", "repair_budget"=>"121", "repair_value"=>"2344", "first_name"=>"e45", "last_name"=>"re", "phone_number"=>"21345678", "email"=>"nas@gmai.com"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 1263)
+
+
+  
+NoMethodError (undefined method `stroke_color' for an instance of PdfGenerator):
+  
+app/services/pdf_generator.rb:11:in `block in generate_pdf'
+app/services/pdf_generator.rb:9:in `new'
+app/services/pdf_generator.rb:9:in `generate_pdf'
+app/controllers/lending_forms_controller.rb:11:in `submit'
+Started POST "/lending_forms" for 127.0.0.1 at 2024-07-10 19:15:57 +0500
+Processing by LendingFormsController#submit as JSON
+  Parameters: {"address"=>"qwerty", "loan_term"=>"5", "purchase_price"=>"23456", "repair_budget"=>"121", "repair_value"=>"2344", "first_name"=>"e45", "last_name"=>"re", "phone_number"=>"21345678", "email"=>"nas@gmai.com"}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 3551)
+
+
+  
+NameError (undefined local variable or method `stroke_horizontal_rule' for an instance of PdfGenerator):
+  
+app/services/pdf_generator.rb:13:in `block in generate_pdf'
+app/services/pdf_generator.rb:9:in `new'
+app/services/pdf_generator.rb:9:in `generate_pdf'
+app/controllers/lending_forms_controller.rb:11:in `submit'
+Started POST "/lending_forms" for 127.0.0.1 at 2024-07-10 19:16:45 +0500
+Processing by LendingFormsController#submit as JSON
+  Parameters: {"address"=>"qwerty", "loan_term"=>"5", "purchase_price"=>"23456", "repair_budget"=>"121", "repair_value"=>"2344", "first_name"=>"e45", "last_name"=>"re", "phone_number"=>"21345678", "email"=>"nas@gmai.com"}
+[ActiveJob] Enqueued SendTermsheetEmailJob (Job ID: d560c070-7245-42e9-8125-43b0a7555092) to Async(default) with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.82330235017525, :estimated_profit=>612.3766976498248}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_35a93cc3-3cfd-4da3-a0a8-8e23164e2e07.pdf"
+[ActiveJob] ↳ app/controllers/lending_forms_controller.rb:12:in `submit'
+Completed 200 OK in 35ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 37462)
+
+
+[ActiveJob] [SendTermsheetEmailJob] [d560c070-7245-42e9-8125-43b0a7555092] Performing SendTermsheetEmailJob (Job ID: d560c070-7245-42e9-8125-43b0a7555092) from Async(default) enqueued at 2024-07-10T14:16:45.386781468Z with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.82330235017525, :estimated_profit=>612.3766976498248}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_35a93cc3-3cfd-4da3-a0a8-8e23164e2e07.pdf"
+[ActiveJob] [SendTermsheetEmailJob] [d560c070-7245-42e9-8125-43b0a7555092]   Rendering text template
+[ActiveJob] [SendTermsheetEmailJob] [d560c070-7245-42e9-8125-43b0a7555092]   Rendered text template (Duration: 0.0ms | Allocations: 1)
+[ActiveJob] [SendTermsheetEmailJob] [d560c070-7245-42e9-8125-43b0a7555092] LendingFormMailer#termsheet_email: processed outbound mail in 6.9ms
+[ActiveJob] [SendTermsheetEmailJob] [d560c070-7245-42e9-8125-43b0a7555092] Delivered mail 668e97cd6f93c_31436a5b548684d@noc-ThinkPad-E15-Gen-4.mail (26.1ms)
+[ActiveJob] [SendTermsheetEmailJob] [d560c070-7245-42e9-8125-43b0a7555092] Date: Wed, 10 Jul 2024 19:16:45 +0500
+From: no-reply@longleaflending.com
+To: nas@gmai.com
+Message-ID: <668e97cd6f93c_31436a5b548684d@noc-ThinkPad-E15-Gen-4.mail>
+Subject: Your Term Sheet from Longleaf Lending
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_668e97cd6eda0_31436a5b54867ea";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_668e97cd6eda0_31436a5b54867ea
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Dear e45 re,
+
+Please find attached your term sheet.
+
+Best regards,
+Longleaf Lending
+----==_mimepart_668e97cd6eda0_31436a5b54867ea
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+ filename=termsheet.pdf
+
+JVBERi0xLjMKJf////8KMSAwIG9iago8PCAvQ3JlYXRvciA8ZmVmZjAwNTAw
+MDcyMDA2MTAwNzcwMDZlPgovUHJvZHVjZXIgPGZlZmYwMDUwMDA3MjAwNjEw
+MDc3MDA2ZT4KPj4KZW5kb2JqCjIgMCBvYmoKPDwgL1BhZ2VzIDMgMCBSCi9U
+eXBlIC9DYXRhbG9nCj4+CmVuZG9iagozIDAgb2JqCjw8IC9Db3VudCAxCi9L
+aWRzIFs1IDAgUl0KL1R5cGUgL1BhZ2VzCj4+CmVuZG9iago0IDAgb2JqCjw8
+IC9MZW5ndGggMTU0Mgo+PgpzdHJlYW0KcQovRGV2aWNlUkdCIENTCjEuMCAw
+LjAgMC4wIFNDTgoKQlQKMzYuMCA3MzQuNDYgVGQKL0YyLjAgMzAgVGYKWzw1
+ND4gNjAgPDY1NzI2ZDIwNTM2ODY1NjU3ND5dIFRKCkVUCgozNi4wIDcyMC4z
+IG0KNTc2LjAgNzIwLjMgbApTCgpCVAozNi4wIDY4NS45NCBUZAovRjIuMCAy
+MCBUZgpbPDRjNmY2MTZlMjA0NDY1NzQ2MTY5NmM3Mz5dIFRKCkVUCgozNi4w
+IDY3Ni41IG0KNTc2LjAgNjc2LjUgbApTCgpCVAozNi4wIDY1Ny44ODQgVGQK
+L0YxLjAgMTIgVGYKWzw0MTY0NjQ3MjY1NzM3MzNhMjA3MTc3PiAxMCA8NjU3
+Mj4gLTQwIDw3NDc5Pl0gVEoKRVQKCjM2LjAgNjUyLjYyOCBtCjU3Ni4wIDY1
+Mi42MjggbApTCgpCVAozNi4wIDY0NC4wMTIgVGQKL0YxLjAgMTIgVGYKWzw0
+YzZmNjE2ZTIwNTQ+IDEyMCA8NjU3Mj4gLTI1IDw2ZDNhMjAzNTIwNmQ2ZjZl
+NzQ2ODczPl0gVEoKRVQKCjM2LjAgNjM4Ljc1NiBtCjU3Ni4wIDYzOC43NTYg
+bApTCgpCVAozNi4wIDYzMC4xNCBUZAovRjEuMCAxMiBUZgpbPDUwNzU3MjYz
+Njg2MTczNjUyMDUwNzI+IC0xNSA8Njk2MzY1M2EyMDI0MzIzMzM0MzUzNj5d
+IFRKCkVUCgozNi4wIDYyNC44ODQgbQo1NzYuMCA2MjQuODg0IGwKUwoKQlQK
+MzYuMCA2MTYuMjY4IFRkCi9GMS4wIDEyIFRmCls8NTI2NTcwNjE2OTcyMjA0
+Mjc1NjQ2NzY1NzQzYTIwMjQzMTMyMzE+XSBUSgpFVAoKMzYuMCA2MTEuMDEy
+IG0KNTc2LjAgNjExLjAxMiBsClMKCkJUCjM2LjAgNjAyLjM5NiBUZAovRjEu
+MCAxMiBUZgpbPDUyNjU3MDYxNjk3MjIwNTY+IDcwIDw2MTZjNzU2NTNhMjAy
+NDMyMzMzNDM0Pl0gVEoKRVQKCjM2LjAgNTk3LjE0IG0KNTc2LjAgNTk3LjE0
+IGwKUwoKQlQKMzYuMCA1ODguNTI0IFRkCi9GMS4wIDEyIFRmCls8NGM2ZjYx
+NmUyMDQxNmQ2Zjc1NmU3NDNhMjAyNDMxMzYzNDMwMmUzOD5dIFRKCkVUCgoz
+Ni4wIDU4My4yNjggbQo1NzYuMCA1ODMuMjY4IGwKUwoKQlQKMzYuMCA1NzQu
+NjUyIFRkCi9GMS4wIDEyIFRmCls8NDk2ZTc0NjU3MjY1NzM3NDIwNDU3ODcw
+NjU2ZTczNjUzYTIwMjQzOTMwMmUzODMyMzMzMzMwMzIzMzM1MzAzMTM3MzUz
+MjM1Pl0gVEoKRVQKCjM2LjAgNTY5LjM5NiBtCjU3Ni4wIDU2OS4zOTYgbApT
+CgpCVAozNi4wIDU2MC43OCBUZAovRjEuMCAxMiBUZgpbPDQ1NzM3NDY5NmQ2
+MTc0NjU2NDIwNTA3MjZmNjY2OTc0M2EyMDI0MzYzMTMyMmUzMzM3MzYzNjM5
+MzczNjM0MzkzODMyMzQzOD5dIFRKCkVUCgozNi4wIDU1NS41MjQgbQo1NzYu
+MCA1NTUuNTI0IGwKUwozNi4wIDUzNS41MjQgbQo1NzYuMCA1MzUuNTI0IGwK
+UwozNi4wIDUzNS41MjQgbQo1NzYuMCA1MzUuNTI0IGwKUwoKQlQKMzYuMCA1
+MjEuMTY0IFRkCi9GMi4wIDIwIFRmCls8NTQ+IDYwIDw2NTcyNmQ3Mz5dIFRK
+CkVUCgoKQlQKMzYuMCA0OTMuMTA4IFRkCi9GMS4wIDEyIFRmCls8MzIzMDMy
+MzQyMDRjNmY2ZTY3NmM2NTYxNjYyMDRjNjU2ZTY0Njk2ZTY3MmMyMDRjNGM0
+Mz4gMzAgPDJlMjA0MTZjNmMyMDcyPiAtMTUgPDY5Njc2ODc0NzMyMDcyNjU3
+MzY1NzI+IC0zMCA8NzY+IDI1IDw2NTY0Pl0gVEoKRVQKClEKCmVuZHN0cmVh
+bQplbmRvYmoKNSAwIG9iago8PCAvQXJ0Qm94IFswIDAgNjEyIDc5Ml0KL0Js
+ZWVkQm94IFswIDAgNjEyIDc5Ml0KL0NvbnRlbnRzIDQgMCBSCi9Dcm9wQm94
+IFswIDAgNjEyIDc5Ml0KL01lZGlhQm94IFswIDAgNjEyIDc5Ml0KL1BhcmVu
+dCAzIDAgUgovUmVzb3VyY2VzIDw8IC9Gb250IDw8IC9GMS4wIDcgMCBSCi9G
+Mi4wIDYgMCBSCj4+Ci9Qcm9jU2V0IFsvUERGIC9UZXh0IC9JbWFnZUIgL0lt
+YWdlQyAvSW1hZ2VJXQo+PgovVHJpbUJveCBbMCAwIDYxMiA3OTJdCi9UeXBl
+IC9QYWdlCj4+CmVuZG9iago2IDAgb2JqCjw8IC9CYXNlRm9udCAvSGVsdmV0
+aWNhLUJvbGQKL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcKL1N1YnR5cGUg
+L1R5cGUxCi9UeXBlIC9Gb250Cj4+CmVuZG9iago3IDAgb2JqCjw8IC9CYXNl
+Rm9udCAvSGVsdmV0aWNhCi9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nCi9T
+dWJ0eXBlIC9UeXBlMQovVHlwZSAvRm9udAo+PgplbmRvYmoKeHJlZgowIDgK
+MDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDE1IDAwMDAwIG4gCjAwMDAw
+MDAxMDkgMDAwMDAgbiAKMDAwMDAwMDE1OCAwMDAwMCBuIAowMDAwMDAwMjE1
+IDAwMDAwIG4gCjAwMDAwMDE4MDkgMDAwMDAgbiAKMDAwMDAwMjA4NyAwMDAw
+MCBuIAowMDAwMDAyMTg5IDAwMDAwIG4gCnRyYWlsZXIKPDwgL0luZm8gMSAw
+IFIKL1Jvb3QgMiAwIFIKL1NpemUgOAo+PgpzdGFydHhyZWYKMjI4NgolJUVP
+Rgo=
+
+----==_mimepart_668e97cd6eda0_31436a5b54867ea--
+
+[ActiveJob] [SendTermsheetEmailJob] [d560c070-7245-42e9-8125-43b0a7555092] Performed SendTermsheetEmailJob (Job ID: d560c070-7245-42e9-8125-43b0a7555092) from Async(default) in 39.48ms
+Started POST "/lending_forms" for 127.0.0.1 at 2024-07-10 19:20:11 +0500
+Processing by LendingFormsController#submit as JSON
+  Parameters: {"address"=>"qwerty", "loan_term"=>"5", "purchase_price"=>"23456", "repair_budget"=>"121", "repair_value"=>"2344", "first_name"=>"e45", "last_name"=>"re", "phone_number"=>"21345678", "email"=>"nas@gmai.com"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1229)
+
+
+  
+ArgumentError (Unknown type of color: "ccc"):
+  
+app/services/pdf_generator.rb:11:in `block in generate_pdf'
+app/services/pdf_generator.rb:9:in `new'
+app/services/pdf_generator.rb:9:in `generate_pdf'
+app/controllers/lending_forms_controller.rb:11:in `submit'
+Started POST "/lending_forms" for 127.0.0.1 at 2024-07-10 19:21:37 +0500
+Processing by LendingFormsController#submit as JSON
+  Parameters: {"address"=>"qwerty", "loan_term"=>"5", "purchase_price"=>"23456", "repair_budget"=>"121", "repair_value"=>"2344", "first_name"=>"e45", "last_name"=>"re", "phone_number"=>"21345678", "email"=>"nas@gmai.com"}
+[ActiveJob] Enqueued SendTermsheetEmailJob (Job ID: 26aa93e1-f573-4f10-b5cf-95aab04779e8) to Async(default) with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.82330235017525, :estimated_profit=>612.3766976498248}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_3716ebde-60ee-4218-b827-383e43b9b07c.pdf"
+[ActiveJob] ↳ app/controllers/lending_forms_controller.rb:12:in `submit'
+Completed 200 OK in 33ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 37340)
+
+
+[ActiveJob] [SendTermsheetEmailJob] [26aa93e1-f573-4f10-b5cf-95aab04779e8] Performing SendTermsheetEmailJob (Job ID: 26aa93e1-f573-4f10-b5cf-95aab04779e8) from Async(default) enqueued at 2024-07-10T14:21:37.188245555Z with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.82330235017525, :estimated_profit=>612.3766976498248}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_3716ebde-60ee-4218-b827-383e43b9b07c.pdf"
+[ActiveJob] [SendTermsheetEmailJob] [26aa93e1-f573-4f10-b5cf-95aab04779e8]   Rendering text template
+[ActiveJob] [SendTermsheetEmailJob] [26aa93e1-f573-4f10-b5cf-95aab04779e8]   Rendered text template (Duration: 0.0ms | Allocations: 1)
+[ActiveJob] [SendTermsheetEmailJob] [26aa93e1-f573-4f10-b5cf-95aab04779e8] LendingFormMailer#termsheet_email: processed outbound mail in 6.1ms
+[ActiveJob] [SendTermsheetEmailJob] [26aa93e1-f573-4f10-b5cf-95aab04779e8] Delivered mail 668e98f13c765_31436a5b54871ad@noc-ThinkPad-E15-Gen-4.mail (24.7ms)
+[ActiveJob] [SendTermsheetEmailJob] [26aa93e1-f573-4f10-b5cf-95aab04779e8] Date: Wed, 10 Jul 2024 19:21:37 +0500
+From: no-reply@longleaflending.com
+To: nas@gmai.com
+Message-ID: <668e98f13c765_31436a5b54871ad@noc-ThinkPad-E15-Gen-4.mail>
+Subject: Your Term Sheet from Longleaf Lending
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_668e98f13b9e4_31436a5b54870ee";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_668e98f13b9e4_31436a5b54870ee
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Dear e45 re,
+
+Please find attached your term sheet.
+
+Best regards,
+Longleaf Lending
+----==_mimepart_668e98f13b9e4_31436a5b54870ee
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+ filename=termsheet.pdf
+
+JVBERi0xLjMKJf////8KMSAwIG9iago8PCAvQ3JlYXRvciA8ZmVmZjAwNTAw
+MDcyMDA2MTAwNzcwMDZlPgovUHJvZHVjZXIgPGZlZmYwMDUwMDA3MjAwNjEw
+MDc3MDA2ZT4KPj4KZW5kb2JqCjIgMCBvYmoKPDwgL1BhZ2VzIDMgMCBSCi9U
+eXBlIC9DYXRhbG9nCj4+CmVuZG9iagozIDAgb2JqCjw8IC9Db3VudCAxCi9L
+aWRzIFs1IDAgUl0KL1R5cGUgL1BhZ2VzCj4+CmVuZG9iago0IDAgb2JqCjw8
+IC9MZW5ndGggMTUwOQo+PgpzdHJlYW0KcQovRGV2aWNlUkdCIENTCjAuOCAw
+LjggMC44IFNDTgoKQlQKMzYuMCA3MzQuNDYgVGQKL0YyLjAgMzAgVGYKWzw1
+ND4gNjAgPDY1NzI2ZDIwNTM2ODY1NjU3ND5dIFRKCkVUCgozNi4wIDcyMC4z
+IG0KNTc2LjAgNzIwLjMgbApTCgpCVAozNi4wIDY3NS45NCBUZAovRjIuMCAy
+MCBUZgpbPDRjNmY2MTZlMjA0NDY1NzQ2MTY5NmM3Mz5dIFRKCkVUCgozNi4w
+IDY2Ni41IG0KNTc2LjAgNjY2LjUgbApTCgpCVAozNi4wIDYzNy44ODQgVGQK
+L0YxLjAgMTIgVGYKWzw0MTY0NjQ3MjY1NzM3MzNhMjA3MTc3PiAxMCA8NjU3
+Mj4gLTQwIDw3NDc5Pl0gVEoKRVQKCjM2LjAgNjMyLjYyOCBtCjU3Ni4wIDYz
+Mi42MjggbApTCgpCVAozNi4wIDYxNC4wMTIgVGQKL0YxLjAgMTIgVGYKWzw0
+YzZmNjE2ZTIwNTQ+IDEyMCA8NjU3Mj4gLTI1IDw2ZDNhMjAzNTIwNmQ2ZjZl
+NzQ2ODczPl0gVEoKRVQKCjM2LjAgNjA4Ljc1NiBtCjU3Ni4wIDYwOC43NTYg
+bApTCgpCVAozNi4wIDU5MC4xNCBUZAovRjEuMCAxMiBUZgpbPDUwNzU3MjYz
+Njg2MTczNjUyMDUwNzI+IC0xNSA8Njk2MzY1M2EyMDI0MzIzMzM0MzUzNj5d
+IFRKCkVUCgozNi4wIDU4NC44ODQgbQo1NzYuMCA1ODQuODg0IGwKUwoKQlQK
+MzYuMCA1NjYuMjY4IFRkCi9GMS4wIDEyIFRmCls8NTI2NTcwNjE2OTcyMjA0
+Mjc1NjQ2NzY1NzQzYTIwMjQzMTMyMzE+XSBUSgpFVAoKMzYuMCA1NjEuMDEy
+IG0KNTc2LjAgNTYxLjAxMiBsClMKCkJUCjM2LjAgNTQyLjM5NiBUZAovRjEu
+MCAxMiBUZgpbPDUyNjU3MDYxNjk3MjIwNTY+IDcwIDw2MTZjNzU2NTNhMjAy
+NDMyMzMzNDM0Pl0gVEoKRVQKCjM2LjAgNTM3LjE0IG0KNTc2LjAgNTM3LjE0
+IGwKUwoKQlQKMzYuMCA1MTguNTI0IFRkCi9GMS4wIDEyIFRmCls8NGM2ZjYx
+NmUyMDQxNmQ2Zjc1NmU3NDNhMjAyNDMxMzYzNDMwMmUzOD5dIFRKCkVUCgoz
+Ni4wIDUxMy4yNjggbQo1NzYuMCA1MTMuMjY4IGwKUwoKQlQKMzYuMCA0OTQu
+NjUyIFRkCi9GMS4wIDEyIFRmCls8NDk2ZTc0NjU3MjY1NzM3NDIwNDU3ODcw
+NjU2ZTczNjUzYTIwMjQzOTMwMmUzODMyMzMzMzMwMzIzMzM1MzAzMTM3MzUz
+MjM1Pl0gVEoKRVQKCjM2LjAgNDg5LjM5NiBtCjU3Ni4wIDQ4OS4zOTYgbApT
+CgpCVAozNi4wIDQ3MC43OCBUZAovRjEuMCAxMiBUZgpbPDQ1NzM3NDY5NmQ2
+MTc0NjU2NDIwNTA3MjZmNjY2OTc0M2EyMDI0MzYzMTMyMmUzMzM3MzYzNjM5
+MzczNjM0MzkzODMyMzQzOD5dIFRKCkVUCgozNi4wIDQ2NS41MjQgbQo1NzYu
+MCA0NjUuNTI0IGwKUwoKQlQKMzYuMCAzODEuMTY0IFRkCi9GMi4wIDIwIFRm
+Cls8NTQ+IDYwIDw2NTcyNmQ3Mz5dIFRKCkVUCgozNi4wIDM3MS43MjQgbQo1
+NzYuMCAzNzEuNzI0IGwKUwoKQlQKMzYuMCAzNDMuMTA4IFRkCi9GMS4wIDEy
+IFRmCls8MzIzMDMyMzQyMDRjNmY2ZTY3NmM2NTYxNjYyMDRjNjU2ZTY0Njk2
+ZTY3MmMyMDRjNGM0Mz4gMzAgPDJlMjA0MTZjNmMyMDcyPiAtMTUgPDY5Njc2
+ODc0NzMyMDcyNjU3MzY1NzI+IC0zMCA8NzY+IDI1IDw2NTY0Pl0gVEoKRVQK
+ClEKCmVuZHN0cmVhbQplbmRvYmoKNSAwIG9iago8PCAvQXJ0Qm94IFswIDAg
+NjEyIDc5Ml0KL0JsZWVkQm94IFswIDAgNjEyIDc5Ml0KL0NvbnRlbnRzIDQg
+MCBSCi9Dcm9wQm94IFswIDAgNjEyIDc5Ml0KL01lZGlhQm94IFswIDAgNjEy
+IDc5Ml0KL1BhcmVudCAzIDAgUgovUmVzb3VyY2VzIDw8IC9Gb250IDw8IC9G
+MS4wIDcgMCBSCi9GMi4wIDYgMCBSCj4+Ci9Qcm9jU2V0IFsvUERGIC9UZXh0
+IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJXQo+PgovVHJpbUJveCBbMCAwIDYx
+MiA3OTJdCi9UeXBlIC9QYWdlCj4+CmVuZG9iago2IDAgb2JqCjw8IC9CYXNl
+Rm9udCAvSGVsdmV0aWNhLUJvbGQKL0VuY29kaW5nIC9XaW5BbnNpRW5jb2Rp
+bmcKL1N1YnR5cGUgL1R5cGUxCi9UeXBlIC9Gb250Cj4+CmVuZG9iago3IDAg
+b2JqCjw8IC9CYXNlRm9udCAvSGVsdmV0aWNhCi9FbmNvZGluZyAvV2luQW5z
+aUVuY29kaW5nCi9TdWJ0eXBlIC9UeXBlMQovVHlwZSAvRm9udAo+PgplbmRv
+YmoKeHJlZgowIDgKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDE1IDAw
+MDAwIG4gCjAwMDAwMDAxMDkgMDAwMDAgbiAKMDAwMDAwMDE1OCAwMDAwMCBu
+IAowMDAwMDAwMjE1IDAwMDAwIG4gCjAwMDAwMDE3NzYgMDAwMDAgbiAKMDAw
+MDAwMjA1NCAwMDAwMCBuIAowMDAwMDAyMTU2IDAwMDAwIG4gCnRyYWlsZXIK
+PDwgL0luZm8gMSAwIFIKL1Jvb3QgMiAwIFIKL1NpemUgOAo+PgpzdGFydHhy
+ZWYKMjI1MwolJUVPRgo=
+
+----==_mimepart_668e98f13b9e4_31436a5b54870ee--
+
+[ActiveJob] [SendTermsheetEmailJob] [26aa93e1-f573-4f10-b5cf-95aab04779e8] Performed SendTermsheetEmailJob (Job ID: 26aa93e1-f573-4f10-b5cf-95aab04779e8) from Async(default) in 35.37ms
+Started POST "/lending_forms" for 127.0.0.1 at 2024-07-10 19:36:11 +0500
+Processing by LendingFormsController#submit as JSON
+  Parameters: {"address"=>"qwerty", "loan_term"=>"5", "purchase_price"=>"23456", "repair_budget"=>"121", "repair_value"=>"2344", "first_name"=>"e45", "last_name"=>"re", "phone_number"=>"21345678", "email"=>"nas@gmai.com"}
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 5668)
+
+
+  
+NoMethodError (undefined method `move_right' for an instance of Prawn::Document):
+  
+app/services/pdf_generator.rb:21:in `block (2 levels) in generate_pdf'
+app/services/pdf_generator.rb:20:in `each'
+app/services/pdf_generator.rb:20:in `block in generate_pdf'
+app/services/pdf_generator.rb:9:in `new'
+app/services/pdf_generator.rb:9:in `generate_pdf'
+app/controllers/lending_forms_controller.rb:11:in `submit'
+Started POST "/lending_forms" for 127.0.0.1 at 2024-07-10 19:36:27 +0500
+Processing by LendingFormsController#submit as JSON
+  Parameters: {"address"=>"qwerty", "loan_term"=>"5", "purchase_price"=>"23456", "repair_budget"=>"121", "repair_value"=>"2344", "first_name"=>"e45", "last_name"=>"re", "phone_number"=>"21345678", "email"=>"nas@gmai.com"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 5348)
+
+
+  
+NoMethodError (undefined method `move_right' for an instance of Prawn::Document):
+  
+app/services/pdf_generator.rb:21:in `block (2 levels) in generate_pdf'
+app/services/pdf_generator.rb:20:in `each'
+app/services/pdf_generator.rb:20:in `block in generate_pdf'
+app/services/pdf_generator.rb:9:in `new'
+app/services/pdf_generator.rb:9:in `generate_pdf'
+app/controllers/lending_forms_controller.rb:11:in `submit'
+Started POST "/lending_forms" for 127.0.0.1 at 2024-07-10 19:36:58 +0500
+Processing by LendingFormsController#submit as JSON
+  Parameters: {"address"=>"qwerty", "loan_term"=>"5", "purchase_price"=>"23456", "repair_budget"=>"121", "repair_value"=>"2344", "first_name"=>"e45", "last_name"=>"re", "phone_number"=>"21345678", "email"=>"nas@gmai.com"}
+[ActiveJob] Enqueued SendTermsheetEmailJob (Job ID: d93a4294-acbc-4884-87b0-bb621d721f93) to Async(default) with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.82330235017525, :estimated_profit=>612.3766976498248}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_6707c31b-09b8-43ff-b639-5e3f5beaaa1d.pdf"
+[ActiveJob] ↳ app/controllers/lending_forms_controller.rb:12:in `submit'
+Completed 200 OK in 29ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 38233)
+
+
+[ActiveJob] [SendTermsheetEmailJob] [d93a4294-acbc-4884-87b0-bb621d721f93] Performing SendTermsheetEmailJob (Job ID: d93a4294-acbc-4884-87b0-bb621d721f93) from Async(default) enqueued at 2024-07-10T14:36:58.145045821Z with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.82330235017525, :estimated_profit=>612.3766976498248}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_6707c31b-09b8-43ff-b639-5e3f5beaaa1d.pdf"
+[ActiveJob] [SendTermsheetEmailJob] [d93a4294-acbc-4884-87b0-bb621d721f93]   Rendering text template
+[ActiveJob] [SendTermsheetEmailJob] [d93a4294-acbc-4884-87b0-bb621d721f93]   Rendered text template (Duration: 0.0ms | Allocations: 1)
+[ActiveJob] [SendTermsheetEmailJob] [d93a4294-acbc-4884-87b0-bb621d721f93] LendingFormMailer#termsheet_email: processed outbound mail in 5.4ms
+[ActiveJob] [SendTermsheetEmailJob] [d93a4294-acbc-4884-87b0-bb621d721f93] Delivered mail 668e9c8a3364d_31436a5b548745b@noc-ThinkPad-E15-Gen-4.mail (26.1ms)
+[ActiveJob] [SendTermsheetEmailJob] [d93a4294-acbc-4884-87b0-bb621d721f93] Date: Wed, 10 Jul 2024 19:36:58 +0500
+From: no-reply@longleaflending.com
+To: nas@gmai.com
+Message-ID: <668e9c8a3364d_31436a5b548745b@noc-ThinkPad-E15-Gen-4.mail>
+Subject: Your Term Sheet from Longleaf Lending
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_668e9c8a32c05_31436a5b548734e";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_668e9c8a32c05_31436a5b548734e
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Dear e45 re,
+
+Please find attached your term sheet.
+
+Best regards,
+Longleaf Lending
+----==_mimepart_668e9c8a32c05_31436a5b548734e
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+ filename=termsheet.pdf
+
+JVBERi0xLjMKJf////8KMSAwIG9iago8PCAvQ3JlYXRvciA8ZmVmZjAwNTAw
+MDcyMDA2MTAwNzcwMDZlPgovUHJvZHVjZXIgPGZlZmYwMDUwMDA3MjAwNjEw
+MDc3MDA2ZT4KPj4KZW5kb2JqCjIgMCBvYmoKPDwgL1BhZ2VzIDMgMCBSCi9U
+eXBlIC9DYXRhbG9nCj4+CmVuZG9iagozIDAgb2JqCjw8IC9Db3VudCAxCi9L
+aWRzIFs1IDAgUl0KL1R5cGUgL1BhZ2VzCj4+CmVuZG9iago0IDAgb2JqCjw8
+IC9MZW5ndGggMjMyNQo+PgpzdHJlYW0KcQovRGV2aWNlUkdCIENTCjAuOCAw
+LjggMC44IFNDTgoKQlQKMzYuMCA3MzQuNDYgVGQKL0YyLjAgMzAgVGYKWzw1
+ND4gNjAgPDY1NzI2ZDIwNTM2ODY1NjU3ND5dIFRKCkVUCgozNi4wIDcyMC4z
+IG0KNTc2LjAgNzIwLjMgbApTCgpCVAozNi4wIDY3NS45NCBUZAovRjIuMCAy
+MCBUZgpbPDRjNmY2MTZlMjA0NDY1NzQ2MTY5NmM3Mz5dIFRKCkVUCgozNi4w
+IDY2Ni41IG0KNTc2LjAgNjY2LjUgbApTCgpCVAozNi4wIDYzNy44ODQgVGQK
+L0YxLjAgMTIgVGYKWzw0MTY0NjQ3MjY1NzM3MzNhMjAyMDIwMjAyMDIwMjAy
+MDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIw
+MjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjA3
+MTc3PiAxMCA8NjU3Mj4gLTQwIDw3NDc5Pl0gVEoKRVQKCjM2LjAgNjMyLjYy
+OCBtCjU3Ni4wIDYzMi42MjggbApTCgpCVAozNi4wIDYxNC4wMTIgVGQKL0Yx
+LjAgMTIgVGYKWzw0YzZmNjE2ZTIwNTQ+IDEyMCA8NjU3Mj4gLTI1IDw2ZDNh
+MjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAy
+MDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIw
+MjAyMDIwMjAyMDIwMjAzNTIwNmQ2ZjZlNzQ2ODczPl0gVEoKRVQKCjM2LjAg
+NjA4Ljc1NiBtCjU3Ni4wIDYwOC43NTYgbApTCgpCVAozNi4wIDU5MC4xNCBU
+ZAovRjEuMCAxMiBUZgpbPDUwNzU3MjYzNjg2MTczNjUyMDUwNzI+IC0xNSA8
+Njk2MzY1M2EyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAy
+MDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIw
+MjAyMDIwMjAyMDIwMjAyMDIwMjAyMDI0MzIzMzM0MzUzNj5dIFRKCkVUCgoz
+Ni4wIDU4NC44ODQgbQo1NzYuMCA1ODQuODg0IGwKUwoKQlQKMzYuMCA1NjYu
+MjY4IFRkCi9GMS4wIDEyIFRmCls8NTI2NTcwNjE2OTcyMjA0Mjc1NjQ2NzY1
+NzQzYTIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAy
+MDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIw
+MjAyMDIwMjAyMDIwMjAyMDIwMjQzMTMyMzE+XSBUSgpFVAoKMzYuMCA1NjEu
+MDEyIG0KNTc2LjAgNTYxLjAxMiBsClMKCkJUCjM2LjAgNTQyLjM5NiBUZAov
+RjEuMCAxMiBUZgpbPDUyNjU3MDYxNjk3MjIwNTY+IDcwIDw2MTZjNzU2NTNh
+MjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAy
+MDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIw
+MjAyMDIwMjAyMDIwMjAyNDMyMzMzNDM0Pl0gVEoKRVQKCjM2LjAgNTM3LjE0
+IG0KNTc2LjAgNTM3LjE0IGwKUwoKQlQKMzYuMCA1MTguNTI0IFRkCi9GMS4w
+IDEyIFRmCls8NGM2ZjYxNmUyMDQxNmQ2Zjc1NmU3NDNhMjAyMDIwMjAyMDIw
+MjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAy
+MDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIw
+MjAyNDMxMzYzNDMwMmUzOD5dIFRKCkVUCgozNi4wIDUxMy4yNjggbQo1NzYu
+MCA1MTMuMjY4IGwKUwoKQlQKMzYuMCA0OTQuNjUyIFRkCi9GMS4wIDEyIFRm
+Cls8NDk2ZTc0NjU3MjY1NzM3NDIwNDU3ODcwNjU2ZTczNjUzYTIwMjAyMDIw
+MjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAy
+MDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIw
+MjAyMDIwMjQzOTMwMmUzODMyMzMzMzMwMzIzMzM1MzAzMTM3MzUzMjM1Pl0g
+VEoKRVQKCjM2LjAgNDg5LjM5NiBtCjU3Ni4wIDQ4OS4zOTYgbApTCgpCVAoz
+Ni4wIDQ3MC43OCBUZAovRjEuMCAxMiBUZgpbPDQ1NzM3NDY5NmQ2MTc0NjU2
+NDIwNTA3MjZmNjY2OTc0M2EyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIw
+MjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAy
+MDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDI0MzYzMTMyMmUzMzM3
+MzYzNjM5MzczNjM0MzkzODMyMzQzOD5dIFRKCkVUCgozNi4wIDQ2NS41MjQg
+bQo1NzYuMCA0NjUuNTI0IGwKUwoKQlQKMzYuMCAzODEuMTY0IFRkCi9GMi4w
+IDIwIFRmCls8NTQ+IDYwIDw2NTcyNmQ3Mz5dIFRKCkVUCgozNi4wIDM3MS43
+MjQgbQo1NzYuMCAzNzEuNzI0IGwKUwoKQlQKMzYuMCAzNDMuMTA4IFRkCi9G
+MS4wIDEyIFRmCls8MzIzMDMyMzQyMDRjNmY2ZTY3NmM2NTYxNjYyMDRjNjU2
+ZTY0Njk2ZTY3MmMyMDRjNGM0Mz4gMzAgPDJlMjA0MTZjNmMyMDcyPiAtMTUg
+PDY5Njc2ODc0NzMyMDcyNjU3MzY1NzI+IC0zMCA8NzY+IDI1IDw2NTY0Pl0g
+VEoKRVQKClEKCmVuZHN0cmVhbQplbmRvYmoKNSAwIG9iago8PCAvQXJ0Qm94
+IFswIDAgNjEyIDc5Ml0KL0JsZWVkQm94IFswIDAgNjEyIDc5Ml0KL0NvbnRl
+bnRzIDQgMCBSCi9Dcm9wQm94IFswIDAgNjEyIDc5Ml0KL01lZGlhQm94IFsw
+IDAgNjEyIDc5Ml0KL1BhcmVudCAzIDAgUgovUmVzb3VyY2VzIDw8IC9Gb250
+IDw8IC9GMS4wIDcgMCBSCi9GMi4wIDYgMCBSCj4+Ci9Qcm9jU2V0IFsvUERG
+IC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJXQo+PgovVHJpbUJveCBb
+MCAwIDYxMiA3OTJdCi9UeXBlIC9QYWdlCj4+CmVuZG9iago2IDAgb2JqCjw8
+IC9CYXNlRm9udCAvSGVsdmV0aWNhLUJvbGQKL0VuY29kaW5nIC9XaW5BbnNp
+RW5jb2RpbmcKL1N1YnR5cGUgL1R5cGUxCi9UeXBlIC9Gb250Cj4+CmVuZG9i
+ago3IDAgb2JqCjw8IC9CYXNlRm9udCAvSGVsdmV0aWNhCi9FbmNvZGluZyAv
+V2luQW5zaUVuY29kaW5nCi9TdWJ0eXBlIC9UeXBlMQovVHlwZSAvRm9udAo+
+PgplbmRvYmoKeHJlZgowIDgKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAw
+MDE1IDAwMDAwIG4gCjAwMDAwMDAxMDkgMDAwMDAgbiAKMDAwMDAwMDE1OCAw
+MDAwMCBuIAowMDAwMDAwMjE1IDAwMDAwIG4gCjAwMDAwMDI1OTIgMDAwMDAg
+biAKMDAwMDAwMjg3MCAwMDAwMCBuIAowMDAwMDAyOTcyIDAwMDAwIG4gCnRy
+YWlsZXIKPDwgL0luZm8gMSAwIFIKL1Jvb3QgMiAwIFIKL1NpemUgOAo+Pgpz
+dGFydHhyZWYKMzA2OQolJUVPRgo=
+
+----==_mimepart_668e9c8a32c05_31436a5b548734e--
+
+[ActiveJob] [SendTermsheetEmailJob] [d93a4294-acbc-4884-87b0-bb621d721f93] Performed SendTermsheetEmailJob (Job ID: d93a4294-acbc-4884-87b0-bb621d721f93) from Async(default) in 37.51ms
+Started POST "/lending_forms" for 127.0.0.1 at 2024-07-10 19:37:30 +0500
+Processing by LendingFormsController#submit as JSON
+  Parameters: {"address"=>"qwerty", "loan_term"=>"5", "purchase_price"=>"23456", "repair_budget"=>"121", "repair_value"=>"2344", "first_name"=>"e45", "last_name"=>"re", "phone_number"=>"21345678", "email"=>"nas@gmai.com"}
+[ActiveJob] Enqueued SendTermsheetEmailJob (Job ID: 198d23e1-424e-4832-9185-94b801141ac9) to Async(default) with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.82330235017525, :estimated_profit=>612.3766976498248}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_6c16f8fd-12ab-4ff4-9fc7-7b0a663c0871.pdf"
+[ActiveJob] ↳ app/controllers/lending_forms_controller.rb:12:in `submit'
+Completed 200 OK in 49ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 38240)
+
+
+[ActiveJob] [SendTermsheetEmailJob] [198d23e1-424e-4832-9185-94b801141ac9] Performing SendTermsheetEmailJob (Job ID: 198d23e1-424e-4832-9185-94b801141ac9) from Async(default) enqueued at 2024-07-10T14:37:30.268050573Z with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.82330235017525, :estimated_profit=>612.3766976498248}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_6c16f8fd-12ab-4ff4-9fc7-7b0a663c0871.pdf"
+[ActiveJob] [SendTermsheetEmailJob] [198d23e1-424e-4832-9185-94b801141ac9]   Rendering text template
+[ActiveJob] [SendTermsheetEmailJob] [198d23e1-424e-4832-9185-94b801141ac9]   Rendered text template (Duration: 0.0ms | Allocations: 1)
+[ActiveJob] [SendTermsheetEmailJob] [198d23e1-424e-4832-9185-94b801141ac9] LendingFormMailer#termsheet_email: processed outbound mail in 5.2ms
+[ActiveJob] [SendTermsheetEmailJob] [198d23e1-424e-4832-9185-94b801141ac9] Delivered mail 668e9caa4fb4d_31436a5b54877a1@noc-ThinkPad-E15-Gen-4.mail (19.7ms)
+[ActiveJob] [SendTermsheetEmailJob] [198d23e1-424e-4832-9185-94b801141ac9] Date: Wed, 10 Jul 2024 19:37:30 +0500
+From: no-reply@longleaflending.com
+To: nas@gmai.com
+Message-ID: <668e9caa4fb4d_31436a5b54877a1@noc-ThinkPad-E15-Gen-4.mail>
+Subject: Your Term Sheet from Longleaf Lending
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_668e9caa4f12f_31436a5b548766c";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_668e9caa4f12f_31436a5b548766c
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Dear e45 re,
+
+Please find attached your term sheet.
+
+Best regards,
+Longleaf Lending
+----==_mimepart_668e9caa4f12f_31436a5b548766c
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+ filename=termsheet.pdf
+
+JVBERi0xLjMKJf////8KMSAwIG9iago8PCAvQ3JlYXRvciA8ZmVmZjAwNTAw
+MDcyMDA2MTAwNzcwMDZlPgovUHJvZHVjZXIgPGZlZmYwMDUwMDA3MjAwNjEw
+MDc3MDA2ZT4KPj4KZW5kb2JqCjIgMCBvYmoKPDwgL1BhZ2VzIDMgMCBSCi9U
+eXBlIC9DYXRhbG9nCj4+CmVuZG9iagozIDAgb2JqCjw8IC9Db3VudCAxCi9L
+aWRzIFs1IDAgUl0KL1R5cGUgL1BhZ2VzCj4+CmVuZG9iago0IDAgb2JqCjw8
+IC9MZW5ndGggMjM0Ngo+PgpzdHJlYW0KcQovRGV2aWNlUkdCIENTCjAuOCAw
+LjggMC44IFNDTgoKQlQKMzYuMCA3MzQuNDYgVGQKL0YyLjAgMzAgVGYKWzw1
+ND4gNjAgPDY1NzI2ZDIwNTM2ODY1NjU3ND5dIFRKCkVUCgozNi4wIDcyMC4z
+IG0KNTc2LjAgNzIwLjMgbApTCgpCVAozNi4wIDY3NS45NCBUZAovRjIuMCAy
+MCBUZgpbPDRjNmY2MTZlMjA0NDY1NzQ2MTY5NmM3Mz5dIFRKCkVUCgozNi4w
+IDY2Ni41IG0KNTc2LjAgNjY2LjUgbApTCgpCVAozMTkuNDc2IDYzNy44ODQg
+VGQKL0YxLjAgMTIgVGYKWzw0MTY0NjQ3MjY1NzM3MzNhMjAyMDIwMjAyMDIw
+MjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAy
+MDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIw
+MjA3MTc3PiAxMCA8NjU3Mj4gLTQwIDw3NDc5Pl0gVEoKRVQKCjM2LjAgNjMy
+LjYyOCBtCjU3Ni4wIDYzMi42MjggbApTCgpCVAoyOTIuOTU2IDYxNC4wMTIg
+VGQKL0YxLjAgMTIgVGYKWzw0YzZmNjE2ZTIwNTQ+IDEyMCA8NjU3Mj4gLTI1
+IDw2ZDNhMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAy
+MDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIw
+MjAyMDIwMjAyMDIwMjAyMDIwMjAzNTIwNmQ2ZjZlNzQ2ODczPl0gVEoKRVQK
+CjM2LjAgNjA4Ljc1NiBtCjU3Ni4wIDYwOC43NTYgbApTCgpCVAoyNzcuNjIg
+NTkwLjE0IFRkCi9GMS4wIDEyIFRmCls8NTA3NTcyNjM2ODYxNzM2NTIwNTA3
+Mj4gLTE1IDw2OTYzNjUzYTIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAy
+MDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIw
+MjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjQzMjMzMzQzNTM2Pl0g
+VEoKRVQKCjM2LjAgNTg0Ljg4NCBtCjU3Ni4wIDU4NC44ODQgbApTCgpCVAoy
+OTUuOCA1NjYuMjY4IFRkCi9GMS4wIDEyIFRmCls8NTI2NTcwNjE2OTcyMjA0
+Mjc1NjQ2NzY1NzQzYTIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIw
+MjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAy
+MDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjQzMTMyMzE+XSBUSgpFVAoK
+MzYuMCA1NjEuMDEyIG0KNTc2LjAgNTYxLjAxMiBsClMKCkJUCjI5Ny4zMTIg
+NTQyLjM5NiBUZAovRjEuMCAxMiBUZgpbPDUyNjU3MDYxNjk3MjIwNTY+IDcw
+IDw2MTZjNzU2NTNhMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAy
+MDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIw
+MjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyNDMyMzMzNDM0Pl0gVEoKRVQK
+CjM2LjAgNTM3LjE0IG0KNTc2LjAgNTM3LjE0IGwKUwoKQlQKMjg0LjQ0OCA1
+MTguNTI0IFRkCi9GMS4wIDEyIFRmCls8NGM2ZjYxNmUyMDQxNmQ2Zjc1NmU3
+NDNhMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIw
+MjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAy
+MDIwMjAyMDIwMjAyMDIwMjAyNDMxMzYzNDMwMmUzOD5dIFRKCkVUCgozNi4w
+IDUxMy4yNjggbQo1NzYuMCA1MTMuMjY4IGwKUwoKQlQKMTkyLjM4NCA0OTQu
+NjUyIFRkCi9GMS4wIDEyIFRmCls8NDk2ZTc0NjU3MjY1NzM3NDIwNDU3ODcw
+NjU2ZTczNjUzYTIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAy
+MDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIw
+MjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjQzOTMwMmUzODMyMzMzMzMwMzIz
+MzM1MzAzMTM3MzUzMjM1Pl0gVEoKRVQKCjM2LjAgNDg5LjM5NiBtCjU3Ni4w
+IDQ4OS4zOTYgbApTCgpCVAoxOTcuNzM2IDQ3MC43OCBUZAovRjEuMCAxMiBU
+ZgpbPDQ1NzM3NDY5NmQ2MTc0NjU2NDIwNTA3MjZmNjY2OTc0M2EyMDIwMjAy
+MDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIw
+MjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAy
+MDIwMjAyMDI0MzYzMTMyMmUzMzM3MzYzNjM5MzczNjM0MzkzODMyMzQzOD5d
+IFRKCkVUCgozNi4wIDQ2NS41MjQgbQo1NzYuMCA0NjUuNTI0IGwKUwoKQlQK
+MzYuMCAzODEuMTY0IFRkCi9GMi4wIDIwIFRmCls8NTQ+IDYwIDw2NTcyNmQ3
+Mz5dIFRKCkVUCgozNi4wIDM3MS43MjQgbQo1NzYuMCAzNzEuNzI0IGwKUwoK
+QlQKMzYuMCAzNDMuMTA4IFRkCi9GMS4wIDEyIFRmCls8MzIzMDMyMzQyMDRj
+NmY2ZTY3NmM2NTYxNjYyMDRjNjU2ZTY0Njk2ZTY3MmMyMDRjNGM0Mz4gMzAg
+PDJlMjA0MTZjNmMyMDcyPiAtMTUgPDY5Njc2ODc0NzMyMDcyNjU3MzY1NzI+
+IC0zMCA8NzY+IDI1IDw2NTY0Pl0gVEoKRVQKClEKCmVuZHN0cmVhbQplbmRv
+YmoKNSAwIG9iago8PCAvQXJ0Qm94IFswIDAgNjEyIDc5Ml0KL0JsZWVkQm94
+IFswIDAgNjEyIDc5Ml0KL0NvbnRlbnRzIDQgMCBSCi9Dcm9wQm94IFswIDAg
+NjEyIDc5Ml0KL01lZGlhQm94IFswIDAgNjEyIDc5Ml0KL1BhcmVudCAzIDAg
+UgovUmVzb3VyY2VzIDw8IC9Gb250IDw8IC9GMS4wIDcgMCBSCi9GMi4wIDYg
+MCBSCj4+Ci9Qcm9jU2V0IFsvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAv
+SW1hZ2VJXQo+PgovVHJpbUJveCBbMCAwIDYxMiA3OTJdCi9UeXBlIC9QYWdl
+Cj4+CmVuZG9iago2IDAgb2JqCjw8IC9CYXNlRm9udCAvSGVsdmV0aWNhLUJv
+bGQKL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcKL1N1YnR5cGUgL1R5cGUx
+Ci9UeXBlIC9Gb250Cj4+CmVuZG9iago3IDAgb2JqCjw8IC9CYXNlRm9udCAv
+SGVsdmV0aWNhCi9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nCi9TdWJ0eXBl
+IC9UeXBlMQovVHlwZSAvRm9udAo+PgplbmRvYmoKeHJlZgowIDgKMDAwMDAw
+MDAwMCA2NTUzNSBmIAowMDAwMDAwMDE1IDAwMDAwIG4gCjAwMDAwMDAxMDkg
+MDAwMDAgbiAKMDAwMDAwMDE1OCAwMDAwMCBuIAowMDAwMDAwMjE1IDAwMDAw
+IG4gCjAwMDAwMDI2MTMgMDAwMDAgbiAKMDAwMDAwMjg5MSAwMDAwMCBuIAow
+MDAwMDAyOTkzIDAwMDAwIG4gCnRyYWlsZXIKPDwgL0luZm8gMSAwIFIKL1Jv
+b3QgMiAwIFIKL1NpemUgOAo+PgpzdGFydHhyZWYKMzA5MAolJUVPRgo=
+
+----==_mimepart_668e9caa4f12f_31436a5b548766c--
+
+[ActiveJob] [SendTermsheetEmailJob] [198d23e1-424e-4832-9185-94b801141ac9] Performed SendTermsheetEmailJob (Job ID: 198d23e1-424e-4832-9185-94b801141ac9) from Async(default) in 29.79ms
+Started POST "/lending_forms" for 127.0.0.1 at 2024-07-10 19:39:41 +0500
+Processing by LendingFormsController#submit as JSON
+  Parameters: {"address"=>"qwerty", "loan_term"=>"5", "purchase_price"=>"23456", "repair_budget"=>"121", "repair_value"=>"2344", "first_name"=>"e45", "last_name"=>"re", "phone_number"=>"21345678", "email"=>"nas@gmai.com"}
+[ActiveJob] Enqueued SendTermsheetEmailJob (Job ID: a94cb495-e8ae-4061-b35d-f5fc093d673e) to Async(default) with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.82330235017525, :estimated_profit=>612.3766976498248}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_00b67c29-1f88-453c-a893-82a7d5b1cb9c.pdf"
+[ActiveJob] ↳ app/controllers/lending_forms_controller.rb:12:in `submit'
+Completed 200 OK in 32ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 42128)
+
+
+[ActiveJob] [SendTermsheetEmailJob] [a94cb495-e8ae-4061-b35d-f5fc093d673e] Performing SendTermsheetEmailJob (Job ID: a94cb495-e8ae-4061-b35d-f5fc093d673e) from Async(default) enqueued at 2024-07-10T14:39:41.383686935Z with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.82330235017525, :estimated_profit=>612.3766976498248}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_00b67c29-1f88-453c-a893-82a7d5b1cb9c.pdf"
+[ActiveJob] [SendTermsheetEmailJob] [a94cb495-e8ae-4061-b35d-f5fc093d673e]   Rendering text template
+[ActiveJob] [SendTermsheetEmailJob] [a94cb495-e8ae-4061-b35d-f5fc093d673e]   Rendered text template (Duration: 0.0ms | Allocations: 1)
+[ActiveJob] [SendTermsheetEmailJob] [a94cb495-e8ae-4061-b35d-f5fc093d673e] LendingFormMailer#termsheet_email: processed outbound mail in 5.1ms
+[ActiveJob] [SendTermsheetEmailJob] [a94cb495-e8ae-4061-b35d-f5fc093d673e] Delivered mail 668e9d2d73134_31436a5b54880a3@noc-ThinkPad-E15-Gen-4.mail (33.7ms)
+[ActiveJob] [SendTermsheetEmailJob] [a94cb495-e8ae-4061-b35d-f5fc093d673e] Date: Wed, 10 Jul 2024 19:39:41 +0500
+From: no-reply@longleaflending.com
+To: nas@gmai.com
+Message-ID: <668e9d2d73134_31436a5b54880a3@noc-ThinkPad-E15-Gen-4.mail>
+Subject: Your Term Sheet from Longleaf Lending
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_668e9d2d718a9_31436a5b5487918";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_668e9d2d718a9_31436a5b5487918
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Dear e45 re,
+
+Please find attached your term sheet.
+
+Best regards,
+Longleaf Lending
+----==_mimepart_668e9d2d718a9_31436a5b5487918
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+ filename=termsheet.pdf
+
+JVBERi0xLjMKJf////8KMSAwIG9iago8PCAvQ3JlYXRvciA8ZmVmZjAwNTAw
+MDcyMDA2MTAwNzcwMDZlPgovUHJvZHVjZXIgPGZlZmYwMDUwMDA3MjAwNjEw
+MDc3MDA2ZT4KPj4KZW5kb2JqCjIgMCBvYmoKPDwgL1BhZ2VzIDMgMCBSCi9U
+eXBlIC9DYXRhbG9nCj4+CmVuZG9iagozIDAgb2JqCjw8IC9Db3VudCAxCi9L
+aWRzIFs1IDAgUl0KL1R5cGUgL1BhZ2VzCj4+CmVuZG9iago0IDAgb2JqCjw8
+IC9MZW5ndGggMTg2Mwo+PgpzdHJlYW0KcQovRGV2aWNlUkdCIENTCjAuOCAw
+LjggMC44IFNDTgoKQlQKMzYuMCA3MzQuNDYgVGQKL0YyLjAgMzAgVGYKWzw1
+ND4gNjAgPDY1NzI2ZDIwNTM2ODY1NjU3ND5dIFRKCkVUCgozNi4wIDcyMC4z
+IG0KNTc2LjAgNzIwLjMgbApTCgpCVAozNi4wIDY3NS45NCBUZAovRjIuMCAy
+MCBUZgpbPDRjNmY2MTZlMjA0NDY1NzQ2MTY5NmM3Mz5dIFRKCkVUCgozNi4w
+IDY2Ni41IG0KNTc2LjAgNjY2LjUgbApTCgpCVAozNi4wIDYzNy44ODQgVGQK
+L0YxLjAgMTIgVGYKWzw0MTY0NjQ3MjY1NzM3MzNhPl0gVEoKRVQKCgpCVAo1
+NDAuMyA2MjQuMDEyIFRkCi9GMS4wIDEyIFRmCls8NzE3Nz4gMTAgPDY1NzI+
+IC00MCA8NzQ3OT5dIFRKCkVUCgozNi4wIDYxOC43NTYgbQo1NzYuMCA2MTgu
+NzU2IGwKUwoKQlQKMzYuMCA2MDAuMTQgVGQKL0YxLjAgMTIgVGYKWzw0YzZm
+NjE2ZTIwNTQ+IDEyMCA8NjU3Mj4gLTI1IDw2ZDNhPl0gVEoKRVQKCgpCVAo1
+MjYuNjQ0IDU4Ni4yNjggVGQKL0YxLjAgMTIgVGYKWzwzNTIwNmQ2ZjZlNzQ2
+ODczPl0gVEoKRVQKCjM2LjAgNTgxLjAxMiBtCjU3Ni4wIDU4MS4wMTIgbApT
+CgpCVAozNi4wIDU2Mi4zOTYgVGQKL0YxLjAgMTIgVGYKWzw1MDc1NzI2MzY4
+NjE3MzY1MjA1MDcyPiAtMTUgPDY5NjM2NTNhPl0gVEoKRVQKCgpCVAo1MzUu
+OTY4IDU0OC41MjQgVGQKL0YxLjAgMTIgVGYKWzwyNDMyMzMzNDM1MzY+XSBU
+SgpFVAoKMzYuMCA1NDMuMjY4IG0KNTc2LjAgNTQzLjI2OCBsClMKCkJUCjM2
+LjAgNTI0LjY1MiBUZAovRjEuMCAxMiBUZgpbPDUyNjU3MDYxNjk3MjIwNDI3
+NTY0Njc2NTc0M2E+XSBUSgpFVAoKCkJUCjU0OS4zMTIgNTEwLjc4IFRkCi9G
+MS4wIDEyIFRmCls8MjQzMTMyMzE+XSBUSgpFVAoKMzYuMCA1MDUuNTI0IG0K
+NTc2LjAgNTA1LjUyNCBsClMKCkJUCjM2LjAgNDg2LjkwOCBUZAovRjEuMCAx
+MiBUZgpbPDUyNjU3MDYxNjk3MjIwNTY+IDcwIDw2MTZjNzU2NTNhPl0gVEoK
+RVQKCgpCVAo1NDIuNjQgNDczLjAzNiBUZAovRjEuMCAxMiBUZgpbPDI0MzIz
+MzM0MzQ+XSBUSgpFVAoKMzYuMCA0NjcuNzggbQo1NzYuMCA0NjcuNzggbApT
+CgpCVAozNi4wIDQ0OS4xNjQgVGQKL0YxLjAgMTIgVGYKWzw0YzZmNjE2ZTIw
+NDE2ZDZmNzU2ZTc0M2E+XSBUSgpFVAoKCkJUCjUzMi42MzIgNDM1LjI5MiBU
+ZAovRjEuMCAxMiBUZgpbPDI0MzEzNjM0MzAyZTM4Pl0gVEoKRVQKCjM2LjAg
+NDMwLjAzNiBtCjU3Ni4wIDQzMC4wMzYgbApTCgpCVAozNi4wIDQxMS40MiBU
+ZAovRjEuMCAxMiBUZgpbPDQ5NmU3NDY1NzI2NTczNzQyMDQ1Nzg3MDY1NmU3
+MzY1M2E+XSBUSgpFVAoKCkJUCjQ1OS4yNCAzOTcuNTQ4IFRkCi9GMS4wIDEy
+IFRmCls8MjQzOTMwMmUzODMyMzMzMzMwMzIzMzM1MzAzMTM3MzUzMjM1Pl0g
+VEoKRVQKCjM2LjAgMzkyLjI5MiBtCjU3Ni4wIDM5Mi4yOTIgbApTCgpCVAoz
+Ni4wIDM3My42NzYgVGQKL0YxLjAgMTIgVGYKWzw0NTczNzQ2OTZkNjE3NDY1
+NjQyMDUwNzI2ZjY2Njk3NDNhPl0gVEoKRVQKCgpCVAo0NTkuMjQgMzU5Ljgw
+NCBUZAovRjEuMCAxMiBUZgpbPDI0MzYzMTMyMmUzMzM3MzYzNjM5MzczNjM0
+MzkzODMyMzQzOD5dIFRKCkVUCgozNi4wIDM1NC41NDggbQo1NzYuMCAzNTQu
+NTQ4IGwKUwoKQlQKMzYuMCAyNzAuMTg4IFRkCi9GMi4wIDIwIFRmCls8NTQ+
+IDYwIDw2NTcyNmQ3Mz5dIFRKCkVUCgozNi4wIDI2MC43NDggbQo1NzYuMCAy
+NjAuNzQ4IGwKUwoKQlQKMzYuMCAyMzIuMTMyIFRkCi9GMS4wIDEyIFRmCls8
+MzIzMDMyMzQyMDRjNmY2ZTY3NmM2NTYxNjYyMDRjNjU2ZTY0Njk2ZTY3MmMy
+MDRjNGM0Mz4gMzAgPDJlMjA0MTZjNmMyMDcyPiAtMTUgPDY5Njc2ODc0NzMy
+MDcyNjU3MzY1NzI+IC0zMCA8NzY+IDI1IDw2NTY0Pl0gVEoKRVQKClEKCmVu
+ZHN0cmVhbQplbmRvYmoKNSAwIG9iago8PCAvQXJ0Qm94IFswIDAgNjEyIDc5
+Ml0KL0JsZWVkQm94IFswIDAgNjEyIDc5Ml0KL0NvbnRlbnRzIDQgMCBSCi9D
+cm9wQm94IFswIDAgNjEyIDc5Ml0KL01lZGlhQm94IFswIDAgNjEyIDc5Ml0K
+L1BhcmVudCAzIDAgUgovUmVzb3VyY2VzIDw8IC9Gb250IDw8IC9GMS4wIDcg
+MCBSCi9GMi4wIDYgMCBSCj4+Ci9Qcm9jU2V0IFsvUERGIC9UZXh0IC9JbWFn
+ZUIgL0ltYWdlQyAvSW1hZ2VJXQo+PgovVHJpbUJveCBbMCAwIDYxMiA3OTJd
+Ci9UeXBlIC9QYWdlCj4+CmVuZG9iago2IDAgb2JqCjw8IC9CYXNlRm9udCAv
+SGVsdmV0aWNhLUJvbGQKL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcKL1N1
+YnR5cGUgL1R5cGUxCi9UeXBlIC9Gb250Cj4+CmVuZG9iago3IDAgb2JqCjw8
+IC9CYXNlRm9udCAvSGVsdmV0aWNhCi9FbmNvZGluZyAvV2luQW5zaUVuY29k
+aW5nCi9TdWJ0eXBlIC9UeXBlMQovVHlwZSAvRm9udAo+PgplbmRvYmoKeHJl
+ZgowIDgKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDE1IDAwMDAwIG4g
+CjAwMDAwMDAxMDkgMDAwMDAgbiAKMDAwMDAwMDE1OCAwMDAwMCBuIAowMDAw
+MDAwMjE1IDAwMDAwIG4gCjAwMDAwMDIxMzAgMDAwMDAgbiAKMDAwMDAwMjQw
+OCAwMDAwMCBuIAowMDAwMDAyNTEwIDAwMDAwIG4gCnRyYWlsZXIKPDwgL0lu
+Zm8gMSAwIFIKL1Jvb3QgMiAwIFIKL1NpemUgOAo+PgpzdGFydHhyZWYKMjYw
+NwolJUVPRgo=
+
+----==_mimepart_668e9d2d718a9_31436a5b5487918--
+
+[ActiveJob] [SendTermsheetEmailJob] [a94cb495-e8ae-4061-b35d-f5fc093d673e] Performed SendTermsheetEmailJob (Job ID: a94cb495-e8ae-4061-b35d-f5fc093d673e) from Async(default) in 45.41ms
+Started POST "/lending_forms" for 127.0.0.1 at 2024-07-10 19:40:07 +0500
+Processing by LendingFormsController#submit as JSON
+  Parameters: {"address"=>"qwerty", "loan_term"=>"5", "purchase_price"=>"23456", "repair_budget"=>"121", "repair_value"=>"2344", "first_name"=>"e45", "last_name"=>"re", "phone_number"=>"21345678", "email"=>"nas@gmai.com"}
+[ActiveJob] Enqueued SendTermsheetEmailJob (Job ID: a20215e8-7a54-43c1-915d-8f95b1f1a7d2) to Async(default) with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.82330235017525, :estimated_profit=>612.3766976498248}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_603087e2-014e-4d23-9fcd-cf277d3ed4d6.pdf"
+[ActiveJob] ↳ app/controllers/lending_forms_controller.rb:12:in `submit'
+Completed 200 OK in 36ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 42201)
+
+
+[ActiveJob] [SendTermsheetEmailJob] [a20215e8-7a54-43c1-915d-8f95b1f1a7d2] Performing SendTermsheetEmailJob (Job ID: a20215e8-7a54-43c1-915d-8f95b1f1a7d2) from Async(default) enqueued at 2024-07-10T14:40:08.000722656Z with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.82330235017525, :estimated_profit=>612.3766976498248}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_603087e2-014e-4d23-9fcd-cf277d3ed4d6.pdf"
+[ActiveJob] [SendTermsheetEmailJob] [a20215e8-7a54-43c1-915d-8f95b1f1a7d2]   Rendering text template
+[ActiveJob] [SendTermsheetEmailJob] [a20215e8-7a54-43c1-915d-8f95b1f1a7d2]   Rendered text template (Duration: 0.0ms | Allocations: 1)
+[ActiveJob] [SendTermsheetEmailJob] [a20215e8-7a54-43c1-915d-8f95b1f1a7d2] LendingFormMailer#termsheet_email: processed outbound mail in 5.6ms
+[ActiveJob] [SendTermsheetEmailJob] [a20215e8-7a54-43c1-915d-8f95b1f1a7d2] Delivered mail 668e9d4814705_31436a5b548834c@noc-ThinkPad-E15-Gen-4.mail (24.6ms)
+[ActiveJob] [SendTermsheetEmailJob] [a20215e8-7a54-43c1-915d-8f95b1f1a7d2] Date: Wed, 10 Jul 2024 19:40:08 +0500
+From: no-reply@longleaflending.com
+To: nas@gmai.com
+Message-ID: <668e9d4814705_31436a5b548834c@noc-ThinkPad-E15-Gen-4.mail>
+Subject: Your Term Sheet from Longleaf Lending
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_668e9d4813bec_31436a5b5488217";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_668e9d4813bec_31436a5b5488217
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Dear e45 re,
+
+Please find attached your term sheet.
+
+Best regards,
+Longleaf Lending
+----==_mimepart_668e9d4813bec_31436a5b5488217
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+ filename=termsheet.pdf
+
+JVBERi0xLjMKJf////8KMSAwIG9iago8PCAvQ3JlYXRvciA8ZmVmZjAwNTAw
+MDcyMDA2MTAwNzcwMDZlPgovUHJvZHVjZXIgPGZlZmYwMDUwMDA3MjAwNjEw
+MDc3MDA2ZT4KPj4KZW5kb2JqCjIgMCBvYmoKPDwgL1BhZ2VzIDMgMCBSCi9U
+eXBlIC9DYXRhbG9nCj4+CmVuZG9iagozIDAgb2JqCjw8IC9Db3VudCAxCi9L
+aWRzIFs1IDAgUl0KL1R5cGUgL1BhZ2VzCj4+CmVuZG9iago0IDAgb2JqCjw8
+IC9MZW5ndGggMTg2Mwo+PgpzdHJlYW0KcQovRGV2aWNlUkdCIENTCjAuOCAw
+LjggMC44IFNDTgoKQlQKMzYuMCA3MzQuNDYgVGQKL0YyLjAgMzAgVGYKWzw1
+ND4gNjAgPDY1NzI2ZDIwNTM2ODY1NjU3ND5dIFRKCkVUCgozNi4wIDcyMC4z
+IG0KNTc2LjAgNzIwLjMgbApTCgpCVAozNi4wIDY3NS45NCBUZAovRjIuMCAy
+MCBUZgpbPDRjNmY2MTZlMjA0NDY1NzQ2MTY5NmM3Mz5dIFRKCkVUCgozNi4w
+IDY2Ni41IG0KNTc2LjAgNjY2LjUgbApTCgpCVAozNi4wIDYzNy44ODQgVGQK
+L0YxLjAgMTIgVGYKWzw0MTY0NjQ3MjY1NzM3MzNhPl0gVEoKRVQKCgpCVAo1
+NDAuMyA2MjQuMDEyIFRkCi9GMS4wIDEyIFRmCls8NzE3Nz4gMTAgPDY1NzI+
+IC00MCA8NzQ3OT5dIFRKCkVUCgozNi4wIDYxOC43NTYgbQo1NzYuMCA2MTgu
+NzU2IGwKUwoKQlQKMzYuMCA2MDAuMTQgVGQKL0YxLjAgMTIgVGYKWzw0YzZm
+NjE2ZTIwNTQ+IDEyMCA8NjU3Mj4gLTI1IDw2ZDNhPl0gVEoKRVQKCgpCVAo1
+MjYuNjQ0IDU4Ni4yNjggVGQKL0YxLjAgMTIgVGYKWzwzNTIwNmQ2ZjZlNzQ2
+ODczPl0gVEoKRVQKCjM2LjAgNTgxLjAxMiBtCjU3Ni4wIDU4MS4wMTIgbApT
+CgpCVAozNi4wIDU2Mi4zOTYgVGQKL0YxLjAgMTIgVGYKWzw1MDc1NzI2MzY4
+NjE3MzY1MjA1MDcyPiAtMTUgPDY5NjM2NTNhPl0gVEoKRVQKCgpCVAo1MzUu
+OTY4IDU0OC41MjQgVGQKL0YxLjAgMTIgVGYKWzwyNDMyMzMzNDM1MzY+XSBU
+SgpFVAoKMzYuMCA1NDMuMjY4IG0KNTc2LjAgNTQzLjI2OCBsClMKCkJUCjM2
+LjAgNTI0LjY1MiBUZAovRjEuMCAxMiBUZgpbPDUyNjU3MDYxNjk3MjIwNDI3
+NTY0Njc2NTc0M2E+XSBUSgpFVAoKCkJUCjU0OS4zMTIgNTEwLjc4IFRkCi9G
+MS4wIDEyIFRmCls8MjQzMTMyMzE+XSBUSgpFVAoKMzYuMCA1MDUuNTI0IG0K
+NTc2LjAgNTA1LjUyNCBsClMKCkJUCjM2LjAgNDg2LjkwOCBUZAovRjEuMCAx
+MiBUZgpbPDUyNjU3MDYxNjk3MjIwNTY+IDcwIDw2MTZjNzU2NTNhPl0gVEoK
+RVQKCgpCVAo1NDIuNjQgNDczLjAzNiBUZAovRjEuMCAxMiBUZgpbPDI0MzIz
+MzM0MzQ+XSBUSgpFVAoKMzYuMCA0NjcuNzggbQo1NzYuMCA0NjcuNzggbApT
+CgpCVAozNi4wIDQ0OS4xNjQgVGQKL0YxLjAgMTIgVGYKWzw0YzZmNjE2ZTIw
+NDE2ZDZmNzU2ZTc0M2E+XSBUSgpFVAoKCkJUCjUzMi42MzIgNDM1LjI5MiBU
+ZAovRjEuMCAxMiBUZgpbPDI0MzEzNjM0MzAyZTM4Pl0gVEoKRVQKCjM2LjAg
+NDMwLjAzNiBtCjU3Ni4wIDQzMC4wMzYgbApTCgpCVAozNi4wIDQxMS40MiBU
+ZAovRjEuMCAxMiBUZgpbPDQ5NmU3NDY1NzI2NTczNzQyMDQ1Nzg3MDY1NmU3
+MzY1M2E+XSBUSgpFVAoKCkJUCjQ1OS4yNCAzOTcuNTQ4IFRkCi9GMS4wIDEy
+IFRmCls8MjQzOTMwMmUzODMyMzMzMzMwMzIzMzM1MzAzMTM3MzUzMjM1Pl0g
+VEoKRVQKCjM2LjAgMzkyLjI5MiBtCjU3Ni4wIDM5Mi4yOTIgbApTCgpCVAoz
+Ni4wIDM3My42NzYgVGQKL0YxLjAgMTIgVGYKWzw0NTczNzQ2OTZkNjE3NDY1
+NjQyMDUwNzI2ZjY2Njk3NDNhPl0gVEoKRVQKCgpCVAo0NTkuMjQgMzU5Ljgw
+NCBUZAovRjEuMCAxMiBUZgpbPDI0MzYzMTMyMmUzMzM3MzYzNjM5MzczNjM0
+MzkzODMyMzQzOD5dIFRKCkVUCgozNi4wIDM1NC41NDggbQo1NzYuMCAzNTQu
+NTQ4IGwKUwoKQlQKMzYuMCAyNzAuMTg4IFRkCi9GMi4wIDIwIFRmCls8NTQ+
+IDYwIDw2NTcyNmQ3Mz5dIFRKCkVUCgozNi4wIDI2MC43NDggbQo1NzYuMCAy
+NjAuNzQ4IGwKUwoKQlQKMzYuMCAyMzIuMTMyIFRkCi9GMS4wIDEyIFRmCls8
+MzIzMDMyMzQyMDRjNmY2ZTY3NmM2NTYxNjYyMDRjNjU2ZTY0Njk2ZTY3MmMy
+MDRjNGM0Mz4gMzAgPDJlMjA0MTZjNmMyMDcyPiAtMTUgPDY5Njc2ODc0NzMy
+MDcyNjU3MzY1NzI+IC0zMCA8NzY+IDI1IDw2NTY0Pl0gVEoKRVQKClEKCmVu
+ZHN0cmVhbQplbmRvYmoKNSAwIG9iago8PCAvQXJ0Qm94IFswIDAgNjEyIDc5
+Ml0KL0JsZWVkQm94IFswIDAgNjEyIDc5Ml0KL0NvbnRlbnRzIDQgMCBSCi9D
+cm9wQm94IFswIDAgNjEyIDc5Ml0KL01lZGlhQm94IFswIDAgNjEyIDc5Ml0K
+L1BhcmVudCAzIDAgUgovUmVzb3VyY2VzIDw8IC9Gb250IDw8IC9GMS4wIDcg
+MCBSCi9GMi4wIDYgMCBSCj4+Ci9Qcm9jU2V0IFsvUERGIC9UZXh0IC9JbWFn
+ZUIgL0ltYWdlQyAvSW1hZ2VJXQo+PgovVHJpbUJveCBbMCAwIDYxMiA3OTJd
+Ci9UeXBlIC9QYWdlCj4+CmVuZG9iago2IDAgb2JqCjw8IC9CYXNlRm9udCAv
+SGVsdmV0aWNhLUJvbGQKL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcKL1N1
+YnR5cGUgL1R5cGUxCi9UeXBlIC9Gb250Cj4+CmVuZG9iago3IDAgb2JqCjw8
+IC9CYXNlRm9udCAvSGVsdmV0aWNhCi9FbmNvZGluZyAvV2luQW5zaUVuY29k
+aW5nCi9TdWJ0eXBlIC9UeXBlMQovVHlwZSAvRm9udAo+PgplbmRvYmoKeHJl
+ZgowIDgKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDE1IDAwMDAwIG4g
+CjAwMDAwMDAxMDkgMDAwMDAgbiAKMDAwMDAwMDE1OCAwMDAwMCBuIAowMDAw
+MDAwMjE1IDAwMDAwIG4gCjAwMDAwMDIxMzAgMDAwMDAgbiAKMDAwMDAwMjQw
+OCAwMDAwMCBuIAowMDAwMDAyNTEwIDAwMDAwIG4gCnRyYWlsZXIKPDwgL0lu
+Zm8gMSAwIFIKL1Jvb3QgMiAwIFIKL1NpemUgOAo+PgpzdGFydHhyZWYKMjYw
+NwolJUVPRgo=
+
+----==_mimepart_668e9d4813bec_31436a5b5488217--
+
+[ActiveJob] [SendTermsheetEmailJob] [a20215e8-7a54-43c1-915d-8f95b1f1a7d2] Performed SendTermsheetEmailJob (Job ID: a20215e8-7a54-43c1-915d-8f95b1f1a7d2) from Async(default) in 35.85ms
+Started POST "/lending_forms" for 127.0.0.1 at 2024-07-10 19:40:36 +0500
+Processing by LendingFormsController#submit as JSON
+  Parameters: {"address"=>"qwerty", "loan_term"=>"5", "purchase_price"=>"23456", "repair_budget"=>"121", "repair_value"=>"2344", "first_name"=>"e45", "last_name"=>"re", "phone_number"=>"21345678", "email"=>"nas@gmai.com"}
+[ActiveJob] Enqueued SendTermsheetEmailJob (Job ID: 317465f4-eabb-433f-adeb-8c4906d63291) to Async(default) with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.82330235017525, :estimated_profit=>612.3766976498248}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_27823417-78ea-44df-b769-36d6586b97c4.pdf"
+[ActiveJob] ↳ app/controllers/lending_forms_controller.rb:12:in `submit'
+Completed 200 OK in 34ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 42148)
+
+
+[ActiveJob] [SendTermsheetEmailJob] [317465f4-eabb-433f-adeb-8c4906d63291] Performing SendTermsheetEmailJob (Job ID: 317465f4-eabb-433f-adeb-8c4906d63291) from Async(default) enqueued at 2024-07-10T14:40:36.233994894Z with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.82330235017525, :estimated_profit=>612.3766976498248}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_27823417-78ea-44df-b769-36d6586b97c4.pdf"
+[ActiveJob] [SendTermsheetEmailJob] [317465f4-eabb-433f-adeb-8c4906d63291]   Rendering text template
+[ActiveJob] [SendTermsheetEmailJob] [317465f4-eabb-433f-adeb-8c4906d63291]   Rendered text template (Duration: 0.0ms | Allocations: 1)
+[ActiveJob] [SendTermsheetEmailJob] [317465f4-eabb-433f-adeb-8c4906d63291] LendingFormMailer#termsheet_email: processed outbound mail in 8.8ms
+[ActiveJob] [SendTermsheetEmailJob] [317465f4-eabb-433f-adeb-8c4906d63291] Delivered mail 668e9d6449f42_31436a5b54886bd@noc-ThinkPad-E15-Gen-4.mail (23.1ms)
+[ActiveJob] [SendTermsheetEmailJob] [317465f4-eabb-433f-adeb-8c4906d63291] Date: Wed, 10 Jul 2024 19:40:36 +0500
+From: no-reply@longleaflending.com
+To: nas@gmai.com
+Message-ID: <668e9d6449f42_31436a5b54886bd@noc-ThinkPad-E15-Gen-4.mail>
+Subject: Your Term Sheet from Longleaf Lending
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_668e9d6448698_31436a5b5488537";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_668e9d6448698_31436a5b5488537
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Dear e45 re,
+
+Please find attached your term sheet.
+
+Best regards,
+Longleaf Lending
+----==_mimepart_668e9d6448698_31436a5b5488537
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+ filename=termsheet.pdf
+
+JVBERi0xLjMKJf////8KMSAwIG9iago8PCAvQ3JlYXRvciA8ZmVmZjAwNTAw
+MDcyMDA2MTAwNzcwMDZlPgovUHJvZHVjZXIgPGZlZmYwMDUwMDA3MjAwNjEw
+MDc3MDA2ZT4KPj4KZW5kb2JqCjIgMCBvYmoKPDwgL1BhZ2VzIDMgMCBSCi9U
+eXBlIC9DYXRhbG9nCj4+CmVuZG9iagozIDAgb2JqCjw8IC9Db3VudCAxCi9L
+aWRzIFs1IDAgUl0KL1R5cGUgL1BhZ2VzCj4+CmVuZG9iago0IDAgb2JqCjw8
+IC9MZW5ndGggMTg0NAo+PgpzdHJlYW0KcQovRGV2aWNlUkdCIENTCjAuOCAw
+LjggMC44IFNDTgoKQlQKMzYuMCA3MzQuNDYgVGQKL0YyLjAgMzAgVGYKWzw1
+ND4gNjAgPDY1NzI2ZDIwNTM2ODY1NjU3ND5dIFRKCkVUCgozNi4wIDcyMC4z
+IG0KNTc2LjAgNzIwLjMgbApTCgpCVAozNi4wIDY3NS45NCBUZAovRjIuMCAy
+MCBUZgpbPDRjNmY2MTZlMjA0NDY1NzQ2MTY5NmM3Mz5dIFRKCkVUCgozNi4w
+IDY2Ni41IG0KNTc2LjAgNjY2LjUgbApTCgpCVAozNi4wIDYzNy44ODQgVGQK
+L0YxLjAgMTIgVGYKWzw0MTY0NjQ3MjY1NzM3MzNhPl0gVEoKRVQKCgpCVAoz
+Ni4wIDYyNC4wMTIgVGQKL0YxLjAgMTIgVGYKWzw3MTc3PiAxMCA8NjU3Mj4g
+LTQwIDw3NDc5Pl0gVEoKRVQKCjM2LjAgNjE4Ljc1NiBtCjU3Ni4wIDYxOC43
+NTYgbApTCgpCVAozNi4wIDYwMC4xNCBUZAovRjEuMCAxMiBUZgpbPDRjNmY2
+MTZlMjA1ND4gMTIwIDw2NTcyPiAtMjUgPDZkM2E+XSBUSgpFVAoKCkJUCjM2
+LjAgNTg2LjI2OCBUZAovRjEuMCAxMiBUZgpbPDM1MjA2ZDZmNmU3NDY4NzM+
+XSBUSgpFVAoKMzYuMCA1ODEuMDEyIG0KNTc2LjAgNTgxLjAxMiBsClMKCkJU
+CjM2LjAgNTYyLjM5NiBUZAovRjEuMCAxMiBUZgpbPDUwNzU3MjYzNjg2MTcz
+NjUyMDUwNzI+IC0xNSA8Njk2MzY1M2E+XSBUSgpFVAoKCkJUCjM2LjAgNTQ4
+LjUyNCBUZAovRjEuMCAxMiBUZgpbPDI0MzIzMzM0MzUzNj5dIFRKCkVUCgoz
+Ni4wIDU0My4yNjggbQo1NzYuMCA1NDMuMjY4IGwKUwoKQlQKMzYuMCA1MjQu
+NjUyIFRkCi9GMS4wIDEyIFRmCls8NTI2NTcwNjE2OTcyMjA0Mjc1NjQ2NzY1
+NzQzYT5dIFRKCkVUCgoKQlQKMzYuMCA1MTAuNzggVGQKL0YxLjAgMTIgVGYK
+WzwyNDMxMzIzMT5dIFRKCkVUCgozNi4wIDUwNS41MjQgbQo1NzYuMCA1MDUu
+NTI0IGwKUwoKQlQKMzYuMCA0ODYuOTA4IFRkCi9GMS4wIDEyIFRmCls8NTI2
+NTcwNjE2OTcyMjA1Nj4gNzAgPDYxNmM3NTY1M2E+XSBUSgpFVAoKCkJUCjM2
+LjAgNDczLjAzNiBUZAovRjEuMCAxMiBUZgpbPDI0MzIzMzM0MzQ+XSBUSgpF
+VAoKMzYuMCA0NjcuNzggbQo1NzYuMCA0NjcuNzggbApTCgpCVAozNi4wIDQ0
+OS4xNjQgVGQKL0YxLjAgMTIgVGYKWzw0YzZmNjE2ZTIwNDE2ZDZmNzU2ZTc0
+M2E+XSBUSgpFVAoKCkJUCjM2LjAgNDM1LjI5MiBUZAovRjEuMCAxMiBUZgpb
+PDI0MzEzNjM0MzAyZTM4Pl0gVEoKRVQKCjM2LjAgNDMwLjAzNiBtCjU3Ni4w
+IDQzMC4wMzYgbApTCgpCVAozNi4wIDQxMS40MiBUZAovRjEuMCAxMiBUZgpb
+PDQ5NmU3NDY1NzI2NTczNzQyMDQ1Nzg3MDY1NmU3MzY1M2E+XSBUSgpFVAoK
+CkJUCjM2LjAgMzk3LjU0OCBUZAovRjEuMCAxMiBUZgpbPDI0MzkzMDJlMzgz
+MjMzMzMzMDMyMzMzNTMwMzEzNzM1MzIzNT5dIFRKCkVUCgozNi4wIDM5Mi4y
+OTIgbQo1NzYuMCAzOTIuMjkyIGwKUwoKQlQKMzYuMCAzNzMuNjc2IFRkCi9G
+MS4wIDEyIFRmCls8NDU3Mzc0Njk2ZDYxNzQ2NTY0MjA1MDcyNmY2NjY5NzQz
+YT5dIFRKCkVUCgoKQlQKMzYuMCAzNTkuODA0IFRkCi9GMS4wIDEyIFRmCls8
+MjQzNjMxMzIyZTMzMzczNjM2MzkzNzM2MzQzOTM4MzIzNDM4Pl0gVEoKRVQK
+CjM2LjAgMzU0LjU0OCBtCjU3Ni4wIDM1NC41NDggbApTCgpCVAozNi4wIDI3
+MC4xODggVGQKL0YyLjAgMjAgVGYKWzw1ND4gNjAgPDY1NzI2ZDczPl0gVEoK
+RVQKCjM2LjAgMjYwLjc0OCBtCjU3Ni4wIDI2MC43NDggbApTCgpCVAozNi4w
+IDIzMi4xMzIgVGQKL0YxLjAgMTIgVGYKWzwzMjMwMzIzNDIwNGM2ZjZlNjc2
+YzY1NjE2NjIwNGM2NTZlNjQ2OTZlNjcyYzIwNGM0YzQzPiAzMCA8MmUyMDQx
+NmM2YzIwNzI+IC0xNSA8Njk2NzY4NzQ3MzIwNzI2NTczNjU3Mj4gLTMwIDw3
+Nj4gMjUgPDY1NjQ+XSBUSgpFVAoKUQoKZW5kc3RyZWFtCmVuZG9iago1IDAg
+b2JqCjw8IC9BcnRCb3ggWzAgMCA2MTIgNzkyXQovQmxlZWRCb3ggWzAgMCA2
+MTIgNzkyXQovQ29udGVudHMgNCAwIFIKL0Nyb3BCb3ggWzAgMCA2MTIgNzky
+XQovTWVkaWFCb3ggWzAgMCA2MTIgNzkyXQovUGFyZW50IDMgMCBSCi9SZXNv
+dXJjZXMgPDwgL0ZvbnQgPDwgL0YxLjAgNyAwIFIKL0YyLjAgNiAwIFIKPj4K
+L1Byb2NTZXQgWy9QREYgL1RleHQgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUld
+Cj4+Ci9UcmltQm94IFswIDAgNjEyIDc5Ml0KL1R5cGUgL1BhZ2UKPj4KZW5k
+b2JqCjYgMCBvYmoKPDwgL0Jhc2VGb250IC9IZWx2ZXRpY2EtQm9sZAovRW5j
+b2RpbmcgL1dpbkFuc2lFbmNvZGluZwovU3VidHlwZSAvVHlwZTEKL1R5cGUg
+L0ZvbnQKPj4KZW5kb2JqCjcgMCBvYmoKPDwgL0Jhc2VGb250IC9IZWx2ZXRp
+Y2EKL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcKL1N1YnR5cGUgL1R5cGUx
+Ci9UeXBlIC9Gb250Cj4+CmVuZG9iagp4cmVmCjAgOAowMDAwMDAwMDAwIDY1
+NTM1IGYgCjAwMDAwMDAwMTUgMDAwMDAgbiAKMDAwMDAwMDEwOSAwMDAwMCBu
+IAowMDAwMDAwMTU4IDAwMDAwIG4gCjAwMDAwMDAyMTUgMDAwMDAgbiAKMDAw
+MDAwMjExMSAwMDAwMCBuIAowMDAwMDAyMzg5IDAwMDAwIG4gCjAwMDAwMDI0
+OTEgMDAwMDAgbiAKdHJhaWxlcgo8PCAvSW5mbyAxIDAgUgovUm9vdCAyIDAg
+UgovU2l6ZSA4Cj4+CnN0YXJ0eHJlZgoyNTg4CiUlRU9GCg==
+
+----==_mimepart_668e9d6448698_31436a5b5488537--
+
+[ActiveJob] [SendTermsheetEmailJob] [317465f4-eabb-433f-adeb-8c4906d63291] Performed SendTermsheetEmailJob (Job ID: 317465f4-eabb-433f-adeb-8c4906d63291) from Async(default) in 38.68ms
+Started POST "/lending_forms" for 127.0.0.1 at 2024-07-10 19:41:47 +0500
+Processing by LendingFormsController#submit as JSON
+  Parameters: {"address"=>"qwerty", "loan_term"=>"5", "purchase_price"=>"23456", "repair_budget"=>"121", "repair_value"=>"2344", "first_name"=>"e45", "last_name"=>"re", "phone_number"=>"21345678", "email"=>"nas@gmai.com"}
+[ActiveJob] Enqueued SendTermsheetEmailJob (Job ID: 8ac2a6f0-7b55-43af-99b9-6a4bfc11b90b) to Async(default) with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.82330235017525, :estimated_profit=>612.3766976498248}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_059945b6-11de-4881-9bde-f0f1319ee3a1.pdf"
+[ActiveJob] ↳ app/controllers/lending_forms_controller.rb:12:in `submit'
+Completed 200 OK in 36ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 42139)
+
+
+[ActiveJob] [SendTermsheetEmailJob] [8ac2a6f0-7b55-43af-99b9-6a4bfc11b90b] Performing SendTermsheetEmailJob (Job ID: 8ac2a6f0-7b55-43af-99b9-6a4bfc11b90b) from Async(default) enqueued at 2024-07-10T14:41:47.682166194Z with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.82330235017525, :estimated_profit=>612.3766976498248}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_059945b6-11de-4881-9bde-f0f1319ee3a1.pdf"
+[ActiveJob] [SendTermsheetEmailJob] [8ac2a6f0-7b55-43af-99b9-6a4bfc11b90b]   Rendering text template
+[ActiveJob] [SendTermsheetEmailJob] [8ac2a6f0-7b55-43af-99b9-6a4bfc11b90b]   Rendered text template (Duration: 0.0ms | Allocations: 1)
+[ActiveJob] [SendTermsheetEmailJob] [8ac2a6f0-7b55-43af-99b9-6a4bfc11b90b] LendingFormMailer#termsheet_email: processed outbound mail in 10.4ms
+[ActiveJob] [SendTermsheetEmailJob] [8ac2a6f0-7b55-43af-99b9-6a4bfc11b90b] Delivered mail 668e9dabbb8e4_31436a5b54889ea@noc-ThinkPad-E15-Gen-4.mail (62.9ms)
+[ActiveJob] [SendTermsheetEmailJob] [8ac2a6f0-7b55-43af-99b9-6a4bfc11b90b] Date: Wed, 10 Jul 2024 19:41:47 +0500
+From: no-reply@longleaflending.com
+To: nas@gmai.com
+Message-ID: <668e9dabbb8e4_31436a5b54889ea@noc-ThinkPad-E15-Gen-4.mail>
+Subject: Your Term Sheet from Longleaf Lending
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_668e9dabba42d_31436a5b5488822";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_668e9dabba42d_31436a5b5488822
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Dear e45 re,
+
+Please find attached your term sheet.
+
+Best regards,
+Longleaf Lending
+----==_mimepart_668e9dabba42d_31436a5b5488822
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+ filename=termsheet.pdf
+
+JVBERi0xLjMKJf////8KMSAwIG9iago8PCAvQ3JlYXRvciA8ZmVmZjAwNTAw
+MDcyMDA2MTAwNzcwMDZlPgovUHJvZHVjZXIgPGZlZmYwMDUwMDA3MjAwNjEw
+MDc3MDA2ZT4KPj4KZW5kb2JqCjIgMCBvYmoKPDwgL1BhZ2VzIDMgMCBSCi9U
+eXBlIC9DYXRhbG9nCj4+CmVuZG9iagozIDAgb2JqCjw8IC9Db3VudCAxCi9L
+aWRzIFs1IDAgUl0KL1R5cGUgL1BhZ2VzCj4+CmVuZG9iago0IDAgb2JqCjw8
+IC9MZW5ndGggMTg0NAo+PgpzdHJlYW0KcQovRGV2aWNlUkdCIENTCjAuOCAw
+LjggMC44IFNDTgoKQlQKMzYuMCA3MzQuNDYgVGQKL0YyLjAgMzAgVGYKWzw1
+ND4gNjAgPDY1NzI2ZDIwNTM2ODY1NjU3ND5dIFRKCkVUCgozNi4wIDcyMC4z
+IG0KNTc2LjAgNzIwLjMgbApTCgpCVAozNi4wIDY3NS45NCBUZAovRjIuMCAy
+MCBUZgpbPDRjNmY2MTZlMjA0NDY1NzQ2MTY5NmM3Mz5dIFRKCkVUCgozNi4w
+IDY2Ni41IG0KNTc2LjAgNjY2LjUgbApTCgpCVAozNi4wIDYzNy44ODQgVGQK
+L0YxLjAgMTIgVGYKWzw0MTY0NjQ3MjY1NzM3MzNhPl0gVEoKRVQKCgpCVAoz
+Ni4wIDYxNC4wMTIgVGQKL0YxLjAgMTIgVGYKWzw3MTc3PiAxMCA8NjU3Mj4g
+LTQwIDw3NDc5Pl0gVEoKRVQKCjM2LjAgNjA4Ljc1NiBtCjU3Ni4wIDYwOC43
+NTYgbApTCgpCVAozNi4wIDU5MC4xNCBUZAovRjEuMCAxMiBUZgpbPDRjNmY2
+MTZlMjA1ND4gMTIwIDw2NTcyPiAtMjUgPDZkM2E+XSBUSgpFVAoKCkJUCjM2
+LjAgNTY2LjI2OCBUZAovRjEuMCAxMiBUZgpbPDM1MjA2ZDZmNmU3NDY4NzM+
+XSBUSgpFVAoKMzYuMCA1NjEuMDEyIG0KNTc2LjAgNTYxLjAxMiBsClMKCkJU
+CjM2LjAgNTQyLjM5NiBUZAovRjEuMCAxMiBUZgpbPDUwNzU3MjYzNjg2MTcz
+NjUyMDUwNzI+IC0xNSA8Njk2MzY1M2E+XSBUSgpFVAoKCkJUCjM2LjAgNTE4
+LjUyNCBUZAovRjEuMCAxMiBUZgpbPDI0MzIzMzM0MzUzNj5dIFRKCkVUCgoz
+Ni4wIDUxMy4yNjggbQo1NzYuMCA1MTMuMjY4IGwKUwoKQlQKMzYuMCA0OTQu
+NjUyIFRkCi9GMS4wIDEyIFRmCls8NTI2NTcwNjE2OTcyMjA0Mjc1NjQ2NzY1
+NzQzYT5dIFRKCkVUCgoKQlQKMzYuMCA0NzAuNzggVGQKL0YxLjAgMTIgVGYK
+WzwyNDMxMzIzMT5dIFRKCkVUCgozNi4wIDQ2NS41MjQgbQo1NzYuMCA0NjUu
+NTI0IGwKUwoKQlQKMzYuMCA0NDYuOTA4IFRkCi9GMS4wIDEyIFRmCls8NTI2
+NTcwNjE2OTcyMjA1Nj4gNzAgPDYxNmM3NTY1M2E+XSBUSgpFVAoKCkJUCjM2
+LjAgNDIzLjAzNiBUZAovRjEuMCAxMiBUZgpbPDI0MzIzMzM0MzQ+XSBUSgpF
+VAoKMzYuMCA0MTcuNzggbQo1NzYuMCA0MTcuNzggbApTCgpCVAozNi4wIDM5
+OS4xNjQgVGQKL0YxLjAgMTIgVGYKWzw0YzZmNjE2ZTIwNDE2ZDZmNzU2ZTc0
+M2E+XSBUSgpFVAoKCkJUCjM2LjAgMzc1LjI5MiBUZAovRjEuMCAxMiBUZgpb
+PDI0MzEzNjM0MzAyZTM4Pl0gVEoKRVQKCjM2LjAgMzcwLjAzNiBtCjU3Ni4w
+IDM3MC4wMzYgbApTCgpCVAozNi4wIDM1MS40MiBUZAovRjEuMCAxMiBUZgpb
+PDQ5NmU3NDY1NzI2NTczNzQyMDQ1Nzg3MDY1NmU3MzY1M2E+XSBUSgpFVAoK
+CkJUCjM2LjAgMzI3LjU0OCBUZAovRjEuMCAxMiBUZgpbPDI0MzkzMDJlMzgz
+MjMzMzMzMDMyMzMzNTMwMzEzNzM1MzIzNT5dIFRKCkVUCgozNi4wIDMyMi4y
+OTIgbQo1NzYuMCAzMjIuMjkyIGwKUwoKQlQKMzYuMCAzMDMuNjc2IFRkCi9G
+MS4wIDEyIFRmCls8NDU3Mzc0Njk2ZDYxNzQ2NTY0MjA1MDcyNmY2NjY5NzQz
+YT5dIFRKCkVUCgoKQlQKMzYuMCAyNzkuODA0IFRkCi9GMS4wIDEyIFRmCls8
+MjQzNjMxMzIyZTMzMzczNjM2MzkzNzM2MzQzOTM4MzIzNDM4Pl0gVEoKRVQK
+CjM2LjAgMjc0LjU0OCBtCjU3Ni4wIDI3NC41NDggbApTCgpCVAozNi4wIDE5
+MC4xODggVGQKL0YyLjAgMjAgVGYKWzw1ND4gNjAgPDY1NzI2ZDczPl0gVEoK
+RVQKCjM2LjAgMTgwLjc0OCBtCjU3Ni4wIDE4MC43NDggbApTCgpCVAozNi4w
+IDE1Mi4xMzIgVGQKL0YxLjAgMTIgVGYKWzwzMjMwMzIzNDIwNGM2ZjZlNjc2
+YzY1NjE2NjIwNGM2NTZlNjQ2OTZlNjcyYzIwNGM0YzQzPiAzMCA8MmUyMDQx
+NmM2YzIwNzI+IC0xNSA8Njk2NzY4NzQ3MzIwNzI2NTczNjU3Mj4gLTMwIDw3
+Nj4gMjUgPDY1NjQ+XSBUSgpFVAoKUQoKZW5kc3RyZWFtCmVuZG9iago1IDAg
+b2JqCjw8IC9BcnRCb3ggWzAgMCA2MTIgNzkyXQovQmxlZWRCb3ggWzAgMCA2
+MTIgNzkyXQovQ29udGVudHMgNCAwIFIKL0Nyb3BCb3ggWzAgMCA2MTIgNzky
+XQovTWVkaWFCb3ggWzAgMCA2MTIgNzkyXQovUGFyZW50IDMgMCBSCi9SZXNv
+dXJjZXMgPDwgL0ZvbnQgPDwgL0YxLjAgNyAwIFIKL0YyLjAgNiAwIFIKPj4K
+L1Byb2NTZXQgWy9QREYgL1RleHQgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUld
+Cj4+Ci9UcmltQm94IFswIDAgNjEyIDc5Ml0KL1R5cGUgL1BhZ2UKPj4KZW5k
+b2JqCjYgMCBvYmoKPDwgL0Jhc2VGb250IC9IZWx2ZXRpY2EtQm9sZAovRW5j
+b2RpbmcgL1dpbkFuc2lFbmNvZGluZwovU3VidHlwZSAvVHlwZTEKL1R5cGUg
+L0ZvbnQKPj4KZW5kb2JqCjcgMCBvYmoKPDwgL0Jhc2VGb250IC9IZWx2ZXRp
+Y2EKL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcKL1N1YnR5cGUgL1R5cGUx
+Ci9UeXBlIC9Gb250Cj4+CmVuZG9iagp4cmVmCjAgOAowMDAwMDAwMDAwIDY1
+NTM1IGYgCjAwMDAwMDAwMTUgMDAwMDAgbiAKMDAwMDAwMDEwOSAwMDAwMCBu
+IAowMDAwMDAwMTU4IDAwMDAwIG4gCjAwMDAwMDAyMTUgMDAwMDAgbiAKMDAw
+MDAwMjExMSAwMDAwMCBuIAowMDAwMDAyMzg5IDAwMDAwIG4gCjAwMDAwMDI0
+OTEgMDAwMDAgbiAKdHJhaWxlcgo8PCAvSW5mbyAxIDAgUgovUm9vdCAyIDAg
+UgovU2l6ZSA4Cj4+CnN0YXJ0eHJlZgoyNTg4CiUlRU9GCg==
+
+----==_mimepart_668e9dabba42d_31436a5b5488822--
+
+[ActiveJob] [SendTermsheetEmailJob] [8ac2a6f0-7b55-43af-99b9-6a4bfc11b90b] Performed SendTermsheetEmailJob (Job ID: 8ac2a6f0-7b55-43af-99b9-6a4bfc11b90b) from Async(default) in 82.51ms
+Started POST "/lending_forms" for 127.0.0.1 at 2024-07-10 19:42:03 +0500
+Processing by LendingFormsController#submit as JSON
+  Parameters: {"address"=>"qwerty", "loan_term"=>"5", "purchase_price"=>"23456", "repair_budget"=>"121", "repair_value"=>"2344", "first_name"=>"e45", "last_name"=>"re", "phone_number"=>"21345678", "email"=>"nas@gmai.com"}
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 7108)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/services/pdf_generator.rb:22:in `block (2 levels) in generate_pdf'
+app/services/pdf_generator.rb:20:in `each'
+app/services/pdf_generator.rb:20:in `block in generate_pdf'
+app/services/pdf_generator.rb:9:in `new'
+app/services/pdf_generator.rb:9:in `generate_pdf'
+app/controllers/lending_forms_controller.rb:11:in `submit'
+Started POST "/lending_forms" for 127.0.0.1 at 2024-07-10 19:42:44 +0500
+Processing by LendingFormsController#submit as JSON
+  Parameters: {"address"=>"qwerty", "loan_term"=>"5", "purchase_price"=>"23456", "repair_budget"=>"121", "repair_value"=>"2344", "first_name"=>"e45", "last_name"=>"re", "phone_number"=>"21345678", "email"=>"nas@gmai.com"}
+[ActiveJob] Enqueued SendTermsheetEmailJob (Job ID: 41713a63-c0e5-469d-ab0f-83d2555388cc) to Async(default) with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.82330235017525, :estimated_profit=>612.3766976498248}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_5bc17623-d94a-4f9c-8b46-3d691c3c14f9.pdf"
+[ActiveJob] ↳ app/controllers/lending_forms_controller.rb:12:in `submit'
+Completed 200 OK in 29ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 42141)
+
+
+[ActiveJob] [SendTermsheetEmailJob] [41713a63-c0e5-469d-ab0f-83d2555388cc] Performing SendTermsheetEmailJob (Job ID: 41713a63-c0e5-469d-ab0f-83d2555388cc) from Async(default) enqueued at 2024-07-10T14:42:44.524308639Z with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.82330235017525, :estimated_profit=>612.3766976498248}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_5bc17623-d94a-4f9c-8b46-3d691c3c14f9.pdf"
+[ActiveJob] [SendTermsheetEmailJob] [41713a63-c0e5-469d-ab0f-83d2555388cc]   Rendering text template
+[ActiveJob] [SendTermsheetEmailJob] [41713a63-c0e5-469d-ab0f-83d2555388cc]   Rendered text template (Duration: 0.0ms | Allocations: 1)
+[ActiveJob] [SendTermsheetEmailJob] [41713a63-c0e5-469d-ab0f-83d2555388cc] LendingFormMailer#termsheet_email: processed outbound mail in 9.4ms
+[ActiveJob] [SendTermsheetEmailJob] [41713a63-c0e5-469d-ab0f-83d2555388cc] Delivered mail 668e9de4957da_31436a5b54892e6@noc-ThinkPad-E15-Gen-4.mail (37.8ms)
+[ActiveJob] [SendTermsheetEmailJob] [41713a63-c0e5-469d-ab0f-83d2555388cc] Date: Wed, 10 Jul 2024 19:42:44 +0500
+From: no-reply@longleaflending.com
+To: nas@gmai.com
+Message-ID: <668e9de4957da_31436a5b54892e6@noc-ThinkPad-E15-Gen-4.mail>
+Subject: Your Term Sheet from Longleaf Lending
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_668e9de493fc6_31436a5b548915e";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_668e9de493fc6_31436a5b548915e
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Dear e45 re,
+
+Please find attached your term sheet.
+
+Best regards,
+Longleaf Lending
+----==_mimepart_668e9de493fc6_31436a5b548915e
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+ filename=termsheet.pdf
+
+JVBERi0xLjMKJf////8KMSAwIG9iago8PCAvQ3JlYXRvciA8ZmVmZjAwNTAw
+MDcyMDA2MTAwNzcwMDZlPgovUHJvZHVjZXIgPGZlZmYwMDUwMDA3MjAwNjEw
+MDc3MDA2ZT4KPj4KZW5kb2JqCjIgMCBvYmoKPDwgL1BhZ2VzIDMgMCBSCi9U
+eXBlIC9DYXRhbG9nCj4+CmVuZG9iagozIDAgb2JqCjw8IC9Db3VudCAxCi9L
+aWRzIFs1IDAgUl0KL1R5cGUgL1BhZ2VzCj4+CmVuZG9iago0IDAgb2JqCjw8
+IC9MZW5ndGggMTg2Mwo+PgpzdHJlYW0KcQovRGV2aWNlUkdCIENTCjAuOCAw
+LjggMC44IFNDTgoKQlQKMzYuMCA3MzQuNDYgVGQKL0YyLjAgMzAgVGYKWzw1
+ND4gNjAgPDY1NzI2ZDIwNTM2ODY1NjU3ND5dIFRKCkVUCgozNi4wIDcyMC4z
+IG0KNTc2LjAgNzIwLjMgbApTCgpCVAozNi4wIDY3NS45NCBUZAovRjIuMCAy
+MCBUZgpbPDRjNmY2MTZlMjA0NDY1NzQ2MTY5NmM3Mz5dIFRKCkVUCgozNi4w
+IDY2Ni41IG0KNTc2LjAgNjY2LjUgbApTCgpCVAozNi4wIDYzNy44ODQgVGQK
+L0YxLjAgMTIgVGYKWzw0MTY0NjQ3MjY1NzM3MzNhPl0gVEoKRVQKCgpCVAo1
+NDAuMyA2MTQuMDEyIFRkCi9GMS4wIDEyIFRmCls8NzE3Nz4gMTAgPDY1NzI+
+IC00MCA8NzQ3OT5dIFRKCkVUCgozNi4wIDYwOC43NTYgbQo1NzYuMCA2MDgu
+NzU2IGwKUwoKQlQKMzYuMCA1OTAuMTQgVGQKL0YxLjAgMTIgVGYKWzw0YzZm
+NjE2ZTIwNTQ+IDEyMCA8NjU3Mj4gLTI1IDw2ZDNhPl0gVEoKRVQKCgpCVAo1
+MjYuNjQ0IDU2Ni4yNjggVGQKL0YxLjAgMTIgVGYKWzwzNTIwNmQ2ZjZlNzQ2
+ODczPl0gVEoKRVQKCjM2LjAgNTYxLjAxMiBtCjU3Ni4wIDU2MS4wMTIgbApT
+CgpCVAozNi4wIDU0Mi4zOTYgVGQKL0YxLjAgMTIgVGYKWzw1MDc1NzI2MzY4
+NjE3MzY1MjA1MDcyPiAtMTUgPDY5NjM2NTNhPl0gVEoKRVQKCgpCVAo1MzUu
+OTY4IDUxOC41MjQgVGQKL0YxLjAgMTIgVGYKWzwyNDMyMzMzNDM1MzY+XSBU
+SgpFVAoKMzYuMCA1MTMuMjY4IG0KNTc2LjAgNTEzLjI2OCBsClMKCkJUCjM2
+LjAgNDk0LjY1MiBUZAovRjEuMCAxMiBUZgpbPDUyNjU3MDYxNjk3MjIwNDI3
+NTY0Njc2NTc0M2E+XSBUSgpFVAoKCkJUCjU0OS4zMTIgNDcwLjc4IFRkCi9G
+MS4wIDEyIFRmCls8MjQzMTMyMzE+XSBUSgpFVAoKMzYuMCA0NjUuNTI0IG0K
+NTc2LjAgNDY1LjUyNCBsClMKCkJUCjM2LjAgNDQ2LjkwOCBUZAovRjEuMCAx
+MiBUZgpbPDUyNjU3MDYxNjk3MjIwNTY+IDcwIDw2MTZjNzU2NTNhPl0gVEoK
+RVQKCgpCVAo1NDIuNjQgNDIzLjAzNiBUZAovRjEuMCAxMiBUZgpbPDI0MzIz
+MzM0MzQ+XSBUSgpFVAoKMzYuMCA0MTcuNzggbQo1NzYuMCA0MTcuNzggbApT
+CgpCVAozNi4wIDM5OS4xNjQgVGQKL0YxLjAgMTIgVGYKWzw0YzZmNjE2ZTIw
+NDE2ZDZmNzU2ZTc0M2E+XSBUSgpFVAoKCkJUCjUzMi42MzIgMzc1LjI5MiBU
+ZAovRjEuMCAxMiBUZgpbPDI0MzEzNjM0MzAyZTM4Pl0gVEoKRVQKCjM2LjAg
+MzcwLjAzNiBtCjU3Ni4wIDM3MC4wMzYgbApTCgpCVAozNi4wIDM1MS40MiBU
+ZAovRjEuMCAxMiBUZgpbPDQ5NmU3NDY1NzI2NTczNzQyMDQ1Nzg3MDY1NmU3
+MzY1M2E+XSBUSgpFVAoKCkJUCjQ1OS4yNCAzMjcuNTQ4IFRkCi9GMS4wIDEy
+IFRmCls8MjQzOTMwMmUzODMyMzMzMzMwMzIzMzM1MzAzMTM3MzUzMjM1Pl0g
+VEoKRVQKCjM2LjAgMzIyLjI5MiBtCjU3Ni4wIDMyMi4yOTIgbApTCgpCVAoz
+Ni4wIDMwMy42NzYgVGQKL0YxLjAgMTIgVGYKWzw0NTczNzQ2OTZkNjE3NDY1
+NjQyMDUwNzI2ZjY2Njk3NDNhPl0gVEoKRVQKCgpCVAo0NTkuMjQgMjc5Ljgw
+NCBUZAovRjEuMCAxMiBUZgpbPDI0MzYzMTMyMmUzMzM3MzYzNjM5MzczNjM0
+MzkzODMyMzQzOD5dIFRKCkVUCgozNi4wIDI3NC41NDggbQo1NzYuMCAyNzQu
+NTQ4IGwKUwoKQlQKMzYuMCAxOTAuMTg4IFRkCi9GMi4wIDIwIFRmCls8NTQ+
+IDYwIDw2NTcyNmQ3Mz5dIFRKCkVUCgozNi4wIDE4MC43NDggbQo1NzYuMCAx
+ODAuNzQ4IGwKUwoKQlQKMzYuMCAxNTIuMTMyIFRkCi9GMS4wIDEyIFRmCls8
+MzIzMDMyMzQyMDRjNmY2ZTY3NmM2NTYxNjYyMDRjNjU2ZTY0Njk2ZTY3MmMy
+MDRjNGM0Mz4gMzAgPDJlMjA0MTZjNmMyMDcyPiAtMTUgPDY5Njc2ODc0NzMy
+MDcyNjU3MzY1NzI+IC0zMCA8NzY+IDI1IDw2NTY0Pl0gVEoKRVQKClEKCmVu
+ZHN0cmVhbQplbmRvYmoKNSAwIG9iago8PCAvQXJ0Qm94IFswIDAgNjEyIDc5
+Ml0KL0JsZWVkQm94IFswIDAgNjEyIDc5Ml0KL0NvbnRlbnRzIDQgMCBSCi9D
+cm9wQm94IFswIDAgNjEyIDc5Ml0KL01lZGlhQm94IFswIDAgNjEyIDc5Ml0K
+L1BhcmVudCAzIDAgUgovUmVzb3VyY2VzIDw8IC9Gb250IDw8IC9GMS4wIDcg
+MCBSCi9GMi4wIDYgMCBSCj4+Ci9Qcm9jU2V0IFsvUERGIC9UZXh0IC9JbWFn
+ZUIgL0ltYWdlQyAvSW1hZ2VJXQo+PgovVHJpbUJveCBbMCAwIDYxMiA3OTJd
+Ci9UeXBlIC9QYWdlCj4+CmVuZG9iago2IDAgb2JqCjw8IC9CYXNlRm9udCAv
+SGVsdmV0aWNhLUJvbGQKL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcKL1N1
+YnR5cGUgL1R5cGUxCi9UeXBlIC9Gb250Cj4+CmVuZG9iago3IDAgb2JqCjw8
+IC9CYXNlRm9udCAvSGVsdmV0aWNhCi9FbmNvZGluZyAvV2luQW5zaUVuY29k
+aW5nCi9TdWJ0eXBlIC9UeXBlMQovVHlwZSAvRm9udAo+PgplbmRvYmoKeHJl
+ZgowIDgKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDE1IDAwMDAwIG4g
+CjAwMDAwMDAxMDkgMDAwMDAgbiAKMDAwMDAwMDE1OCAwMDAwMCBuIAowMDAw
+MDAwMjE1IDAwMDAwIG4gCjAwMDAwMDIxMzAgMDAwMDAgbiAKMDAwMDAwMjQw
+OCAwMDAwMCBuIAowMDAwMDAyNTEwIDAwMDAwIG4gCnRyYWlsZXIKPDwgL0lu
+Zm8gMSAwIFIKL1Jvb3QgMiAwIFIKL1NpemUgOAo+PgpzdGFydHhyZWYKMjYw
+NwolJUVPRgo=
+
+----==_mimepart_668e9de493fc6_31436a5b548915e--
+
+[ActiveJob] [SendTermsheetEmailJob] [41713a63-c0e5-469d-ab0f-83d2555388cc] Performed SendTermsheetEmailJob (Job ID: 41713a63-c0e5-469d-ab0f-83d2555388cc) from Async(default) in 54.07ms
+Started POST "/lending_forms" for 127.0.0.1 at 2024-07-10 19:43:02 +0500
+Processing by LendingFormsController#submit as JSON
+  Parameters: {"address"=>"qwerty", "loan_term"=>"5", "purchase_price"=>"23456", "repair_budget"=>"121", "repair_value"=>"2344", "first_name"=>"e45", "last_name"=>"re", "phone_number"=>"21345678", "email"=>"nas@gmai.com"}
+[ActiveJob] Enqueued SendTermsheetEmailJob (Job ID: bc35b175-85bf-4616-85b8-e8cae156690a) to Async(default) with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.82330235017525, :estimated_profit=>612.3766976498248}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_39fbddb3-6189-44a0-b5d0-01916df42435.pdf"
+[ActiveJob] ↳ app/controllers/lending_forms_controller.rb:12:in `submit'
+Completed 200 OK in 31ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 42200)
+
+
+[ActiveJob] [SendTermsheetEmailJob] [bc35b175-85bf-4616-85b8-e8cae156690a] Performing SendTermsheetEmailJob (Job ID: bc35b175-85bf-4616-85b8-e8cae156690a) from Async(default) enqueued at 2024-07-10T14:43:02.985413601Z with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.82330235017525, :estimated_profit=>612.3766976498248}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_39fbddb3-6189-44a0-b5d0-01916df42435.pdf"
+[ActiveJob] [SendTermsheetEmailJob] [bc35b175-85bf-4616-85b8-e8cae156690a]   Rendering text template
+[ActiveJob] [SendTermsheetEmailJob] [bc35b175-85bf-4616-85b8-e8cae156690a]   Rendered text template (Duration: 0.0ms | Allocations: 1)
+[ActiveJob] [SendTermsheetEmailJob] [bc35b175-85bf-4616-85b8-e8cae156690a] LendingFormMailer#termsheet_email: processed outbound mail in 7.9ms
+[ActiveJob] [SendTermsheetEmailJob] [bc35b175-85bf-4616-85b8-e8cae156690a] Delivered mail 668e9df710fbb_31436a5b54895a9@noc-ThinkPad-E15-Gen-4.mail (25.0ms)
+[ActiveJob] [SendTermsheetEmailJob] [bc35b175-85bf-4616-85b8-e8cae156690a] Date: Wed, 10 Jul 2024 19:43:03 +0500
+From: no-reply@longleaflending.com
+To: nas@gmai.com
+Message-ID: <668e9df710fbb_31436a5b54895a9@noc-ThinkPad-E15-Gen-4.mail>
+Subject: Your Term Sheet from Longleaf Lending
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_668e9df71006f_31436a5b54894f1";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_668e9df71006f_31436a5b54894f1
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Dear e45 re,
+
+Please find attached your term sheet.
+
+Best regards,
+Longleaf Lending
+----==_mimepart_668e9df71006f_31436a5b54894f1
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+ filename=termsheet.pdf
+
+JVBERi0xLjMKJf////8KMSAwIG9iago8PCAvQ3JlYXRvciA8ZmVmZjAwNTAw
+MDcyMDA2MTAwNzcwMDZlPgovUHJvZHVjZXIgPGZlZmYwMDUwMDA3MjAwNjEw
+MDc3MDA2ZT4KPj4KZW5kb2JqCjIgMCBvYmoKPDwgL1BhZ2VzIDMgMCBSCi9U
+eXBlIC9DYXRhbG9nCj4+CmVuZG9iagozIDAgb2JqCjw8IC9Db3VudCAxCi9L
+aWRzIFs1IDAgUl0KL1R5cGUgL1BhZ2VzCj4+CmVuZG9iago0IDAgb2JqCjw8
+IC9MZW5ndGggMTg2Mwo+PgpzdHJlYW0KcQovRGV2aWNlUkdCIENTCjAuOCAw
+LjggMC44IFNDTgoKQlQKMzYuMCA3MzQuNDYgVGQKL0YyLjAgMzAgVGYKWzw1
+ND4gNjAgPDY1NzI2ZDIwNTM2ODY1NjU3ND5dIFRKCkVUCgozNi4wIDcyMC4z
+IG0KNTc2LjAgNzIwLjMgbApTCgpCVAozNi4wIDY3NS45NCBUZAovRjIuMCAy
+MCBUZgpbPDRjNmY2MTZlMjA0NDY1NzQ2MTY5NmM3Mz5dIFRKCkVUCgozNi4w
+IDY2Ni41IG0KNTc2LjAgNjY2LjUgbApTCgpCVAozNi4wIDYzNy44ODQgVGQK
+L0YxLjAgMTIgVGYKWzw0MTY0NjQ3MjY1NzM3MzNhPl0gVEoKRVQKCgpCVAo1
+NDAuMyA2MjQuMDEyIFRkCi9GMS4wIDEyIFRmCls8NzE3Nz4gMTAgPDY1NzI+
+IC00MCA8NzQ3OT5dIFRKCkVUCgozNi4wIDYxOC43NTYgbQo1NzYuMCA2MTgu
+NzU2IGwKUwoKQlQKMzYuMCA2MDAuMTQgVGQKL0YxLjAgMTIgVGYKWzw0YzZm
+NjE2ZTIwNTQ+IDEyMCA8NjU3Mj4gLTI1IDw2ZDNhPl0gVEoKRVQKCgpCVAo1
+MjYuNjQ0IDU4Ni4yNjggVGQKL0YxLjAgMTIgVGYKWzwzNTIwNmQ2ZjZlNzQ2
+ODczPl0gVEoKRVQKCjM2LjAgNTgxLjAxMiBtCjU3Ni4wIDU4MS4wMTIgbApT
+CgpCVAozNi4wIDU2Mi4zOTYgVGQKL0YxLjAgMTIgVGYKWzw1MDc1NzI2MzY4
+NjE3MzY1MjA1MDcyPiAtMTUgPDY5NjM2NTNhPl0gVEoKRVQKCgpCVAo1MzUu
+OTY4IDU0OC41MjQgVGQKL0YxLjAgMTIgVGYKWzwyNDMyMzMzNDM1MzY+XSBU
+SgpFVAoKMzYuMCA1NDMuMjY4IG0KNTc2LjAgNTQzLjI2OCBsClMKCkJUCjM2
+LjAgNTI0LjY1MiBUZAovRjEuMCAxMiBUZgpbPDUyNjU3MDYxNjk3MjIwNDI3
+NTY0Njc2NTc0M2E+XSBUSgpFVAoKCkJUCjU0OS4zMTIgNTEwLjc4IFRkCi9G
+MS4wIDEyIFRmCls8MjQzMTMyMzE+XSBUSgpFVAoKMzYuMCA1MDUuNTI0IG0K
+NTc2LjAgNTA1LjUyNCBsClMKCkJUCjM2LjAgNDg2LjkwOCBUZAovRjEuMCAx
+MiBUZgpbPDUyNjU3MDYxNjk3MjIwNTY+IDcwIDw2MTZjNzU2NTNhPl0gVEoK
+RVQKCgpCVAo1NDIuNjQgNDczLjAzNiBUZAovRjEuMCAxMiBUZgpbPDI0MzIz
+MzM0MzQ+XSBUSgpFVAoKMzYuMCA0NjcuNzggbQo1NzYuMCA0NjcuNzggbApT
+CgpCVAozNi4wIDQ0OS4xNjQgVGQKL0YxLjAgMTIgVGYKWzw0YzZmNjE2ZTIw
+NDE2ZDZmNzU2ZTc0M2E+XSBUSgpFVAoKCkJUCjUzMi42MzIgNDM1LjI5MiBU
+ZAovRjEuMCAxMiBUZgpbPDI0MzEzNjM0MzAyZTM4Pl0gVEoKRVQKCjM2LjAg
+NDMwLjAzNiBtCjU3Ni4wIDQzMC4wMzYgbApTCgpCVAozNi4wIDQxMS40MiBU
+ZAovRjEuMCAxMiBUZgpbPDQ5NmU3NDY1NzI2NTczNzQyMDQ1Nzg3MDY1NmU3
+MzY1M2E+XSBUSgpFVAoKCkJUCjQ1OS4yNCAzOTcuNTQ4IFRkCi9GMS4wIDEy
+IFRmCls8MjQzOTMwMmUzODMyMzMzMzMwMzIzMzM1MzAzMTM3MzUzMjM1Pl0g
+VEoKRVQKCjM2LjAgMzkyLjI5MiBtCjU3Ni4wIDM5Mi4yOTIgbApTCgpCVAoz
+Ni4wIDM3My42NzYgVGQKL0YxLjAgMTIgVGYKWzw0NTczNzQ2OTZkNjE3NDY1
+NjQyMDUwNzI2ZjY2Njk3NDNhPl0gVEoKRVQKCgpCVAo0NTkuMjQgMzU5Ljgw
+NCBUZAovRjEuMCAxMiBUZgpbPDI0MzYzMTMyMmUzMzM3MzYzNjM5MzczNjM0
+MzkzODMyMzQzOD5dIFRKCkVUCgozNi4wIDM1NC41NDggbQo1NzYuMCAzNTQu
+NTQ4IGwKUwoKQlQKMzYuMCAyNzAuMTg4IFRkCi9GMi4wIDIwIFRmCls8NTQ+
+IDYwIDw2NTcyNmQ3Mz5dIFRKCkVUCgozNi4wIDI2MC43NDggbQo1NzYuMCAy
+NjAuNzQ4IGwKUwoKQlQKMzYuMCAyMzIuMTMyIFRkCi9GMS4wIDEyIFRmCls8
+MzIzMDMyMzQyMDRjNmY2ZTY3NmM2NTYxNjYyMDRjNjU2ZTY0Njk2ZTY3MmMy
+MDRjNGM0Mz4gMzAgPDJlMjA0MTZjNmMyMDcyPiAtMTUgPDY5Njc2ODc0NzMy
+MDcyNjU3MzY1NzI+IC0zMCA8NzY+IDI1IDw2NTY0Pl0gVEoKRVQKClEKCmVu
+ZHN0cmVhbQplbmRvYmoKNSAwIG9iago8PCAvQXJ0Qm94IFswIDAgNjEyIDc5
+Ml0KL0JsZWVkQm94IFswIDAgNjEyIDc5Ml0KL0NvbnRlbnRzIDQgMCBSCi9D
+cm9wQm94IFswIDAgNjEyIDc5Ml0KL01lZGlhQm94IFswIDAgNjEyIDc5Ml0K
+L1BhcmVudCAzIDAgUgovUmVzb3VyY2VzIDw8IC9Gb250IDw8IC9GMS4wIDcg
+MCBSCi9GMi4wIDYgMCBSCj4+Ci9Qcm9jU2V0IFsvUERGIC9UZXh0IC9JbWFn
+ZUIgL0ltYWdlQyAvSW1hZ2VJXQo+PgovVHJpbUJveCBbMCAwIDYxMiA3OTJd
+Ci9UeXBlIC9QYWdlCj4+CmVuZG9iago2IDAgb2JqCjw8IC9CYXNlRm9udCAv
+SGVsdmV0aWNhLUJvbGQKL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcKL1N1
+YnR5cGUgL1R5cGUxCi9UeXBlIC9Gb250Cj4+CmVuZG9iago3IDAgb2JqCjw8
+IC9CYXNlRm9udCAvSGVsdmV0aWNhCi9FbmNvZGluZyAvV2luQW5zaUVuY29k
+aW5nCi9TdWJ0eXBlIC9UeXBlMQovVHlwZSAvRm9udAo+PgplbmRvYmoKeHJl
+ZgowIDgKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDE1IDAwMDAwIG4g
+CjAwMDAwMDAxMDkgMDAwMDAgbiAKMDAwMDAwMDE1OCAwMDAwMCBuIAowMDAw
+MDAwMjE1IDAwMDAwIG4gCjAwMDAwMDIxMzAgMDAwMDAgbiAKMDAwMDAwMjQw
+OCAwMDAwMCBuIAowMDAwMDAyNTEwIDAwMDAwIG4gCnRyYWlsZXIKPDwgL0lu
+Zm8gMSAwIFIKL1Jvb3QgMiAwIFIKL1NpemUgOAo+PgpzdGFydHhyZWYKMjYw
+NwolJUVPRgo=
+
+----==_mimepart_668e9df71006f_31436a5b54894f1--
+
+[ActiveJob] [SendTermsheetEmailJob] [bc35b175-85bf-4616-85b8-e8cae156690a] Performed SendTermsheetEmailJob (Job ID: bc35b175-85bf-4616-85b8-e8cae156690a) from Async(default) in 42.71ms
+Started POST "/lending_forms" for 127.0.0.1 at 2024-07-10 19:44:32 +0500
+Processing by LendingFormsController#submit as JSON
+  Parameters: {"address"=>"qwerty", "loan_term"=>"5", "purchase_price"=>"23456", "repair_budget"=>"121", "repair_value"=>"2344", "first_name"=>"e45", "last_name"=>"re", "phone_number"=>"21345678", "email"=>"nas@gmai.com"}
+[ActiveJob] Enqueued SendTermsheetEmailJob (Job ID: 1b4149e6-8944-4b3b-947b-4c35f2231025) to Async(default) with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.823, :estimated_profit=>612.377}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_c5f6423c-85c8-4067-9850-8ec1985576b4.pdf"
+[ActiveJob] ↳ app/controllers/lending_forms_controller.rb:12:in `submit'
+Completed 200 OK in 33ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 42078)
+
+
+[ActiveJob] [SendTermsheetEmailJob] [1b4149e6-8944-4b3b-947b-4c35f2231025] Performing SendTermsheetEmailJob (Job ID: 1b4149e6-8944-4b3b-947b-4c35f2231025) from Async(default) enqueued at 2024-07-10T14:44:32.926535672Z with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.823, :estimated_profit=>612.377}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_c5f6423c-85c8-4067-9850-8ec1985576b4.pdf"
+[ActiveJob] [SendTermsheetEmailJob] [1b4149e6-8944-4b3b-947b-4c35f2231025]   Rendering text template
+[ActiveJob] [SendTermsheetEmailJob] [1b4149e6-8944-4b3b-947b-4c35f2231025]   Rendered text template (Duration: 0.0ms | Allocations: 1)
+[ActiveJob] [SendTermsheetEmailJob] [1b4149e6-8944-4b3b-947b-4c35f2231025] LendingFormMailer#termsheet_email: processed outbound mail in 7.3ms
+[ActiveJob] [SendTermsheetEmailJob] [1b4149e6-8944-4b3b-947b-4c35f2231025] Delivered mail 668e9e50f316c_31436a5b54898da@noc-ThinkPad-E15-Gen-4.mail (19.6ms)
+[ActiveJob] [SendTermsheetEmailJob] [1b4149e6-8944-4b3b-947b-4c35f2231025] Date: Wed, 10 Jul 2024 19:44:32 +0500
+From: no-reply@longleaflending.com
+To: nas@gmai.com
+Message-ID: <668e9e50f316c_31436a5b54898da@noc-ThinkPad-E15-Gen-4.mail>
+Subject: Your Term Sheet from Longleaf Lending
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_668e9e50f1dd3_31436a5b548976";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_668e9e50f1dd3_31436a5b548976
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Dear e45 re,
+
+Please find attached your term sheet.
+
+Best regards,
+Longleaf Lending
+----==_mimepart_668e9e50f1dd3_31436a5b548976
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+ filename=termsheet.pdf
+
+JVBERi0xLjMKJf////8KMSAwIG9iago8PCAvQ3JlYXRvciA8ZmVmZjAwNTAw
+MDcyMDA2MTAwNzcwMDZlPgovUHJvZHVjZXIgPGZlZmYwMDUwMDA3MjAwNjEw
+MDc3MDA2ZT4KPj4KZW5kb2JqCjIgMCBvYmoKPDwgL1BhZ2VzIDMgMCBSCi9U
+eXBlIC9DYXRhbG9nCj4+CmVuZG9iagozIDAgb2JqCjw8IC9Db3VudCAxCi9L
+aWRzIFs1IDAgUl0KL1R5cGUgL1BhZ2VzCj4+CmVuZG9iago0IDAgb2JqCjw8
+IC9MZW5ndGggMTgyMgo+PgpzdHJlYW0KcQovRGV2aWNlUkdCIENTCjAuOCAw
+LjggMC44IFNDTgoKQlQKMzYuMCA3MzQuNDYgVGQKL0YyLjAgMzAgVGYKWzw1
+ND4gNjAgPDY1NzI2ZDIwNTM2ODY1NjU3ND5dIFRKCkVUCgozNi4wIDcyMC4z
+IG0KNTc2LjAgNzIwLjMgbApTCgpCVAozNi4wIDY3NS45NCBUZAovRjIuMCAy
+MCBUZgpbPDRjNmY2MTZlMjA0NDY1NzQ2MTY5NmM3Mz5dIFRKCkVUCgozNi4w
+IDY2Ni41IG0KNTc2LjAgNjY2LjUgbApTCgpCVAozNi4wIDYzNy44ODQgVGQK
+L0YxLjAgMTIgVGYKWzw0MTY0NjQ3MjY1NzM3MzNhPl0gVEoKRVQKCgpCVAo1
+NDAuMyA2MjQuMDEyIFRkCi9GMS4wIDEyIFRmCls8NzE3Nz4gMTAgPDY1NzI+
+IC00MCA8NzQ3OT5dIFRKCkVUCgozNi4wIDYxOC43NTYgbQo1NzYuMCA2MTgu
+NzU2IGwKUwoKQlQKMzYuMCA2MDAuMTQgVGQKL0YxLjAgMTIgVGYKWzw0YzZm
+NjE2ZTIwNTQ+IDEyMCA8NjU3Mj4gLTI1IDw2ZDNhPl0gVEoKRVQKCgpCVAo1
+MjYuNjQ0IDU4Ni4yNjggVGQKL0YxLjAgMTIgVGYKWzwzNTIwNmQ2ZjZlNzQ2
+ODczPl0gVEoKRVQKCjM2LjAgNTgxLjAxMiBtCjU3Ni4wIDU4MS4wMTIgbApT
+CgpCVAozNi4wIDU2Mi4zOTYgVGQKL0YxLjAgMTIgVGYKWzw1MDc1NzI2MzY4
+NjE3MzY1MjA1MDcyPiAtMTUgPDY5NjM2NTNhPl0gVEoKRVQKCgpCVAo1MzUu
+OTY4IDU0OC41MjQgVGQKL0YxLjAgMTIgVGYKWzwyNDMyMzMzNDM1MzY+XSBU
+SgpFVAoKMzYuMCA1NDMuMjY4IG0KNTc2LjAgNTQzLjI2OCBsClMKCkJUCjM2
+LjAgNTI0LjY1MiBUZAovRjEuMCAxMiBUZgpbPDUyNjU3MDYxNjk3MjIwNDI3
+NTY0Njc2NTc0M2E+XSBUSgpFVAoKCkJUCjU0OS4zMTIgNTEwLjc4IFRkCi9G
+MS4wIDEyIFRmCls8MjQzMTMyMzE+XSBUSgpFVAoKMzYuMCA1MDUuNTI0IG0K
+NTc2LjAgNTA1LjUyNCBsClMKCkJUCjM2LjAgNDg2LjkwOCBUZAovRjEuMCAx
+MiBUZgpbPDUyNjU3MDYxNjk3MjIwNTY+IDcwIDw2MTZjNzU2NTNhPl0gVEoK
+RVQKCgpCVAo1NDIuNjQgNDczLjAzNiBUZAovRjEuMCAxMiBUZgpbPDI0MzIz
+MzM0MzQ+XSBUSgpFVAoKMzYuMCA0NjcuNzggbQo1NzYuMCA0NjcuNzggbApT
+CgpCVAozNi4wIDQ0OS4xNjQgVGQKL0YxLjAgMTIgVGYKWzw0YzZmNjE2ZTIw
+NDE2ZDZmNzU2ZTc0M2E+XSBUSgpFVAoKCkJUCjUzMi42MzIgNDM1LjI5MiBU
+ZAovRjEuMCAxMiBUZgpbPDI0MzEzNjM0MzAyZTM4Pl0gVEoKRVQKCjM2LjAg
+NDMwLjAzNiBtCjU3Ni4wIDQzMC4wMzYgbApTCgpCVAozNi4wIDQxMS40MiBU
+ZAovRjEuMCAxMiBUZgpbPDQ5NmU3NDY1NzI2NTczNzQyMDQ1Nzg3MDY1NmU3
+MzY1M2E+XSBUSgpFVAoKCkJUCjUzMi42MzIgMzk3LjU0OCBUZAovRjEuMCAx
+MiBUZgpbPDI0MzkzMDJlMzgzMjMzPl0gVEoKRVQKCjM2LjAgMzkyLjI5MiBt
+CjU3Ni4wIDM5Mi4yOTIgbApTCgpCVAozNi4wIDM3My42NzYgVGQKL0YxLjAg
+MTIgVGYKWzw0NTczNzQ2OTZkNjE3NDY1NjQyMDUwNzI2ZjY2Njk3NDNhPl0g
+VEoKRVQKCgpCVAo1MjUuOTYgMzU5LjgwNCBUZAovRjEuMCAxMiBUZgpbPDI0
+MzYzMTMyMmUzMzM3Mzc+XSBUSgpFVAoKMzYuMCAzNTQuNTQ4IG0KNTc2LjAg
+MzU0LjU0OCBsClMKCkJUCjM2LjAgMjcwLjE4OCBUZAovRjIuMCAyMCBUZgpb
+PDU0PiA2MCA8NjU3MjZkNzM+XSBUSgpFVAoKMzYuMCAyNjAuNzQ4IG0KNTc2
+LjAgMjYwLjc0OCBsClMKCkJUCjM2LjAgMjMyLjEzMiBUZAovRjEuMCAxMiBU
+ZgpbPDMyMzAzMjM0MjA0YzZmNmU2NzZjNjU2MTY2MjA0YzY1NmU2NDY5NmU2
+NzJjMjA0YzRjNDM+IDMwIDwyZTIwNDE2YzZjMjA3Mj4gLTE1IDw2OTY3Njg3
+NDczMjA3MjY1NzM2NTcyPiAtMzAgPDc2PiAyNSA8NjU2ND5dIFRKCkVUCgpR
+CgplbmRzdHJlYW0KZW5kb2JqCjUgMCBvYmoKPDwgL0FydEJveCBbMCAwIDYx
+MiA3OTJdCi9CbGVlZEJveCBbMCAwIDYxMiA3OTJdCi9Db250ZW50cyA0IDAg
+UgovQ3JvcEJveCBbMCAwIDYxMiA3OTJdCi9NZWRpYUJveCBbMCAwIDYxMiA3
+OTJdCi9QYXJlbnQgMyAwIFIKL1Jlc291cmNlcyA8PCAvRm9udCA8PCAvRjEu
+MCA3IDAgUgovRjIuMCA2IDAgUgo+PgovUHJvY1NldCBbL1BERiAvVGV4dCAv
+SW1hZ2VCIC9JbWFnZUMgL0ltYWdlSV0KPj4KL1RyaW1Cb3ggWzAgMCA2MTIg
+NzkyXQovVHlwZSAvUGFnZQo+PgplbmRvYmoKNiAwIG9iago8PCAvQmFzZUZv
+bnQgL0hlbHZldGljYS1Cb2xkCi9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5n
+Ci9TdWJ0eXBlIC9UeXBlMQovVHlwZSAvRm9udAo+PgplbmRvYmoKNyAwIG9i
+ago8PCAvQmFzZUZvbnQgL0hlbHZldGljYQovRW5jb2RpbmcgL1dpbkFuc2lF
+bmNvZGluZwovU3VidHlwZSAvVHlwZTEKL1R5cGUgL0ZvbnQKPj4KZW5kb2Jq
+CnhyZWYKMCA4CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDAxNSAwMDAw
+MCBuIAowMDAwMDAwMTA5IDAwMDAwIG4gCjAwMDAwMDAxNTggMDAwMDAgbiAK
+MDAwMDAwMDIxNSAwMDAwMCBuIAowMDAwMDAyMDg5IDAwMDAwIG4gCjAwMDAw
+MDIzNjcgMDAwMDAgbiAKMDAwMDAwMjQ2OSAwMDAwMCBuIAp0cmFpbGVyCjw8
+IC9JbmZvIDEgMCBSCi9Sb290IDIgMCBSCi9TaXplIDgKPj4Kc3RhcnR4cmVm
+CjI1NjYKJSVFT0YK
+
+----==_mimepart_668e9e50f1dd3_31436a5b548976--
+
+[ActiveJob] [SendTermsheetEmailJob] [1b4149e6-8944-4b3b-947b-4c35f2231025] Performed SendTermsheetEmailJob (Job ID: 1b4149e6-8944-4b3b-947b-4c35f2231025) from Async(default) in 32.59ms
+Started POST "/lending_forms" for 127.0.0.1 at 2024-07-10 19:45:07 +0500
+Processing by LendingFormsController#submit as JSON
+  Parameters: {"address"=>"qwerty", "loan_term"=>"5", "purchase_price"=>"23456", "repair_budget"=>"121", "repair_value"=>"2344", "first_name"=>"e45", "last_name"=>"re", "phone_number"=>"21345678", "email"=>"nas@gmai.com"}
+[ActiveJob] Enqueued SendTermsheetEmailJob (Job ID: aee64543-3d92-45d2-a325-88d15c396990) to Async(default) with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.823, :estimated_profit=>612.377}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_1225eb78-1048-4d01-9f61-df36975bada0.pdf"
+[ActiveJob] ↳ app/controllers/lending_forms_controller.rb:12:in `submit'
+Completed 200 OK in 58ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 42091)
+
+
+[ActiveJob] [SendTermsheetEmailJob] [aee64543-3d92-45d2-a325-88d15c396990] Performing SendTermsheetEmailJob (Job ID: aee64543-3d92-45d2-a325-88d15c396990) from Async(default) enqueued at 2024-07-10T14:45:07.665657651Z with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.823, :estimated_profit=>612.377}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_1225eb78-1048-4d01-9f61-df36975bada0.pdf"
+[ActiveJob] [SendTermsheetEmailJob] [aee64543-3d92-45d2-a325-88d15c396990]   Rendering text template
+[ActiveJob] [SendTermsheetEmailJob] [aee64543-3d92-45d2-a325-88d15c396990]   Rendered text template (Duration: 0.0ms | Allocations: 1)
+[ActiveJob] [SendTermsheetEmailJob] [aee64543-3d92-45d2-a325-88d15c396990] LendingFormMailer#termsheet_email: processed outbound mail in 11.8ms
+[ActiveJob] [SendTermsheetEmailJob] [aee64543-3d92-45d2-a325-88d15c396990] Delivered mail 668e9e73ba788_31436a5b549013a@noc-ThinkPad-E15-Gen-4.mail (34.4ms)
+[ActiveJob] [SendTermsheetEmailJob] [aee64543-3d92-45d2-a325-88d15c396990] Date: Wed, 10 Jul 2024 19:45:07 +0500
+From: no-reply@longleaflending.com
+To: nas@gmai.com
+Message-ID: <668e9e73ba788_31436a5b549013a@noc-ThinkPad-E15-Gen-4.mail>
+Subject: Your Term Sheet from Longleaf Lending
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_668e9e73b8c9e_31436a5b54900fe";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_668e9e73b8c9e_31436a5b54900fe
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Dear e45 re,
+
+Please find attached your term sheet.
+
+Best regards,
+Longleaf Lending
+----==_mimepart_668e9e73b8c9e_31436a5b54900fe
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+ filename=termsheet.pdf
+
+JVBERi0xLjMKJf////8KMSAwIG9iago8PCAvQ3JlYXRvciA8ZmVmZjAwNTAw
+MDcyMDA2MTAwNzcwMDZlPgovUHJvZHVjZXIgPGZlZmYwMDUwMDA3MjAwNjEw
+MDc3MDA2ZT4KPj4KZW5kb2JqCjIgMCBvYmoKPDwgL1BhZ2VzIDMgMCBSCi9U
+eXBlIC9DYXRhbG9nCj4+CmVuZG9iagozIDAgb2JqCjw8IC9Db3VudCAxCi9L
+aWRzIFs1IDAgUl0KL1R5cGUgL1BhZ2VzCj4+CmVuZG9iago0IDAgb2JqCjw8
+IC9MZW5ndGggMTgyMgo+PgpzdHJlYW0KcQovRGV2aWNlUkdCIENTCjAuOCAw
+LjggMC44IFNDTgoKQlQKMzYuMCA3MzQuNDYgVGQKL0YyLjAgMzAgVGYKWzw1
+ND4gNjAgPDY1NzI2ZDIwNTM2ODY1NjU3ND5dIFRKCkVUCgozNi4wIDcyMC4z
+IG0KNTc2LjAgNzIwLjMgbApTCgpCVAozNi4wIDY3NS45NCBUZAovRjIuMCAy
+MCBUZgpbPDRjNmY2MTZlMjA0NDY1NzQ2MTY5NmM3Mz5dIFRKCkVUCgozNi4w
+IDY2Ni41IG0KNTc2LjAgNjY2LjUgbApTCgpCVAozNi4wIDYzNy44ODQgVGQK
+L0YxLjAgMTIgVGYKWzw0MTY0NjQ3MjY1NzM3MzNhPl0gVEoKRVQKCgpCVAo1
+NDAuMyA2MjQuMDEyIFRkCi9GMS4wIDEyIFRmCls8NzE3Nz4gMTAgPDY1NzI+
+IC00MCA8NzQ3OT5dIFRKCkVUCgozNi4wIDYxOC43NTYgbQo1NzYuMCA2MTgu
+NzU2IGwKUwoKQlQKMzYuMCA2MDAuMTQgVGQKL0YxLjAgMTIgVGYKWzw0YzZm
+NjE2ZTIwNTQ+IDEyMCA8NjU3Mj4gLTI1IDw2ZDNhPl0gVEoKRVQKCgpCVAo1
+MjYuNjQ0IDU4Ni4yNjggVGQKL0YxLjAgMTIgVGYKWzwzNTIwNmQ2ZjZlNzQ2
+ODczPl0gVEoKRVQKCjM2LjAgNTgxLjAxMiBtCjU3Ni4wIDU4MS4wMTIgbApT
+CgpCVAozNi4wIDU2Mi4zOTYgVGQKL0YxLjAgMTIgVGYKWzw1MDc1NzI2MzY4
+NjE3MzY1MjA1MDcyPiAtMTUgPDY5NjM2NTNhPl0gVEoKRVQKCgpCVAo1MzUu
+OTY4IDU0OC41MjQgVGQKL0YxLjAgMTIgVGYKWzwyNDMyMzMzNDM1MzY+XSBU
+SgpFVAoKMzYuMCA1NDMuMjY4IG0KNTc2LjAgNTQzLjI2OCBsClMKCkJUCjM2
+LjAgNTI0LjY1MiBUZAovRjEuMCAxMiBUZgpbPDUyNjU3MDYxNjk3MjIwNDI3
+NTY0Njc2NTc0M2E+XSBUSgpFVAoKCkJUCjU0OS4zMTIgNTEwLjc4IFRkCi9G
+MS4wIDEyIFRmCls8MjQzMTMyMzE+XSBUSgpFVAoKMzYuMCA1MDUuNTI0IG0K
+NTc2LjAgNTA1LjUyNCBsClMKCkJUCjM2LjAgNDg2LjkwOCBUZAovRjEuMCAx
+MiBUZgpbPDUyNjU3MDYxNjk3MjIwNTY+IDcwIDw2MTZjNzU2NTNhPl0gVEoK
+RVQKCgpCVAo1NDIuNjQgNDczLjAzNiBUZAovRjEuMCAxMiBUZgpbPDI0MzIz
+MzM0MzQ+XSBUSgpFVAoKMzYuMCA0NjcuNzggbQo1NzYuMCA0NjcuNzggbApT
+CgpCVAozNi4wIDQ0OS4xNjQgVGQKL0YxLjAgMTIgVGYKWzw0YzZmNjE2ZTIw
+NDE2ZDZmNzU2ZTc0M2E+XSBUSgpFVAoKCkJUCjUzMi42MzIgNDM1LjI5MiBU
+ZAovRjEuMCAxMiBUZgpbPDI0MzEzNjM0MzAyZTM4Pl0gVEoKRVQKCjM2LjAg
+NDMwLjAzNiBtCjU3Ni4wIDQzMC4wMzYgbApTCgpCVAozNi4wIDQxMS40MiBU
+ZAovRjEuMCAxMiBUZgpbPDQ5NmU3NDY1NzI2NTczNzQyMDQ1Nzg3MDY1NmU3
+MzY1M2E+XSBUSgpFVAoKCkJUCjUzMi42MzIgMzk3LjU0OCBUZAovRjEuMCAx
+MiBUZgpbPDI0MzkzMDJlMzgzMjMzPl0gVEoKRVQKCjM2LjAgMzkyLjI5MiBt
+CjU3Ni4wIDM5Mi4yOTIgbApTCgpCVAozNi4wIDM3My42NzYgVGQKL0YxLjAg
+MTIgVGYKWzw0NTczNzQ2OTZkNjE3NDY1NjQyMDUwNzI2ZjY2Njk3NDNhPl0g
+VEoKRVQKCgpCVAo1MjUuOTYgMzU5LjgwNCBUZAovRjEuMCAxMiBUZgpbPDI0
+MzYzMTMyMmUzMzM3Mzc+XSBUSgpFVAoKMzYuMCAzNTQuNTQ4IG0KNTc2LjAg
+MzU0LjU0OCBsClMKCkJUCjM2LjAgMjcwLjE4OCBUZAovRjIuMCAyMCBUZgpb
+PDU0PiA2MCA8NjU3MjZkNzM+XSBUSgpFVAoKMzYuMCAyNjAuNzQ4IG0KNTc2
+LjAgMjYwLjc0OCBsClMKCkJUCjM2LjAgMjMyLjEzMiBUZAovRjEuMCAxMiBU
+ZgpbPDMyMzAzMjM0MjA0YzZmNmU2NzZjNjU2MTY2MjA0YzY1NmU2NDY5NmU2
+NzJjMjA0YzRjNDM+IDMwIDwyZTIwNDE2YzZjMjA3Mj4gLTE1IDw2OTY3Njg3
+NDczMjA3MjY1NzM2NTcyPiAtMzAgPDc2PiAyNSA8NjU2ND5dIFRKCkVUCgpR
+CgplbmRzdHJlYW0KZW5kb2JqCjUgMCBvYmoKPDwgL0FydEJveCBbMCAwIDYx
+MiA3OTJdCi9CbGVlZEJveCBbMCAwIDYxMiA3OTJdCi9Db250ZW50cyA0IDAg
+UgovQ3JvcEJveCBbMCAwIDYxMiA3OTJdCi9NZWRpYUJveCBbMCAwIDYxMiA3
+OTJdCi9QYXJlbnQgMyAwIFIKL1Jlc291cmNlcyA8PCAvRm9udCA8PCAvRjEu
+MCA3IDAgUgovRjIuMCA2IDAgUgo+PgovUHJvY1NldCBbL1BERiAvVGV4dCAv
+SW1hZ2VCIC9JbWFnZUMgL0ltYWdlSV0KPj4KL1RyaW1Cb3ggWzAgMCA2MTIg
+NzkyXQovVHlwZSAvUGFnZQo+PgplbmRvYmoKNiAwIG9iago8PCAvQmFzZUZv
+bnQgL0hlbHZldGljYS1Cb2xkCi9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5n
+Ci9TdWJ0eXBlIC9UeXBlMQovVHlwZSAvRm9udAo+PgplbmRvYmoKNyAwIG9i
+ago8PCAvQmFzZUZvbnQgL0hlbHZldGljYQovRW5jb2RpbmcgL1dpbkFuc2lF
+bmNvZGluZwovU3VidHlwZSAvVHlwZTEKL1R5cGUgL0ZvbnQKPj4KZW5kb2Jq
+CnhyZWYKMCA4CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDAxNSAwMDAw
+MCBuIAowMDAwMDAwMTA5IDAwMDAwIG4gCjAwMDAwMDAxNTggMDAwMDAgbiAK
+MDAwMDAwMDIxNSAwMDAwMCBuIAowMDAwMDAyMDg5IDAwMDAwIG4gCjAwMDAw
+MDIzNjcgMDAwMDAgbiAKMDAwMDAwMjQ2OSAwMDAwMCBuIAp0cmFpbGVyCjw8
+IC9JbmZvIDEgMCBSCi9Sb290IDIgMCBSCi9TaXplIDgKPj4Kc3RhcnR4cmVm
+CjI1NjYKJSVFT0YK
+
+----==_mimepart_668e9e73b8c9e_31436a5b54900fe--
+
+[ActiveJob] [SendTermsheetEmailJob] [aee64543-3d92-45d2-a325-88d15c396990] Performed SendTermsheetEmailJob (Job ID: aee64543-3d92-45d2-a325-88d15c396990) from Async(default) in 54.7ms
+Started POST "/lending_forms" for 127.0.0.1 at 2024-07-10 19:45:25 +0500
+Processing by LendingFormsController#submit as JSON
+  Parameters: {"address"=>"qwerty", "loan_term"=>"5", "purchase_price"=>"23456", "repair_budget"=>"121", "repair_value"=>"2344", "first_name"=>"e45", "last_name"=>"re", "phone_number"=>"21345678", "email"=>"nas@gmai.com"}
+[ActiveJob] Enqueued SendTermsheetEmailJob (Job ID: 43b0748c-a1a1-4591-86d2-749245ebd550) to Async(default) with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.823, :estimated_profit=>612.377}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_531bb038-cdce-4712-baaf-1b970fbf5e21.pdf"
+[ActiveJob] ↳ app/controllers/lending_forms_controller.rb:12:in `submit'
+Completed 200 OK in 35ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 42215)
+
+
+[ActiveJob] [SendTermsheetEmailJob] [43b0748c-a1a1-4591-86d2-749245ebd550] Performing SendTermsheetEmailJob (Job ID: 43b0748c-a1a1-4591-86d2-749245ebd550) from Async(default) enqueued at 2024-07-10T14:45:25.178049068Z with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.823, :estimated_profit=>612.377}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_531bb038-cdce-4712-baaf-1b970fbf5e21.pdf"
+[ActiveJob] [SendTermsheetEmailJob] [43b0748c-a1a1-4591-86d2-749245ebd550]   Rendering text template
+[ActiveJob] [SendTermsheetEmailJob] [43b0748c-a1a1-4591-86d2-749245ebd550]   Rendered text template (Duration: 0.0ms | Allocations: 1)
+[ActiveJob] [SendTermsheetEmailJob] [43b0748c-a1a1-4591-86d2-749245ebd550] LendingFormMailer#termsheet_email: processed outbound mail in 6.6ms
+[ActiveJob] [SendTermsheetEmailJob] [43b0748c-a1a1-4591-86d2-749245ebd550] Delivered mail 668e9e85402eb_31436a5b54904fd@noc-ThinkPad-E15-Gen-4.mail (20.1ms)
+[ActiveJob] [SendTermsheetEmailJob] [43b0748c-a1a1-4591-86d2-749245ebd550] Date: Wed, 10 Jul 2024 19:45:25 +0500
+From: no-reply@longleaflending.com
+To: nas@gmai.com
+Message-ID: <668e9e85402eb_31436a5b54904fd@noc-ThinkPad-E15-Gen-4.mail>
+Subject: Your Term Sheet from Longleaf Lending
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_668e9e853f44f_31436a5b549039e";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_668e9e853f44f_31436a5b549039e
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Dear e45 re,
+
+Please find attached your term sheet.
+
+Best regards,
+Longleaf Lending
+----==_mimepart_668e9e853f44f_31436a5b549039e
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+ filename=termsheet.pdf
+
+JVBERi0xLjMKJf////8KMSAwIG9iago8PCAvQ3JlYXRvciA8ZmVmZjAwNTAw
+MDcyMDA2MTAwNzcwMDZlPgovUHJvZHVjZXIgPGZlZmYwMDUwMDA3MjAwNjEw
+MDc3MDA2ZT4KPj4KZW5kb2JqCjIgMCBvYmoKPDwgL1BhZ2VzIDMgMCBSCi9U
+eXBlIC9DYXRhbG9nCj4+CmVuZG9iagozIDAgb2JqCjw8IC9Db3VudCAxCi9L
+aWRzIFs1IDAgUl0KL1R5cGUgL1BhZ2VzCj4+CmVuZG9iago0IDAgb2JqCjw8
+IC9MZW5ndGggMTgzNgo+PgpzdHJlYW0KcQovRGV2aWNlUkdCIENTCjAuOCAw
+LjggMC44IFNDTgoKQlQKMzYuMCA3MzQuNDYgVGQKL0YyLjAgMzAgVGYKWzw1
+ND4gNjAgPDY1NzI2ZDIwNTM2ODY1NjU3ND5dIFRKCkVUCgozNi4wIDcyMC4z
+IG0KNTc2LjAgNzIwLjMgbApTCgpCVAozNi4wIDY3NS45NCBUZAovRjIuMCAy
+MCBUZgpbPDRjNmY2MTZlMjA0NDY1NzQ2MTY5NmM3Mz5dIFRKCkVUCgozNi4w
+IDY2Ni41IG0KNTc2LjAgNjY2LjUgbApTCgpCVAozNi4wIDYzNy44ODQgVGQK
+L0YyLjAgMTIgVGYKWzw0MTY0PiAxMCA8NjQ3MjY1NzM3MzNhPl0gVEoKRVQK
+CgpCVAo1NDAuMyA2MjMuNjA0IFRkCi9GMS4wIDEyIFRmCls8NzE3Nz4gMTAg
+PDY1NzI+IC00MCA8NzQ3OT5dIFRKCkVUCgozNi4wIDYxOC4zNDggbQo1NzYu
+MCA2MTguMzQ4IGwKUwoKQlQKMzYuMCA1OTkuNzMyIFRkCi9GMi4wIDEyIFRm
+Cls8NGM2ZjYxNmUyMDU0PiA2MCA8NjU3MjZkM2E+XSBUSgpFVAoKCkJUCjUy
+Ni42NDQgNTg1LjQ1MiBUZAovRjEuMCAxMiBUZgpbPDM1MjA2ZDZmNmU3NDY4
+NzM+XSBUSgpFVAoKMzYuMCA1ODAuMTk2IG0KNTc2LjAgNTgwLjE5NiBsClMK
+CkJUCjM2LjAgNTYxLjU4IFRkCi9GMi4wIDEyIFRmCls8NTA3NTcyPiAyMCA8
+NjM+IDEwIDw2ODYxNzM2NTIwNTA3MjY5NjM2NTNhPl0gVEoKRVQKCgpCVAo1
+MzUuOTY4IDU0Ny4zIFRkCi9GMS4wIDEyIFRmCls8MjQzMjMzMzQzNTM2Pl0g
+VEoKRVQKCjM2LjAgNTQyLjA0NCBtCjU3Ni4wIDU0Mi4wNDQgbApTCgpCVAoz
+Ni4wIDUyMy40MjggVGQKL0YyLjAgMTIgVGYKWzw1MjY1NzA2MTY5NzIyMDQy
+NzU2NDY3PiAtMTAgPDY1NzQzYT5dIFRKCkVUCgoKQlQKNTQ5LjMxMiA1MDku
+MTQ4IFRkCi9GMS4wIDEyIFRmCls8MjQzMTMyMzE+XSBUSgpFVAoKMzYuMCA1
+MDMuODkyIG0KNTc2LjAgNTAzLjg5MiBsClMKCkJUCjM2LjAgNDg1LjI3NiBU
+ZAovRjIuMCAxMiBUZgpbPDUyNjU3MDYxNjk3MjIwNTY+IDYwIDw2MTZjNzU2
+NTNhPl0gVEoKRVQKCgpCVAo1NDIuNjQgNDcwLjk5NiBUZAovRjEuMCAxMiBU
+ZgpbPDI0MzIzMzM0MzQ+XSBUSgpFVAoKMzYuMCA0NjUuNzQgbQo1NzYuMCA0
+NjUuNzQgbApTCgpCVAozNi4wIDQ0Ny4xMjQgVGQKL0YyLjAgMTIgVGYKWzw0
+YzZmNjE2ZTIwNDE2ZDZmNzU2ZTc0M2E+XSBUSgpFVAoKCkJUCjUzMi42MzIg
+NDMyLjg0NCBUZAovRjEuMCAxMiBUZgpbPDI0MzEzNjM0MzAyZTM4Pl0gVEoK
+RVQKCjM2LjAgNDI3LjU4OCBtCjU3Ni4wIDQyNy41ODggbApTCgpCVAozNi4w
+IDQwOC45NzIgVGQKL0YyLjAgMTIgVGYKWzw0OTZlNzQ2NTcyNjU3Mzc0MjA0
+NTc4NzA2NTZlNzM2NTNhPl0gVEoKRVQKCgpCVAo1MzIuNjMyIDM5NC42OTIg
+VGQKL0YxLjAgMTIgVGYKWzwyNDM5MzAyZTM4MzIzMz5dIFRKCkVUCgozNi4w
+IDM4OS40MzYgbQo1NzYuMCAzODkuNDM2IGwKUwoKQlQKMzYuMCAzNzAuODIg
+VGQKL0YyLjAgMTIgVGYKWzw0NTczNzQ2OTZkNjE3NDY1NjQyMDUwNzI+IDIw
+IDw2ZjY2Njk3NDNhPl0gVEoKRVQKCgpCVAo1MjUuOTYgMzU2LjU0IFRkCi9G
+MS4wIDEyIFRmCls8MjQzNjMxMzIyZTMzMzczNz5dIFRKCkVUCgozNi4wIDM1
+MS4yODQgbQo1NzYuMCAzNTEuMjg0IGwKUwoKQlQKMzYuMCAyNjYuOTI0IFRk
+Ci9GMi4wIDIwIFRmCls8NTQ+IDYwIDw2NTcyNmQ3Mz5dIFRKCkVUCgozNi4w
+IDI1Ny40ODQgbQo1NzYuMCAyNTcuNDg0IGwKUwoKQlQKMzYuMCAyMjguODY4
+IFRkCi9GMS4wIDEyIFRmCls8MzIzMDMyMzQyMDRjNmY2ZTY3NmM2NTYxNjYy
+MDRjNjU2ZTY0Njk2ZTY3MmMyMDRjNGM0Mz4gMzAgPDJlMjA0MTZjNmMyMDcy
+PiAtMTUgPDY5Njc2ODc0NzMyMDcyNjU3MzY1NzI+IC0zMCA8NzY+IDI1IDw2
+NTY0Pl0gVEoKRVQKClEKCmVuZHN0cmVhbQplbmRvYmoKNSAwIG9iago8PCAv
+QXJ0Qm94IFswIDAgNjEyIDc5Ml0KL0JsZWVkQm94IFswIDAgNjEyIDc5Ml0K
+L0NvbnRlbnRzIDQgMCBSCi9Dcm9wQm94IFswIDAgNjEyIDc5Ml0KL01lZGlh
+Qm94IFswIDAgNjEyIDc5Ml0KL1BhcmVudCAzIDAgUgovUmVzb3VyY2VzIDw8
+IC9Gb250IDw8IC9GMS4wIDcgMCBSCi9GMi4wIDYgMCBSCj4+Ci9Qcm9jU2V0
+IFsvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJXQo+PgovVHJp
+bUJveCBbMCAwIDYxMiA3OTJdCi9UeXBlIC9QYWdlCj4+CmVuZG9iago2IDAg
+b2JqCjw8IC9CYXNlRm9udCAvSGVsdmV0aWNhLUJvbGQKL0VuY29kaW5nIC9X
+aW5BbnNpRW5jb2RpbmcKL1N1YnR5cGUgL1R5cGUxCi9UeXBlIC9Gb250Cj4+
+CmVuZG9iago3IDAgb2JqCjw8IC9CYXNlRm9udCAvSGVsdmV0aWNhCi9FbmNv
+ZGluZyAvV2luQW5zaUVuY29kaW5nCi9TdWJ0eXBlIC9UeXBlMQovVHlwZSAv
+Rm9udAo+PgplbmRvYmoKeHJlZgowIDgKMDAwMDAwMDAwMCA2NTUzNSBmIAow
+MDAwMDAwMDE1IDAwMDAwIG4gCjAwMDAwMDAxMDkgMDAwMDAgbiAKMDAwMDAw
+MDE1OCAwMDAwMCBuIAowMDAwMDAwMjE1IDAwMDAwIG4gCjAwMDAwMDIxMDMg
+MDAwMDAgbiAKMDAwMDAwMjM4MSAwMDAwMCBuIAowMDAwMDAyNDgzIDAwMDAw
+IG4gCnRyYWlsZXIKPDwgL0luZm8gMSAwIFIKL1Jvb3QgMiAwIFIKL1NpemUg
+OAo+PgpzdGFydHhyZWYKMjU4MAolJUVPRgo=
+
+----==_mimepart_668e9e853f44f_31436a5b549039e--
+
+[ActiveJob] [SendTermsheetEmailJob] [43b0748c-a1a1-4591-86d2-749245ebd550] Performed SendTermsheetEmailJob (Job ID: 43b0748c-a1a1-4591-86d2-749245ebd550) from Async(default) in 34.65ms
+Started POST "/lending_forms" for 127.0.0.1 at 2024-07-10 19:47:05 +0500
+Processing by LendingFormsController#submit as JSON
+  Parameters: {"address"=>"qwerty", "loan_term"=>"5", "purchase_price"=>"23456", "repair_budget"=>"121", "repair_value"=>"2344", "first_name"=>"e45", "last_name"=>"re", "phone_number"=>"21345678", "email"=>"nas@gmai.com"}
+[ActiveJob] Enqueued SendTermsheetEmailJob (Job ID: eddd0b14-1b0d-4fb0-a340-e171c0a3cc5d) to Async(default) with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.823, :estimated_profit=>612.377}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_261261d3-1dc4-4587-a913-315d8dd1328e.pdf"
+[ActiveJob] ↳ app/controllers/lending_forms_controller.rb:12:in `submit'
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms | Allocations: 42265)
+
+
+  
+NameError (undefined local variable or method `root_url' for an instance of LendingFormsController):
+  
+app/controllers/lending_forms_controller.rb:14:in `submit'
+[ActiveJob] [SendTermsheetEmailJob] [eddd0b14-1b0d-4fb0-a340-e171c0a3cc5d] Performing SendTermsheetEmailJob (Job ID: eddd0b14-1b0d-4fb0-a340-e171c0a3cc5d) from Async(default) enqueued at 2024-07-10T14:47:05.590897221Z with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.823, :estimated_profit=>612.377}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_261261d3-1dc4-4587-a913-315d8dd1328e.pdf"
+[ActiveJob] [SendTermsheetEmailJob] [eddd0b14-1b0d-4fb0-a340-e171c0a3cc5d]   Rendering text template
+[ActiveJob] [SendTermsheetEmailJob] [eddd0b14-1b0d-4fb0-a340-e171c0a3cc5d]   Rendered text template (Duration: 0.0ms | Allocations: 1)
+[ActiveJob] [SendTermsheetEmailJob] [eddd0b14-1b0d-4fb0-a340-e171c0a3cc5d] LendingFormMailer#termsheet_email: processed outbound mail in 4.9ms
+[ActiveJob] [SendTermsheetEmailJob] [eddd0b14-1b0d-4fb0-a340-e171c0a3cc5d] Delivered mail 668e9eea1cdb4_31436a5b5490726@noc-ThinkPad-E15-Gen-4.mail (19.2ms)
+[ActiveJob] [SendTermsheetEmailJob] [eddd0b14-1b0d-4fb0-a340-e171c0a3cc5d] Date: Wed, 10 Jul 2024 19:47:06 +0500
+From: no-reply@longleaflending.com
+To: nas@gmai.com
+Message-ID: <668e9eea1cdb4_31436a5b5490726@noc-ThinkPad-E15-Gen-4.mail>
+Subject: Your Term Sheet from Longleaf Lending
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_668e9eea1c3db_31436a5b54906ca";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_668e9eea1c3db_31436a5b54906ca
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Dear e45 re,
+
+Please find attached your term sheet.
+
+Best regards,
+Longleaf Lending
+----==_mimepart_668e9eea1c3db_31436a5b54906ca
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+ filename=termsheet.pdf
+
+JVBERi0xLjMKJf////8KMSAwIG9iago8PCAvQ3JlYXRvciA8ZmVmZjAwNTAw
+MDcyMDA2MTAwNzcwMDZlPgovUHJvZHVjZXIgPGZlZmYwMDUwMDA3MjAwNjEw
+MDc3MDA2ZT4KPj4KZW5kb2JqCjIgMCBvYmoKPDwgL1BhZ2VzIDMgMCBSCi9U
+eXBlIC9DYXRhbG9nCj4+CmVuZG9iagozIDAgb2JqCjw8IC9Db3VudCAxCi9L
+aWRzIFs1IDAgUl0KL1R5cGUgL1BhZ2VzCj4+CmVuZG9iago0IDAgb2JqCjw8
+IC9MZW5ndGggMTgzNgo+PgpzdHJlYW0KcQovRGV2aWNlUkdCIENTCjAuOCAw
+LjggMC44IFNDTgoKQlQKMzYuMCA3MzQuNDYgVGQKL0YyLjAgMzAgVGYKWzw1
+ND4gNjAgPDY1NzI2ZDIwNTM2ODY1NjU3ND5dIFRKCkVUCgozNi4wIDcyMC4z
+IG0KNTc2LjAgNzIwLjMgbApTCgpCVAozNi4wIDY3NS45NCBUZAovRjIuMCAy
+MCBUZgpbPDRjNmY2MTZlMjA0NDY1NzQ2MTY5NmM3Mz5dIFRKCkVUCgozNi4w
+IDY2Ni41IG0KNTc2LjAgNjY2LjUgbApTCgpCVAozNi4wIDYzNy44ODQgVGQK
+L0YyLjAgMTIgVGYKWzw0MTY0PiAxMCA8NjQ3MjY1NzM3MzNhPl0gVEoKRVQK
+CgpCVAo1NDAuMyA2MjMuNjA0IFRkCi9GMS4wIDEyIFRmCls8NzE3Nz4gMTAg
+PDY1NzI+IC00MCA8NzQ3OT5dIFRKCkVUCgozNi4wIDYxOC4zNDggbQo1NzYu
+MCA2MTguMzQ4IGwKUwoKQlQKMzYuMCA1OTkuNzMyIFRkCi9GMi4wIDEyIFRm
+Cls8NGM2ZjYxNmUyMDU0PiA2MCA8NjU3MjZkM2E+XSBUSgpFVAoKCkJUCjUy
+Ni42NDQgNTg1LjQ1MiBUZAovRjEuMCAxMiBUZgpbPDM1MjA2ZDZmNmU3NDY4
+NzM+XSBUSgpFVAoKMzYuMCA1ODAuMTk2IG0KNTc2LjAgNTgwLjE5NiBsClMK
+CkJUCjM2LjAgNTYxLjU4IFRkCi9GMi4wIDEyIFRmCls8NTA3NTcyPiAyMCA8
+NjM+IDEwIDw2ODYxNzM2NTIwNTA3MjY5NjM2NTNhPl0gVEoKRVQKCgpCVAo1
+MzUuOTY4IDU0Ny4zIFRkCi9GMS4wIDEyIFRmCls8MjQzMjMzMzQzNTM2Pl0g
+VEoKRVQKCjM2LjAgNTQyLjA0NCBtCjU3Ni4wIDU0Mi4wNDQgbApTCgpCVAoz
+Ni4wIDUyMy40MjggVGQKL0YyLjAgMTIgVGYKWzw1MjY1NzA2MTY5NzIyMDQy
+NzU2NDY3PiAtMTAgPDY1NzQzYT5dIFRKCkVUCgoKQlQKNTQ5LjMxMiA1MDku
+MTQ4IFRkCi9GMS4wIDEyIFRmCls8MjQzMTMyMzE+XSBUSgpFVAoKMzYuMCA1
+MDMuODkyIG0KNTc2LjAgNTAzLjg5MiBsClMKCkJUCjM2LjAgNDg1LjI3NiBU
+ZAovRjIuMCAxMiBUZgpbPDUyNjU3MDYxNjk3MjIwNTY+IDYwIDw2MTZjNzU2
+NTNhPl0gVEoKRVQKCgpCVAo1NDIuNjQgNDcwLjk5NiBUZAovRjEuMCAxMiBU
+ZgpbPDI0MzIzMzM0MzQ+XSBUSgpFVAoKMzYuMCA0NjUuNzQgbQo1NzYuMCA0
+NjUuNzQgbApTCgpCVAozNi4wIDQ0Ny4xMjQgVGQKL0YyLjAgMTIgVGYKWzw0
+YzZmNjE2ZTIwNDE2ZDZmNzU2ZTc0M2E+XSBUSgpFVAoKCkJUCjUzMi42MzIg
+NDMyLjg0NCBUZAovRjEuMCAxMiBUZgpbPDI0MzEzNjM0MzAyZTM4Pl0gVEoK
+RVQKCjM2LjAgNDI3LjU4OCBtCjU3Ni4wIDQyNy41ODggbApTCgpCVAozNi4w
+IDQwOC45NzIgVGQKL0YyLjAgMTIgVGYKWzw0OTZlNzQ2NTcyNjU3Mzc0MjA0
+NTc4NzA2NTZlNzM2NTNhPl0gVEoKRVQKCgpCVAo1MzIuNjMyIDM5NC42OTIg
+VGQKL0YxLjAgMTIgVGYKWzwyNDM5MzAyZTM4MzIzMz5dIFRKCkVUCgozNi4w
+IDM4OS40MzYgbQo1NzYuMCAzODkuNDM2IGwKUwoKQlQKMzYuMCAzNzAuODIg
+VGQKL0YyLjAgMTIgVGYKWzw0NTczNzQ2OTZkNjE3NDY1NjQyMDUwNzI+IDIw
+IDw2ZjY2Njk3NDNhPl0gVEoKRVQKCgpCVAo1MjUuOTYgMzU2LjU0IFRkCi9G
+MS4wIDEyIFRmCls8MjQzNjMxMzIyZTMzMzczNz5dIFRKCkVUCgozNi4wIDM1
+MS4yODQgbQo1NzYuMCAzNTEuMjg0IGwKUwoKQlQKMzYuMCAyNjYuOTI0IFRk
+Ci9GMi4wIDIwIFRmCls8NTQ+IDYwIDw2NTcyNmQ3Mz5dIFRKCkVUCgozNi4w
+IDI1Ny40ODQgbQo1NzYuMCAyNTcuNDg0IGwKUwoKQlQKMzYuMCAyMjguODY4
+IFRkCi9GMS4wIDEyIFRmCls8MzIzMDMyMzQyMDRjNmY2ZTY3NmM2NTYxNjYy
+MDRjNjU2ZTY0Njk2ZTY3MmMyMDRjNGM0Mz4gMzAgPDJlMjA0MTZjNmMyMDcy
+PiAtMTUgPDY5Njc2ODc0NzMyMDcyNjU3MzY1NzI+IC0zMCA8NzY+IDI1IDw2
+NTY0Pl0gVEoKRVQKClEKCmVuZHN0cmVhbQplbmRvYmoKNSAwIG9iago8PCAv
+QXJ0Qm94IFswIDAgNjEyIDc5Ml0KL0JsZWVkQm94IFswIDAgNjEyIDc5Ml0K
+L0NvbnRlbnRzIDQgMCBSCi9Dcm9wQm94IFswIDAgNjEyIDc5Ml0KL01lZGlh
+Qm94IFswIDAgNjEyIDc5Ml0KL1BhcmVudCAzIDAgUgovUmVzb3VyY2VzIDw8
+IC9Gb250IDw8IC9GMS4wIDcgMCBSCi9GMi4wIDYgMCBSCj4+Ci9Qcm9jU2V0
+IFsvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJXQo+PgovVHJp
+bUJveCBbMCAwIDYxMiA3OTJdCi9UeXBlIC9QYWdlCj4+CmVuZG9iago2IDAg
+b2JqCjw8IC9CYXNlRm9udCAvSGVsdmV0aWNhLUJvbGQKL0VuY29kaW5nIC9X
+aW5BbnNpRW5jb2RpbmcKL1N1YnR5cGUgL1R5cGUxCi9UeXBlIC9Gb250Cj4+
+CmVuZG9iago3IDAgb2JqCjw8IC9CYXNlRm9udCAvSGVsdmV0aWNhCi9FbmNv
+ZGluZyAvV2luQW5zaUVuY29kaW5nCi9TdWJ0eXBlIC9UeXBlMQovVHlwZSAv
+Rm9udAo+PgplbmRvYmoKeHJlZgowIDgKMDAwMDAwMDAwMCA2NTUzNSBmIAow
+MDAwMDAwMDE1IDAwMDAwIG4gCjAwMDAwMDAxMDkgMDAwMDAgbiAKMDAwMDAw
+MDE1OCAwMDAwMCBuIAowMDAwMDAwMjE1IDAwMDAwIG4gCjAwMDAwMDIxMDMg
+MDAwMDAgbiAKMDAwMDAwMjM4MSAwMDAwMCBuIAowMDAwMDAyNDgzIDAwMDAw
+IG4gCnRyYWlsZXIKPDwgL0luZm8gMSAwIFIKL1Jvb3QgMiAwIFIKL1NpemUg
+OAo+PgpzdGFydHhyZWYKMjU4MAolJUVPRgo=
+
+----==_mimepart_668e9eea1c3db_31436a5b54906ca--
+
+[ActiveJob] [SendTermsheetEmailJob] [eddd0b14-1b0d-4fb0-a340-e171c0a3cc5d] Performed SendTermsheetEmailJob (Job ID: eddd0b14-1b0d-4fb0-a340-e171c0a3cc5d) from Async(default) in 28.87ms
+Started POST "/lending_forms" for 127.0.0.1 at 2024-07-10 19:50:49 +0500
+Processing by LendingFormsController#submit as JSON
+  Parameters: {"address"=>"qwerty", "loan_term"=>"5", "purchase_price"=>"23456", "repair_budget"=>"121", "repair_value"=>"2344", "first_name"=>"e45", "last_name"=>"re", "phone_number"=>"21345678", "email"=>"nas@gmai.com"}
+[ActiveJob] Enqueued SendTermsheetEmailJob (Job ID: 4f3e5eed-0dae-447e-9167-935b3ea91514) to Async(default) with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.823, :estimated_profit=>612.377}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_77b1d0b3-47ca-4ddf-92f9-ddd542706e34.pdf"
+[ActiveJob] ↳ app/controllers/lending_forms_controller.rb:12:in `submit'
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms | Allocations: 42261)
+
+
+  
+NameError (undefined local variable or method `root_url' for an instance of LendingFormsController):
+  
+app/controllers/lending_forms_controller.rb:14:in `submit'
+[ActiveJob] [SendTermsheetEmailJob] [4f3e5eed-0dae-447e-9167-935b3ea91514] Performing SendTermsheetEmailJob (Job ID: 4f3e5eed-0dae-447e-9167-935b3ea91514) from Async(default) enqueued at 2024-07-10T14:50:50.089429013Z with arguments: {:address=>"qwerty", :loan_term=>"5", :purchase_price=>"23456", :repair_budget=>"121", :repair_value=>"2344", :first_name=>"e45", :last_name=>"re", :phone_number=>"21345678", :email=>"nas@gmai.com", :loan_amount=>1640.8, :interest_expense=>90.823, :estimated_profit=>612.377}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_77b1d0b3-47ca-4ddf-92f9-ddd542706e34.pdf"
+[ActiveJob] [SendTermsheetEmailJob] [4f3e5eed-0dae-447e-9167-935b3ea91514]   Rendering text template
+[ActiveJob] [SendTermsheetEmailJob] [4f3e5eed-0dae-447e-9167-935b3ea91514]   Rendered text template (Duration: 0.0ms | Allocations: 1)
+[ActiveJob] [SendTermsheetEmailJob] [4f3e5eed-0dae-447e-9167-935b3ea91514] LendingFormMailer#termsheet_email: processed outbound mail in 5.1ms
+[ActiveJob] [SendTermsheetEmailJob] [4f3e5eed-0dae-447e-9167-935b3ea91514] Delivered mail 668e9fca8266f_31436a5b549104b@noc-ThinkPad-E15-Gen-4.mail (19.2ms)
+[ActiveJob] [SendTermsheetEmailJob] [4f3e5eed-0dae-447e-9167-935b3ea91514] Date: Wed, 10 Jul 2024 19:50:50 +0500
+From: no-reply@longleaflending.com
+To: nas@gmai.com
+Message-ID: <668e9fca8266f_31436a5b549104b@noc-ThinkPad-E15-Gen-4.mail>
+Subject: Your Term Sheet from Longleaf Lending
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_668e9fca81c71_31436a5b549098c";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_668e9fca81c71_31436a5b549098c
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Dear e45 re,
+
+Please find attached your term sheet.
+
+Best regards,
+Longleaf Lending
+----==_mimepart_668e9fca81c71_31436a5b549098c
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+ filename=termsheet.pdf
+
+JVBERi0xLjMKJf////8KMSAwIG9iago8PCAvQ3JlYXRvciA8ZmVmZjAwNTAw
+MDcyMDA2MTAwNzcwMDZlPgovUHJvZHVjZXIgPGZlZmYwMDUwMDA3MjAwNjEw
+MDc3MDA2ZT4KPj4KZW5kb2JqCjIgMCBvYmoKPDwgL1BhZ2VzIDMgMCBSCi9U
+eXBlIC9DYXRhbG9nCj4+CmVuZG9iagozIDAgb2JqCjw8IC9Db3VudCAxCi9L
+aWRzIFs1IDAgUl0KL1R5cGUgL1BhZ2VzCj4+CmVuZG9iago0IDAgb2JqCjw8
+IC9MZW5ndGggMTgzNgo+PgpzdHJlYW0KcQovRGV2aWNlUkdCIENTCjAuOCAw
+LjggMC44IFNDTgoKQlQKMzYuMCA3MzQuNDYgVGQKL0YyLjAgMzAgVGYKWzw1
+ND4gNjAgPDY1NzI2ZDIwNTM2ODY1NjU3ND5dIFRKCkVUCgozNi4wIDcyMC4z
+IG0KNTc2LjAgNzIwLjMgbApTCgpCVAozNi4wIDY3NS45NCBUZAovRjIuMCAy
+MCBUZgpbPDRjNmY2MTZlMjA0NDY1NzQ2MTY5NmM3Mz5dIFRKCkVUCgozNi4w
+IDY2Ni41IG0KNTc2LjAgNjY2LjUgbApTCgpCVAozNi4wIDYzNy44ODQgVGQK
+L0YyLjAgMTIgVGYKWzw0MTY0PiAxMCA8NjQ3MjY1NzM3MzNhPl0gVEoKRVQK
+CgpCVAo1NDAuMyA2MjMuNjA0IFRkCi9GMS4wIDEyIFRmCls8NzE3Nz4gMTAg
+PDY1NzI+IC00MCA8NzQ3OT5dIFRKCkVUCgozNi4wIDYxOC4zNDggbQo1NzYu
+MCA2MTguMzQ4IGwKUwoKQlQKMzYuMCA1OTkuNzMyIFRkCi9GMi4wIDEyIFRm
+Cls8NGM2ZjYxNmUyMDU0PiA2MCA8NjU3MjZkM2E+XSBUSgpFVAoKCkJUCjUy
+Ni42NDQgNTg1LjQ1MiBUZAovRjEuMCAxMiBUZgpbPDM1MjA2ZDZmNmU3NDY4
+NzM+XSBUSgpFVAoKMzYuMCA1ODAuMTk2IG0KNTc2LjAgNTgwLjE5NiBsClMK
+CkJUCjM2LjAgNTYxLjU4IFRkCi9GMi4wIDEyIFRmCls8NTA3NTcyPiAyMCA8
+NjM+IDEwIDw2ODYxNzM2NTIwNTA3MjY5NjM2NTNhPl0gVEoKRVQKCgpCVAo1
+MzUuOTY4IDU0Ny4zIFRkCi9GMS4wIDEyIFRmCls8MjQzMjMzMzQzNTM2Pl0g
+VEoKRVQKCjM2LjAgNTQyLjA0NCBtCjU3Ni4wIDU0Mi4wNDQgbApTCgpCVAoz
+Ni4wIDUyMy40MjggVGQKL0YyLjAgMTIgVGYKWzw1MjY1NzA2MTY5NzIyMDQy
+NzU2NDY3PiAtMTAgPDY1NzQzYT5dIFRKCkVUCgoKQlQKNTQ5LjMxMiA1MDku
+MTQ4IFRkCi9GMS4wIDEyIFRmCls8MjQzMTMyMzE+XSBUSgpFVAoKMzYuMCA1
+MDMuODkyIG0KNTc2LjAgNTAzLjg5MiBsClMKCkJUCjM2LjAgNDg1LjI3NiBU
+ZAovRjIuMCAxMiBUZgpbPDUyNjU3MDYxNjk3MjIwNTY+IDYwIDw2MTZjNzU2
+NTNhPl0gVEoKRVQKCgpCVAo1NDIuNjQgNDcwLjk5NiBUZAovRjEuMCAxMiBU
+ZgpbPDI0MzIzMzM0MzQ+XSBUSgpFVAoKMzYuMCA0NjUuNzQgbQo1NzYuMCA0
+NjUuNzQgbApTCgpCVAozNi4wIDQ0Ny4xMjQgVGQKL0YyLjAgMTIgVGYKWzw0
+YzZmNjE2ZTIwNDE2ZDZmNzU2ZTc0M2E+XSBUSgpFVAoKCkJUCjUzMi42MzIg
+NDMyLjg0NCBUZAovRjEuMCAxMiBUZgpbPDI0MzEzNjM0MzAyZTM4Pl0gVEoK
+RVQKCjM2LjAgNDI3LjU4OCBtCjU3Ni4wIDQyNy41ODggbApTCgpCVAozNi4w
+IDQwOC45NzIgVGQKL0YyLjAgMTIgVGYKWzw0OTZlNzQ2NTcyNjU3Mzc0MjA0
+NTc4NzA2NTZlNzM2NTNhPl0gVEoKRVQKCgpCVAo1MzIuNjMyIDM5NC42OTIg
+VGQKL0YxLjAgMTIgVGYKWzwyNDM5MzAyZTM4MzIzMz5dIFRKCkVUCgozNi4w
+IDM4OS40MzYgbQo1NzYuMCAzODkuNDM2IGwKUwoKQlQKMzYuMCAzNzAuODIg
+VGQKL0YyLjAgMTIgVGYKWzw0NTczNzQ2OTZkNjE3NDY1NjQyMDUwNzI+IDIw
+IDw2ZjY2Njk3NDNhPl0gVEoKRVQKCgpCVAo1MjUuOTYgMzU2LjU0IFRkCi9G
+MS4wIDEyIFRmCls8MjQzNjMxMzIyZTMzMzczNz5dIFRKCkVUCgozNi4wIDM1
+MS4yODQgbQo1NzYuMCAzNTEuMjg0IGwKUwoKQlQKMzYuMCAyNjYuOTI0IFRk
+Ci9GMi4wIDIwIFRmCls8NTQ+IDYwIDw2NTcyNmQ3Mz5dIFRKCkVUCgozNi4w
+IDI1Ny40ODQgbQo1NzYuMCAyNTcuNDg0IGwKUwoKQlQKMzYuMCAyMjguODY4
+IFRkCi9GMS4wIDEyIFRmCls8MzIzMDMyMzQyMDRjNmY2ZTY3NmM2NTYxNjYy
+MDRjNjU2ZTY0Njk2ZTY3MmMyMDRjNGM0Mz4gMzAgPDJlMjA0MTZjNmMyMDcy
+PiAtMTUgPDY5Njc2ODc0NzMyMDcyNjU3MzY1NzI+IC0zMCA8NzY+IDI1IDw2
+NTY0Pl0gVEoKRVQKClEKCmVuZHN0cmVhbQplbmRvYmoKNSAwIG9iago8PCAv
+QXJ0Qm94IFswIDAgNjEyIDc5Ml0KL0JsZWVkQm94IFswIDAgNjEyIDc5Ml0K
+L0NvbnRlbnRzIDQgMCBSCi9Dcm9wQm94IFswIDAgNjEyIDc5Ml0KL01lZGlh
+Qm94IFswIDAgNjEyIDc5Ml0KL1BhcmVudCAzIDAgUgovUmVzb3VyY2VzIDw8
+IC9Gb250IDw8IC9GMS4wIDcgMCBSCi9GMi4wIDYgMCBSCj4+Ci9Qcm9jU2V0
+IFsvUERGIC9UZXh0IC9JbWFnZUIgL0ltYWdlQyAvSW1hZ2VJXQo+PgovVHJp
+bUJveCBbMCAwIDYxMiA3OTJdCi9UeXBlIC9QYWdlCj4+CmVuZG9iago2IDAg
+b2JqCjw8IC9CYXNlRm9udCAvSGVsdmV0aWNhLUJvbGQKL0VuY29kaW5nIC9X
+aW5BbnNpRW5jb2RpbmcKL1N1YnR5cGUgL1R5cGUxCi9UeXBlIC9Gb250Cj4+
+CmVuZG9iago3IDAgb2JqCjw8IC9CYXNlRm9udCAvSGVsdmV0aWNhCi9FbmNv
+ZGluZyAvV2luQW5zaUVuY29kaW5nCi9TdWJ0eXBlIC9UeXBlMQovVHlwZSAv
+Rm9udAo+PgplbmRvYmoKeHJlZgowIDgKMDAwMDAwMDAwMCA2NTUzNSBmIAow
+MDAwMDAwMDE1IDAwMDAwIG4gCjAwMDAwMDAxMDkgMDAwMDAgbiAKMDAwMDAw
+MDE1OCAwMDAwMCBuIAowMDAwMDAwMjE1IDAwMDAwIG4gCjAwMDAwMDIxMDMg
+MDAwMDAgbiAKMDAwMDAwMjM4MSAwMDAwMCBuIAowMDAwMDAyNDgzIDAwMDAw
+IG4gCnRyYWlsZXIKPDwgL0luZm8gMSAwIFIKL1Jvb3QgMiAwIFIKL1NpemUg
+OAo+PgpzdGFydHhyZWYKMjU4MAolJUVPRgo=
+
+----==_mimepart_668e9fca81c71_31436a5b549098c--
+
+[ActiveJob] [SendTermsheetEmailJob] [4f3e5eed-0dae-447e-9167-935b3ea91514] Performed SendTermsheetEmailJob (Job ID: 4f3e5eed-0dae-447e-9167-935b3ea91514) from Async(default) in 29.81ms
+Started GET "/" for 127.0.0.1 at 2024-07-10 19:57:19 +0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/tk-lpt-1001/.asdf/installs/ruby/3.3.3/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/tk-lpt-1001/.asdf/installs/ruby/3.3.3/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.1ms | Allocations: 263)
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 1048)
+
+
+Started GET "/" for 127.0.0.1 at 2024-07-10 19:57:48 +0500
+  
+ArgumentError (:to must respond to `action` or `call`, or it must be a String that includes '#'):
+  
+config/routes.rb:2:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/" for 127.0.0.1 at 2024-07-10 19:58:07 +0500
+Processing by LendingFormsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 44.8ms | Allocations: 20481)
+Completed 200 OK in 48ms (Views: 47.1ms | ActiveRecord: 0.0ms | Allocations: 21181)
+
+
+Started POST "/lending_forms" for 127.0.0.1 at 2024-07-10 19:58:35 +0500
+Processing by LendingFormsController#submit as JSON
+  Parameters: {"address"=>"2345", "loan_term"=>"3", "purchase_price"=>"3456", "repair_budget"=>"558", "repair_value"=>"445676", "first_name"=>"sa", "last_name"=>"as", "phone_number"=>"as", "email"=>"nas@gmai.com"}
+[ActiveJob] Enqueued SendTermsheetEmailJob (Job ID: b4fbe1fc-1ab3-457f-b532-d69520835b89) to Async(default) with arguments: {:address=>"2345", :loan_term=>"3", :purchase_price=>"3456", :repair_budget=>"558", :repair_value=>"445676", :first_name=>"sa", :last_name=>"as", :phone_number=>"as", :email=>"nas@gmai.com", :loan_amount=>3110.4, :interest_expense=>102.187, :estimated_profit=>442463.413}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_8fde09b8-a84c-4513-a8e1-0220d632c952.pdf"
+[ActiveJob] ↳ app/controllers/lending_forms_controller.rb:12:in `submit'
+Completed 200 OK in 81ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 42042)
+
+
+[ActiveJob] [SendTermsheetEmailJob] [b4fbe1fc-1ab3-457f-b532-d69520835b89] Performing SendTermsheetEmailJob (Job ID: b4fbe1fc-1ab3-457f-b532-d69520835b89) from Async(default) enqueued at 2024-07-10T14:58:35.303181811Z with arguments: {:address=>"2345", :loan_term=>"3", :purchase_price=>"3456", :repair_budget=>"558", :repair_value=>"445676", :first_name=>"sa", :last_name=>"as", :phone_number=>"as", :email=>"nas@gmai.com", :loan_amount=>3110.4, :interest_expense=>102.187, :estimated_profit=>442463.413}, "/home/tk-lpt-1001/.localapps/long-leaf/tmp/termsheet_8fde09b8-a84c-4513-a8e1-0220d632c952.pdf"
+[ActiveJob] [SendTermsheetEmailJob] [b4fbe1fc-1ab3-457f-b532-d69520835b89]   Rendering text template
+[ActiveJob] [SendTermsheetEmailJob] [b4fbe1fc-1ab3-457f-b532-d69520835b89]   Rendered text template (Duration: 0.0ms | Allocations: 1)
+[ActiveJob] [SendTermsheetEmailJob] [b4fbe1fc-1ab3-457f-b532-d69520835b89] LendingFormMailer#termsheet_email: processed outbound mail in 7.3ms
+Started GET "/" for 127.0.0.1 at 2024-07-10 19:58:35 +0500
+Processing by LendingFormsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 565)
+Completed 200 OK in 6ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 925)
+
+
+[ActiveJob] [SendTermsheetEmailJob] [b4fbe1fc-1ab3-457f-b532-d69520835b89] Delivered mail 668ea19b517f4_31436a5b549134c@noc-ThinkPad-E15-Gen-4.mail (48.5ms)
+[ActiveJob] [SendTermsheetEmailJob] [b4fbe1fc-1ab3-457f-b532-d69520835b89] Date: Wed, 10 Jul 2024 19:58:35 +0500
+From: no-reply@longleaflending.com
+To: nas@gmai.com
+Message-ID: <668ea19b517f4_31436a5b549134c@noc-ThinkPad-E15-Gen-4.mail>
+Subject: Your Term Sheet from Longleaf Lending
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_668ea19b5080f_31436a5b54912a6";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_668ea19b5080f_31436a5b54912a6
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Dear sa as,
+
+Please find attached your term sheet.
+
+Best regards,
+Longleaf Lending
+----==_mimepart_668ea19b5080f_31436a5b54912a6
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+ filename=termsheet.pdf
+
+JVBERi0xLjMKJf////8KMSAwIG9iago8PCAvQ3JlYXRvciA8ZmVmZjAwNTAw
+MDcyMDA2MTAwNzcwMDZlPgovUHJvZHVjZXIgPGZlZmYwMDUwMDA3MjAwNjEw
+MDc3MDA2ZT4KPj4KZW5kb2JqCjIgMCBvYmoKPDwgL1BhZ2VzIDMgMCBSCi9U
+eXBlIC9DYXRhbG9nCj4+CmVuZG9iagozIDAgb2JqCjw8IC9Db3VudCAxCi9L
+aWRzIFs1IDAgUl0KL1R5cGUgL1BhZ2VzCj4+CmVuZG9iago0IDAgb2JqCjw8
+IC9MZW5ndGggMTgzMQo+PgpzdHJlYW0KcQovRGV2aWNlUkdCIENTCjAuOCAw
+LjggMC44IFNDTgoKQlQKMzYuMCA3MzQuNDYgVGQKL0YyLjAgMzAgVGYKWzw1
+ND4gNjAgPDY1NzI2ZDIwNTM2ODY1NjU3ND5dIFRKCkVUCgozNi4wIDcyMC4z
+IG0KNTc2LjAgNzIwLjMgbApTCgpCVAozNi4wIDY3NS45NCBUZAovRjIuMCAy
+MCBUZgpbPDRjNmY2MTZlMjA0NDY1NzQ2MTY5NmM3Mz5dIFRKCkVUCgozNi4w
+IDY2Ni41IG0KNTc2LjAgNjY2LjUgbApTCgpCVAozNi4wIDYzNy44ODQgVGQK
+L0YyLjAgMTIgVGYKWzw0MTY0PiAxMCA8NjQ3MjY1NzM3MzNhPl0gVEoKRVQK
+CgpCVAo1NDkuMzEyIDYyMy42MDQgVGQKL0YxLjAgMTIgVGYKWzwzMjMzMzQz
+NT5dIFRKCkVUCgozNi4wIDYxOC4zNDggbQo1NzYuMCA2MTguMzQ4IGwKUwoK
+QlQKMzYuMCA1OTkuNzMyIFRkCi9GMi4wIDEyIFRmCls8NGM2ZjYxNmUyMDU0
+PiA2MCA8NjU3MjZkM2E+XSBUSgpFVAoKCkJUCjUyNi42NDQgNTg1LjQ1MiBU
+ZAovRjEuMCAxMiBUZgpbPDMzMjA2ZDZmNmU3NDY4NzM+XSBUSgpFVAoKMzYu
+MCA1ODAuMTk2IG0KNTc2LjAgNTgwLjE5NiBsClMKCkJUCjM2LjAgNTYxLjU4
+IFRkCi9GMi4wIDEyIFRmCls8NTA3NTcyPiAyMCA8NjM+IDEwIDw2ODYxNzM2
+NTIwNTA3MjY5NjM2NTNhPl0gVEoKRVQKCgpCVAo1NDIuNjQgNTQ3LjMgVGQK
+L0YxLjAgMTIgVGYKWzwyNDMzMzQzNTM2Pl0gVEoKRVQKCjM2LjAgNTQyLjA0
+NCBtCjU3Ni4wIDU0Mi4wNDQgbApTCgpCVAozNi4wIDUyMy40MjggVGQKL0Yy
+LjAgMTIgVGYKWzw1MjY1NzA2MTY5NzIyMDQyNzU2NDY3PiAtMTAgPDY1NzQz
+YT5dIFRKCkVUCgoKQlQKNTQ5LjMxMiA1MDkuMTQ4IFRkCi9GMS4wIDEyIFRm
+Cls8MjQzNTM1Mzg+XSBUSgpFVAoKMzYuMCA1MDMuODkyIG0KNTc2LjAgNTAz
+Ljg5MiBsClMKCkJUCjM2LjAgNDg1LjI3NiBUZAovRjIuMCAxMiBUZgpbPDUy
+NjU3MDYxNjk3MjIwNTY+IDYwIDw2MTZjNzU2NTNhPl0gVEoKRVQKCgpCVAo1
+MjkuMjk2IDQ3MC45OTYgVGQKL0YxLjAgMTIgVGYKWzwyNDM0MzQzNTM2Mzcz
+Nj5dIFRKCkVUCgozNi4wIDQ2NS43NCBtCjU3Ni4wIDQ2NS43NCBsClMKCkJU
+CjM2LjAgNDQ3LjEyNCBUZAovRjIuMCAxMiBUZgpbPDRjNmY2MTZlMjA0MTZk
+NmY3NTZlNzQzYT5dIFRKCkVUCgoKQlQKNTMyLjYzMiA0MzIuODQ0IFRkCi9G
+MS4wIDEyIFRmCls8MjQzMzMxMzEzMDJlMzQ+XSBUSgpFVAoKMzYuMCA0Mjcu
+NTg4IG0KNTc2LjAgNDI3LjU4OCBsClMKCkJUCjM2LjAgNDA4Ljk3MiBUZAov
+RjIuMCAxMiBUZgpbPDQ5NmU3NDY1NzI2NTczNzQyMDQ1Nzg3MDY1NmU3MzY1
+M2E+XSBUSgpFVAoKCkJUCjUyNS45NiAzOTQuNjkyIFRkCi9GMS4wIDEyIFRm
+Cls8MjQzMTMwMzIyZTMxMzgzNz5dIFRKCkVUCgozNi4wIDM4OS40MzYgbQo1
+NzYuMCAzODkuNDM2IGwKUwoKQlQKMzYuMCAzNzAuODIgVGQKL0YyLjAgMTIg
+VGYKWzw0NTczNzQ2OTZkNjE3NDY1NjQyMDUwNzI+IDIwIDw2ZjY2Njk3NDNh
+Pl0gVEoKRVQKCgpCVAo1MDUuOTQ0IDM1Ni41NCBUZAovRjEuMCAxMiBUZgpb
+PDI0MzQzNDMyMzQzNjMzMmUzNDMxMzM+XSBUSgpFVAoKMzYuMCAzNTEuMjg0
+IG0KNTc2LjAgMzUxLjI4NCBsClMKCkJUCjM2LjAgMjY2LjkyNCBUZAovRjIu
+MCAyMCBUZgpbPDU0PiA2MCA8NjU3MjZkNzM+XSBUSgpFVAoKMzYuMCAyNTcu
+NDg0IG0KNTc2LjAgMjU3LjQ4NCBsClMKCkJUCjM2LjAgMjI4Ljg2OCBUZAov
+RjEuMCAxMiBUZgpbPDMyMzAzMjM0MjA0YzZmNmU2NzZjNjU2MTY2MjA0YzY1
+NmU2NDY5NmU2NzJjMjA0YzRjNDM+IDMwIDwyZTIwNDE2YzZjMjA3Mj4gLTE1
+IDw2OTY3Njg3NDczMjA3MjY1NzM2NTcyPiAtMzAgPDc2PiAyNSA8NjU2ND5d
+IFRKCkVUCgpRCgplbmRzdHJlYW0KZW5kb2JqCjUgMCBvYmoKPDwgL0FydEJv
+eCBbMCAwIDYxMiA3OTJdCi9CbGVlZEJveCBbMCAwIDYxMiA3OTJdCi9Db250
+ZW50cyA0IDAgUgovQ3JvcEJveCBbMCAwIDYxMiA3OTJdCi9NZWRpYUJveCBb
+MCAwIDYxMiA3OTJdCi9QYXJlbnQgMyAwIFIKL1Jlc291cmNlcyA8PCAvRm9u
+dCA8PCAvRjEuMCA3IDAgUgovRjIuMCA2IDAgUgo+PgovUHJvY1NldCBbL1BE
+RiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSV0KPj4KL1RyaW1Cb3gg
+WzAgMCA2MTIgNzkyXQovVHlwZSAvUGFnZQo+PgplbmRvYmoKNiAwIG9iago8
+PCAvQmFzZUZvbnQgL0hlbHZldGljYS1Cb2xkCi9FbmNvZGluZyAvV2luQW5z
+aUVuY29kaW5nCi9TdWJ0eXBlIC9UeXBlMQovVHlwZSAvRm9udAo+PgplbmRv
+YmoKNyAwIG9iago8PCAvQmFzZUZvbnQgL0hlbHZldGljYQovRW5jb2Rpbmcg
+L1dpbkFuc2lFbmNvZGluZwovU3VidHlwZSAvVHlwZTEKL1R5cGUgL0ZvbnQK
+Pj4KZW5kb2JqCnhyZWYKMCA4CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAw
+MDAxNSAwMDAwMCBuIAowMDAwMDAwMTA5IDAwMDAwIG4gCjAwMDAwMDAxNTgg
+MDAwMDAgbiAKMDAwMDAwMDIxNSAwMDAwMCBuIAowMDAwMDAyMDk4IDAwMDAw
+IG4gCjAwMDAwMDIzNzYgMDAwMDAgbiAKMDAwMDAwMjQ3OCAwMDAwMCBuIAp0
+cmFpbGVyCjw8IC9JbmZvIDEgMCBSCi9Sb290IDIgMCBSCi9TaXplIDgKPj4K
+c3RhcnR4cmVmCjI1NzUKJSVFT0YK
+
+----==_mimepart_668ea19b5080f_31436a5b54912a6--
+
+[ActiveJob] [SendTermsheetEmailJob] [b4fbe1fc-1ab3-457f-b532-d69520835b89] Performed SendTermsheetEmailJob (Job ID: b4fbe1fc-1ab3-457f-b532-d69520835b89) from Async(default) in 67.56ms
+Started GET "/" for 127.0.0.1 at 2024-07-10 20:14:12 +0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by LendingFormsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 422)
+  Rendered layout layouts/application.html.erb (Duration: 150.4ms | Allocations: 51154)
+Completed 200 OK in 158ms (Views: 154.5ms | ActiveRecord: 0.0ms | Allocations: 53623)
+
+
+Started POST "/lending_forms" for 127.0.0.1 at 2024-07-10 20:14:43 +0500
+Processing by LendingFormsController#submit as JSON
+  Parameters: {"address"=>"wert", "loan_term"=>"12", "purchase_price"=>"34", "repair_budget"=>"5", "repair_value"=>"5", "first_name"=>"e45", "last_name"=>"sd", "phone_number"=>"sd", "email"=>"nas@gmai.com"}
+[ActiveJob] Enqueued SendTermsheetEmailJob (Job ID: ba7f2ae1-1ccd-4dae-925a-d65ef665f7c8) to Async(default) with arguments: {:address=>"wert", :loan_term=>"12", :purchase_price=>"34", :repair_budget=>"5", :repair_value=>"5", :first_name=>"e45", :last_name=>"sd", :phone_number=>"sd", :email=>"nas@gmai.com", :loan_amount=>3.5, :interest_expense=>0.483, :estimated_profit=>1.017}, "/home/tk-lpt-1001/.localapps/long-leaf-lending/tmp/termsheet_b7705c8c-e295-4530-a86a-ab2fd0052e2e.pdf"
+[ActiveJob] ↳ app/controllers/lending_forms_controller.rb:12:in `submit'
+Completed 200 OK in 112ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 114562)
+
+
+[ActiveJob] [SendTermsheetEmailJob] [ba7f2ae1-1ccd-4dae-925a-d65ef665f7c8] Performing SendTermsheetEmailJob (Job ID: ba7f2ae1-1ccd-4dae-925a-d65ef665f7c8) from Async(default) enqueued at 2024-07-10T15:14:43.526906856Z with arguments: {:address=>"wert", :loan_term=>"12", :purchase_price=>"34", :repair_budget=>"5", :repair_value=>"5", :first_name=>"e45", :last_name=>"sd", :phone_number=>"sd", :email=>"nas@gmai.com", :loan_amount=>3.5, :interest_expense=>0.483, :estimated_profit=>1.017}, "/home/tk-lpt-1001/.localapps/long-leaf-lending/tmp/termsheet_b7705c8c-e295-4530-a86a-ab2fd0052e2e.pdf"
+Started GET "/" for 127.0.0.1 at 2024-07-10 20:14:43 +0500
+Processing by LendingFormsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering lending_forms/new.html.erb within layouts/application
+  Rendered lending_forms/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 635)
+Completed 200 OK in 8ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 1061)
+
+
+[ActiveJob] [SendTermsheetEmailJob] [ba7f2ae1-1ccd-4dae-925a-d65ef665f7c8]   Rendering text template
+[ActiveJob] [SendTermsheetEmailJob] [ba7f2ae1-1ccd-4dae-925a-d65ef665f7c8]   Rendered text template (Duration: 0.0ms | Allocations: 3)
+[ActiveJob] [SendTermsheetEmailJob] [ba7f2ae1-1ccd-4dae-925a-d65ef665f7c8] LendingFormMailer#termsheet_email: processed outbound mail in 70.9ms
+[ActiveJob] [SendTermsheetEmailJob] [ba7f2ae1-1ccd-4dae-925a-d65ef665f7c8] Delivered mail 668ea563bb69d_3172965b186169a@noc-ThinkPad-E15-Gen-4.mail (113.1ms)
+[ActiveJob] [SendTermsheetEmailJob] [ba7f2ae1-1ccd-4dae-925a-d65ef665f7c8] Date: Wed, 10 Jul 2024 20:14:43 +0500
+From: no-reply@longleaflending.com
+To: nas@gmai.com
+Message-ID: <668ea563bb69d_3172965b186169a@noc-ThinkPad-E15-Gen-4.mail>
+Subject: Your Term Sheet from Longleaf Lending
+Mime-Version: 1.0
+Content-Type: multipart/mixed;
+ boundary="--==_mimepart_668ea563b4eb5_3172965b1861516";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_668ea563b4eb5_3172965b1861516
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Dear e45 sd,
+
+Please find attached your term sheet.
+
+Best regards,
+Longleaf Lending
+----==_mimepart_668ea563b4eb5_3172965b1861516
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment;
+ filename=termsheet.pdf
+
+JVBERi0xLjMKJf////8KMSAwIG9iago8PCAvQ3JlYXRvciA8ZmVmZjAwNTAw
+MDcyMDA2MTAwNzcwMDZlPgovUHJvZHVjZXIgPGZlZmYwMDUwMDA3MjAwNjEw
+MDc3MDA2ZT4KPj4KZW5kb2JqCjIgMCBvYmoKPDwgL1BhZ2VzIDMgMCBSCi9U
+eXBlIC9DYXRhbG9nCj4+CmVuZG9iagozIDAgb2JqCjw8IC9Db3VudCAxCi9L
+aWRzIFs1IDAgUl0KL1R5cGUgL1BhZ2VzCj4+CmVuZG9iago0IDAgb2JqCjw8
+IC9MZW5ndGggMTgxMAo+PgpzdHJlYW0KcQovRGV2aWNlUkdCIENTCjAuOCAw
+LjggMC44IFNDTgoKQlQKMzYuMCA3MzQuNDYgVGQKL0YyLjAgMzAgVGYKWzw1
+ND4gNjAgPDY1NzI2ZDIwNTM2ODY1NjU3ND5dIFRKCkVUCgozNi4wIDcyMC4z
+IG0KNTc2LjAgNzIwLjMgbApTCgpCVAozNi4wIDY3NS45NCBUZAovRjIuMCAy
+MCBUZgpbPDRjNmY2MTZlMjA0NDY1NzQ2MTY5NmM3Mz5dIFRKCkVUCgozNi4w
+IDY2Ni41IG0KNTc2LjAgNjY2LjUgbApTCgpCVAozNi4wIDYzNy44ODQgVGQK
+L0YyLjAgMTIgVGYKWzw0MTY0PiAxMCA8NjQ3MjY1NzM3MzNhPl0gVEoKRVQK
+CgpCVAo1NTIuOTcyIDYyMy42MDQgVGQKL0YxLjAgMTIgVGYKWzw3Nz4gMTAg
+PDY1NzI+IC00MCA8NzQ+XSBUSgpFVAoKMzYuMCA2MTguMzQ4IG0KNTc2LjAg
+NjE4LjM0OCBsClMKCkJUCjM2LjAgNTk5LjczMiBUZAovRjIuMCAxMiBUZgpb
+PDRjNmY2MTZlMjA1ND4gNjAgPDY1NzI2ZDNhPl0gVEoKRVQKCgpCVAo1MTku
+OTcyIDU4NS40NTIgVGQKL0YxLjAgMTIgVGYKWzwzMTMyMjA2ZDZmNmU3NDY4
+NzM+XSBUSgpFVAoKMzYuMCA1ODAuMTk2IG0KNTc2LjAgNTgwLjE5NiBsClMK
+CkJUCjM2LjAgNTYxLjU4IFRkCi9GMi4wIDEyIFRmCls8NTA3NTcyPiAyMCA8
+NjM+IDEwIDw2ODYxNzM2NTIwNTA3MjY5NjM2NTNhPl0gVEoKRVQKCgpCVAo1
+NTUuOTg0IDU0Ny4zIFRkCi9GMS4wIDEyIFRmCls8MjQzMzM0Pl0gVEoKRVQK
+CjM2LjAgNTQyLjA0NCBtCjU3Ni4wIDU0Mi4wNDQgbApTCgpCVAozNi4wIDUy
+My40MjggVGQKL0YyLjAgMTIgVGYKWzw1MjY1NzA2MTY5NzIyMDQyNzU2NDY3
+PiAtMTAgPDY1NzQzYT5dIFRKCkVUCgoKQlQKNTYyLjY1NiA1MDkuMTQ4IFRk
+Ci9GMS4wIDEyIFRmCls8MjQzNT5dIFRKCkVUCgozNi4wIDUwMy44OTIgbQo1
+NzYuMCA1MDMuODkyIGwKUwoKQlQKMzYuMCA0ODUuMjc2IFRkCi9GMi4wIDEy
+IFRmCls8NTI2NTcwNjE2OTcyMjA1Nj4gNjAgPDYxNmM3NTY1M2E+XSBUSgpF
+VAoKCkJUCjU2Mi42NTYgNDcwLjk5NiBUZAovRjEuMCAxMiBUZgpbPDI0MzU+
+XSBUSgpFVAoKMzYuMCA0NjUuNzQgbQo1NzYuMCA0NjUuNzQgbApTCgpCVAoz
+Ni4wIDQ0Ny4xMjQgVGQKL0YyLjAgMTIgVGYKWzw0YzZmNjE2ZTIwNDE2ZDZm
+NzU2ZTc0M2E+XSBUSgpFVAoKCkJUCjU1Mi42NDggNDMyLjg0NCBUZAovRjEu
+MCAxMiBUZgpbPDI0MzMyZTM1Pl0gVEoKRVQKCjM2LjAgNDI3LjU4OCBtCjU3
+Ni4wIDQyNy41ODggbApTCgpCVAozNi4wIDQwOC45NzIgVGQKL0YyLjAgMTIg
+VGYKWzw0OTZlNzQ2NTcyNjU3Mzc0MjA0NTc4NzA2NTZlNzM2NTNhPl0gVEoK
+RVQKCgpCVAo1MzkuMzA0IDM5NC42OTIgVGQKL0YxLjAgMTIgVGYKWzwyNDMw
+MmUzNDM4MzM+XSBUSgpFVAoKMzYuMCAzODkuNDM2IG0KNTc2LjAgMzg5LjQz
+NiBsClMKCkJUCjM2LjAgMzcwLjgyIFRkCi9GMi4wIDEyIFRmCls8NDU3Mzc0
+Njk2ZDYxNzQ2NTY0MjA1MDcyPiAyMCA8NmY2NjY5NzQzYT5dIFRKCkVUCgoK
+QlQKNTM5LjMwNCAzNTYuNTQgVGQKL0YxLjAgMTIgVGYKWzwyNDMxMmUzMDMx
+Mzc+XSBUSgpFVAoKMzYuMCAzNTEuMjg0IG0KNTc2LjAgMzUxLjI4NCBsClMK
+CkJUCjM2LjAgMjY2LjkyNCBUZAovRjIuMCAyMCBUZgpbPDU0PiA2MCA8NjU3
+MjZkNzM+XSBUSgpFVAoKMzYuMCAyNTcuNDg0IG0KNTc2LjAgMjU3LjQ4NCBs
+ClMKCkJUCjM2LjAgMjI4Ljg2OCBUZAovRjEuMCAxMiBUZgpbPDMyMzAzMjM0
+MjA0YzZmNmU2NzZjNjU2MTY2MjA0YzY1NmU2NDY5NmU2NzJjMjA0YzRjNDM+
+IDMwIDwyZTIwNDE2YzZjMjA3Mj4gLTE1IDw2OTY3Njg3NDczMjA3MjY1NzM2
+NTcyPiAtMzAgPDc2PiAyNSA8NjU2ND5dIFRKCkVUCgpRCgplbmRzdHJlYW0K
+ZW5kb2JqCjUgMCBvYmoKPDwgL0FydEJveCBbMCAwIDYxMiA3OTJdCi9CbGVl
+ZEJveCBbMCAwIDYxMiA3OTJdCi9Db250ZW50cyA0IDAgUgovQ3JvcEJveCBb
+MCAwIDYxMiA3OTJdCi9NZWRpYUJveCBbMCAwIDYxMiA3OTJdCi9QYXJlbnQg
+MyAwIFIKL1Jlc291cmNlcyA8PCAvRm9udCA8PCAvRjEuMCA3IDAgUgovRjIu
+MCA2IDAgUgo+PgovUHJvY1NldCBbL1BERiAvVGV4dCAvSW1hZ2VCIC9JbWFn
+ZUMgL0ltYWdlSV0KPj4KL1RyaW1Cb3ggWzAgMCA2MTIgNzkyXQovVHlwZSAv
+UGFnZQo+PgplbmRvYmoKNiAwIG9iago8PCAvQmFzZUZvbnQgL0hlbHZldGlj
+YS1Cb2xkCi9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nCi9TdWJ0eXBlIC9U
+eXBlMQovVHlwZSAvRm9udAo+PgplbmRvYmoKNyAwIG9iago8PCAvQmFzZUZv
+bnQgL0hlbHZldGljYQovRW5jb2RpbmcgL1dpbkFuc2lFbmNvZGluZwovU3Vi
+dHlwZSAvVHlwZTEKL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCnhyZWYKMCA4CjAw
+MDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDAxNSAwMDAwMCBuIAowMDAwMDAw
+MTA5IDAwMDAwIG4gCjAwMDAwMDAxNTggMDAwMDAgbiAKMDAwMDAwMDIxNSAw
+MDAwMCBuIAowMDAwMDAyMDc3IDAwMDAwIG4gCjAwMDAwMDIzNTUgMDAwMDAg
+biAKMDAwMDAwMjQ1NyAwMDAwMCBuIAp0cmFpbGVyCjw8IC9JbmZvIDEgMCBS
+Ci9Sb290IDIgMCBSCi9TaXplIDgKPj4Kc3RhcnR4cmVmCjI1NTQKJSVFT0YK
+
+----==_mimepart_668ea563b4eb5_3172965b1861516--
+
+[ActiveJob] [SendTermsheetEmailJob] [ba7f2ae1-1ccd-4dae-925a-d65ef665f7c8] Performed SendTermsheetEmailJob (Job ID: ba7f2ae1-1ccd-4dae-925a-d65ef665f7c8) from Async(default) in 346.06ms

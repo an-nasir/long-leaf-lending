@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tabs-container {
+    @apply max-w-4xl mx-auto p-4;
+}
+
+.tabs {
+    @apply flex justify-between mb-4;
+}
+
+.tab {
+    @apply py-2 px-4 border border-gray-300 rounded cursor-pointer;
+}
+
+.tab.active {
+    @apply bg-gray-300;
+}
+
+.tab-content {
+    @apply hidden;
+}
+
+.tab-content.active {
+    @apply block;
+}
+
+.submit-section {
+    @apply text-center mt-6;
+}

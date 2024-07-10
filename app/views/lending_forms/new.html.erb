@@ -1,0 +1,162 @@
+<!-- Form Container -->
+<div class="w-3/4 mx-auto p-4">
+  <div class="bg-white p-8 rounded-lg shadow-lg">
+    <form id="lendingForm">
+      <!-- Grouped Steps 1 to 5 -->
+      <div id="groupStep1" class="step">
+        <h2 class="text-2xl font-bold mb-6">Target Property</h2>
+        <p class="mb-6">Address, City, State, & Zip for your target property</p>
+        <div class="mb-6">
+          <input type="text" name="address" class="w-full p-3 border border-gray-300 rounded-md" required />
+          <p class="text-red-500 text-xs mt-1 hidden">This field is required.</p>
+        </div>
+
+        <h2 class="text-2xl font-bold mb-6">Loan Term</h2>
+        <p class="mb-6">How many months do you want the loan for (up to 12)?</p>
+        <div class="mb-6">
+          <input type="number" name="loan_term" class="w-full p-3 border border-gray-300 rounded-md" max="12" min="1" required />
+          <p class="text-red-500 text-xs mt-1 hidden">This field is required and must be between 1 and 12.</p>
+        </div>
+
+        <h2 class="text-2xl font-bold mb-6">Purchase Price</h2>
+        <p class="mb-6">What are you purchasing the property for? Please include any assignment fee.</p>
+        <p class="mb-6">*Our sample term sheet will set a maximum loan-to-cost of 90%.</p>
+        <div class="mb-6">
+          <input type="number" name="purchase_price" class="w-full p-3 border border-gray-300 rounded-md" min="0" required />
+          <p class="text-red-500 text-xs mt-1 hidden">This field is required.</p>
+        </div>
+
+        <h2 class="text-2xl font-bold mb-6">Estimated Repair Budget</h2>
+        <p class="mb-6">Full budget expected to rehab the property.</p>
+        <div class="mb-6">
+          <input type="number" name="repair_budget" class="w-full p-3 border border-gray-300 rounded-md" min="0" required />
+          <p class="text-red-500 text-xs mt-1 hidden">This field is required.</p>
+        </div>
+
+        <h2 class="text-2xl font-bold mb-6">After Repair Value</h2>
+        <p class="mb-6">What do you think the property's market value will be when you complete the rehab?</p>
+        <p class="mb-6">*Our sample term sheet will set a maximum loan-to-value of 70%</p>
+        <div class="mb-6">
+          <input type="number" name="repair_value" class="w-full p-3 border border-gray-300 rounded-md" min="0" required />
+          <p class="text-red-500 text-xs mt-1 hidden">This field is required.</p>
+        </div>
+
+        <button type="button" class="next bg-blue-500 text-white py-3 px-6 rounded-md">Next</button>
+      </div>
+
+      <!-- Step 2 -->
+      <div id="step2" class="step hidden">
+        <h2 class="text-2xl font-bold mb-6">Contact Information</h2>
+        <p class="mb-6">Complete the contact information below to immediately see your estimated profit and return figures for this property. Check your email for a sample term sheet with additional loan information. We are looking forward to working with you on this loan!</p>
+        <div class="mb-6">
+          <h2 class="text-1xl font-bold mb-6">First Name</h2>
+          <input type="text" name="first_name" class="w-full p-3 border border-gray-300 rounded-md" required />
+          <p class="text-red-500 text-xs mt-1 hidden">This field is required.</p>
+        </div>
+        <div class="mb-6">
+          <h2 class="text-1xl font-bold mb-6">Last Name</h2>
+          <input type="text" name="last_name" class="w-full p-3 border border-gray-300 rounded-md" required />
+          <p class="text-red-500 text-xs mt-1 hidden">This field is required.</p>
+        </div>
+        <div class="mb-6">
+          <h2 class="text-1xl font-bold mb-6">Phone Number</h2>
+          <input type="tel" name="phone_number" class="w-full p-3 border border-gray-300 rounded-md" required />
+          <p class="text-red-500 text-xs mt-1 hidden">This field is required.</p>
+        </div>
+        <div class="mb-6">
+          <h2 class="text-1xl font-bold mb-6">Email</h2>
+          <input type="email" name="email" class="w-full p-3 border border-gray-300 rounded-md" required />
+          <p class="text-red-500 text-xs mt-1 hidden">This field is required.</p>
+        </div>
+        <button type="button" class="prev bg-gray-500 text-white py-3 px-6 rounded-md">Previous</button>
+        <button type="submit" class="bg-green-500 text-white py-3 px-6 rounded-md">Submit</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const steps = Array.from(document.querySelectorAll('.step'));
+    const nextButtons = document.querySelectorAll('.next');
+    const prevButtons = document.querySelectorAll('.prev');
+    const form = document.getElementById('lendingForm');
+    let currentStep = 0;
+
+    function showStep(stepIndex) {
+      steps.forEach((step, index) => {
+        step.classList.toggle('hidden', index !== stepIndex);
+      });
+    }
+
+    function validateStep(stepIndex) {
+      const inputs = steps[stepIndex].querySelectorAll('input');
+      let isValid = true;
+
+      inputs.forEach(input => {
+        const errorText = input.nextElementSibling;
+        if (!input.checkValidity()) {
+          errorText.classList.remove('hidden');
+          isValid = false;
+        } else {
+          errorText.classList.add('hidden');
+        }
+      });
+
+      return isValid;
+    }
+
+    nextButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        if (validateStep(currentStep) && currentStep < steps.length - 1) {
+          currentStep++;
+          showStep(currentStep);
+        }
+      });
+    });
+
+    prevButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        if (currentStep > 0) {
+          currentStep--;
+          showStep(currentStep);
+        }
+      });
+    });
+
+    form.addEventListener('submit', function(event) {
+      if (!validateStep(currentStep)) {
+        event.preventDefault();
+      } else {
+        event.preventDefault();
+
+        const formData = new FormData(form);
+
+        fetch('/lending_forms', {
+          method: 'POST',
+          headers: {
+            'X-CSRF-Token': document.querySelector('meta[name="csrf-token"]').content,
+            'Accept': 'application/json',
+          },
+          body: formData
+        })
+          .then(response => {
+            return response.json();
+          })
+          .then(data => {
+            if (data.redirect_url) {
+              window.location.href = data.redirect_url;
+            } else {
+              console.log('Form submitted successfully:', data);
+            }
+          })
+          .catch(error => {
+            console.error('Error submitting form:', error);
+          });
+      }
+    });
+
+    showStep(currentStep);
+  });
+</script>
+
